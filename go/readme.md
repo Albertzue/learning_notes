@@ -52,3 +52,23 @@ x, y := 30, "hello"
 ```
 
 Using := has one limitation. If you are declaring a variable at the package level, you must use var because := is not legal outside of functions.
+
+ch2 Using const
+---
+Go doesn’t provide a way to specify that a value calculated at runtime is immutable. For example, the following code will fail to compile with the error x + y (value of type int) is not constant:
+```
+x := 5
+y := 10
+const z = x + y // this won't compile!
+```
+
+ there are no immutable arrays, slices, maps, or structs, and there’s no way to declare that a field in a struct is immutable
+
+ch3 Arrays—Too Rigid to Use Directly
+---
+```
+var x = [...]int{1, 2, 3}
+var y = [3]int{1, 2, 3}
+fmt.Println(x == y) // prints true
+```
+
