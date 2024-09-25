@@ -86,8 +86,53 @@ fmt.Println(slices.Equal(x, z)) // prints false
 fmt.Println(slices.Equal(x, s)) // does not compile
 ```
 
+
+
 One slice is appended onto another by using the ... operator to expand the source slice into individual values (you’ll learn more about the ... operator in “Variadic Input Parameters and Slices”):
 ```
 y := []int{20, 30, 40}
 x = append(x, y...)
+```
+
+ch3 Capacity
+---
+Every slice also has a capacity, which is the number of consecutive memory locations reserved. This can be larger than the length.
+
+If you try to add additional values when the length equals the capacity, the append function uses the Go runtime to allocate a new backing array for the slice with a larger capacity. The values in the original backing array are copied to the new one, the new values are added to the end of the new backing array, and the slice is updated to refer to the new backing array.
+```
+x := make([]int, 5, 10)
+```
+This creates an int slice with a length of 5 and a capacity of 10.
+
+Go 1.21 added a clear function that takes in a slice and sets all of the slice’s elements to their zero value. The length of the slice remains unchanged.
+```
+x := []string{"a", "b", "c", "d"}
+y := x[:2]
+z := x[1:]
+d := x[1:3]
+e := x[:]
+fmt.Println("x:", x)
+fmt.Println("y:", y)
+fmt.Println("z:", z)
+fmt.Println("d:", d)
+fmt.Println("e:", e)
+
+x: [a b c d]
+y: [a b]
+z: [b c d]
+d: [b c]
+e: [a b c d]
+```
+
+When you take a slice from a slice, you are not making a copy of the data. Instead, you now have two variables that are sharing memory. This means that changes to an element in a slice affect all slices that share that element.
+
+If you need to create a slice that’s independent of the original, use the built-in copy function
+
+
+ch3 Converting Arrays to Slices
+---
+Slices aren’t the only thing you can slice. If you have an array, you can take a slice from it using a slice expression. This is a useful way to bridge an array to a function that takes only slices. To convert an entire array into a slice, use the [:] syntax:
+```
+xArray := [4]int{5, 6, 7, 8}
+xSlice := xArray[:]
 ```
