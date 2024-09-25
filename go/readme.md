@@ -72,3 +72,22 @@ var y = [3]int{1, 2, 3}
 fmt.Println(x == y) // prints true
 ```
 
+A slice is the first type you’ve seen that isn’t comparable. It is a compile-time error to use == to see if two slices are identical or != to see if they are different. The only thing you can compare a slice with using == is nil
+
+Since Go 1.21, the slices package in the standard library includes two functions to compare slices. The slices.Equal function takes in two slices and returns true if the slices are the same length, and all of the elements are equal. It requires the elements of the slice to be comparable. The other function, slices.EqualFunc, lets you pass in a function to determine equality and does not require the slice elements to be comparable
+
+```
+x := []int{1, 2, 3, 4, 5}
+y := []int{1, 2, 3, 4, 5}
+z := []int{1, 2, 3, 4, 5, 6}
+s := []string{"a", "b", "c"}
+fmt.Println(slices.Equal(x, y)) // prints true
+fmt.Println(slices.Equal(x, z)) // prints false
+fmt.Println(slices.Equal(x, s)) // does not compile
+```
+
+One slice is appended onto another by using the ... operator to expand the source slice into individual values (you’ll learn more about the ... operator in “Variadic Input Parameters and Slices”):
+```
+y := []int{20, 30, 40}
+x = append(x, y...)
+```
