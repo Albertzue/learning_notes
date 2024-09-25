@@ -136,3 +136,58 @@ Slices aren’t the only thing you can slice. If you have an array, you can take
 xArray := [4]int{5, 6, 7, 8}
 xSlice := xArray[:]
 ```
+
+Be aware that taking a slice from an array has the same memory-sharing properties as taking a slice from a slice.
+
+When you convert a slice to an array, the data in the slice is copied to new memory. That means that changes to the slice won’t affect the array, and vice versa.
+
+The following code:
+```
+xSlice := []int{1, 2, 3, 4}
+xArray := [4]int(xSlice)
+smallArray := [2]int(xSlice)
+xSlice[0] = 10
+fmt.Println(xSlice)
+fmt.Println(xArray)
+fmt.Println(smallArray)
+```
+While the size of the array can be smaller than the size of the slice, it cannot be bigger.
+
+ch3 Maps
+---
+Maps are like slices in several ways:
+<ol>
+<li>Maps automatically grow as you add key-value pairs to them.</li>
+<li>If you know how many key-value pairs you plan to insert into a map, you can use make to create a map with a specific initial size.</li>
+<li>Passing a map to the len function tells you the number of key-value pairs in a map.</li>
+<li>The zero value for a map is nil.</li>
+<li>Maps are not comparable. You can check if they are equal to nil, but you cannot check if two maps have identical keys and values using == or differ using !=.</li>
+</ol>
+
+ Go provides the comma ok idiom to tell the difference between a key that’s associated with a zero value and a key that’s not in the map:
+```
+m := map[string]int{
+    "hello": 5,
+    "world": 0,
+}
+v, ok := m["hello"]
+fmt.Println(v, ok)
+
+v, ok = m["world"]
+fmt.Println(v, ok)
+
+v, ok = m["goodbye"]
+fmt.Println(v, ok)
+```
+```
+m := map[string]int{
+    "hello": 5,
+    "world": 10,
+}
+delete(m, "hello")
+```
+The delete function takes a map and a key and then removes the key-value pair with the specified key. If the key isn’t present in the map or if the map is nil, nothing happens. The delete function doesn’t return a value.
+
+The clear function that you saw in “Emptying a Slice” works on maps also. A cleared map has its length set to zero, unlike a cleared slice.
+
+Two functions in the package are useful for comparing if two maps are equal, maps.Equal and maps.EqualFunc. They are analogous to the slices.Equal and slices.EqualFunc
