@@ -191,3 +191,28 @@ The delete function takes a map and a key and then removes the key-value pair wi
 The clear function that you saw in “Emptying a Slice” works on maps also. A cleared map has its length set to zero, unlike a cleared slice.
 
 Two functions in the package are useful for comparing if two maps are equal, maps.Equal and maps.EqualFunc. They are analogous to the slices.Equal and slices.EqualFunc
+
+ch3 Anonymous Structs
+---
+You can also declare that a variable implements a struct type without first giving the struct type a name. This is called an anonymous struct:
+```
+var person struct {
+    name string
+    age  int
+    pet  string
+}
+
+person.name = "bob"
+person.age = 50
+person.pet = "dog"
+
+pet := struct {
+    name string
+    kind string
+}{
+    name: "Fido",
+    kind: "dog",
+}
+```
+
+Just as Go doesn’t allow comparisons between variables of different primitive types, Go doesn’t allow comparisons between variables that represent structs of different types. Go does allow you to perform a type conversion from one struct type to another if the fields of both structs have the same names, order, and types. Let’s see what this means.
