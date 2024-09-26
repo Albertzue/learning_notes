@@ -217,8 +217,14 @@ pet := struct {
 
 Just as Go doesn’t allow comparisons between variables of different primitive types, Go doesn’t allow comparisons between variables that represent structs of different types. Go does allow you to perform a type conversion from one struct type to another if the fields of both structs have the same names, order, and types. Let’s see what this means.
 
+ch4
+---
+A shadowing variable is a variable that has the same name as a variable in a containing block. For as long as the shadowing variable exists, you cannot access a shadowed variable
 
-The go get command downloads modules and updates the go.mod file. You have two options when using go get. The simplest option is to tell go get to scan your module’s source code and add any modules that are found in import statements to go.mod
+
+ch10
+---
+The **go get** command downloads modules and updates the go.mod file. You have two options when using go get. The simplest option is to tell go get to scan your module’s source code and add any modules that are found in import statements to go.mod
 
 As I mentioned, there’s another way to use go get. Instead of telling it to scan your source code to discover modules, you can pass the module paths to go get
 
