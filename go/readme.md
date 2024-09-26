@@ -216,3 +216,56 @@ pet := struct {
 ```
 
 Just as Go doesn’t allow comparisons between variables of different primitive types, Go doesn’t allow comparisons between variables that represent structs of different types. Go does allow you to perform a type conversion from one struct type to another if the fields of both structs have the same names, order, and types. Let’s see what this means.
+
+
+The go get command downloads modules and updates the go.mod file. You have two options when using go get. The simplest option is to tell go get to scan your module’s source code and add any modules that are found in import statements to go.mod
+
+As I mentioned, there’s another way to use go get. Instead of telling it to scan your source code to discover modules, you can pass the module paths to go get
+
+
+Sharp-eyed readers might have noticed that when we used go get a second time, the go: downloading messages weren’t displayed. The reason is that Go maintains a module cache on your local computer. Once a version of a module is downloaded, a copy is kept in the cache. Source code is pretty compact, and drives are pretty large, so this isn’t usually a concern. However, if you want to delete the module cache, use the command go clean -modcache.
+
+**If you want to fix this label automatically, use the command go mod tidy. It scans your source code and synchronizes the go.mod and go.sum files with your module’s source code, adding and removing module references. It also makes sure that the indirect comments are correct.**
+
+
+First, you can see what versions of the module are available with the go list command:
+
+```
+$ go list -m -versions github.com/learning-go-book-2e/simpletax
+github.com/learning-go-book-2e/simpletax v1.0.0 v1.1.0
+```
+
+go mod graph shows the dependency graph of your module and all its dependencies.
+
+**go get -u**\
+The -u flag instructs get to update modules providing dependencies
+of packages named on the command line to use newer minor or patch
+releases when available.
+
+
+It’s enabled by running the command go mod vendor. This creates a directory called vendor at the top level of your module that contains all your module’s dependencies. These dependencies are used in place of the module cache stored on your computer.
+
+A replace directive redirects all references to a module across all your module’s dependencies and replaces them with the specified fork of the module. It looks like this:
+```
+replace github.com/jonbodner/proteus => github.com/someone/my_proteus v1.0.0
+```
+
+The right side must have a version specified, but specifying a version is optional for the left side. If a version is specified on the left side, only that specific version will be replaced. If the version is not specified, any version of the original module will be replaced with the specific version of the fork.
+
+A replace directive can also refer to a path on your local filesystem:
+```
+replace github.com/jonbodner/proteus => ../projects/proteus
+```
+
+Go provides the exclude directive to prevent a specific version of a module from being used:
+```
+exclude github.com/jonbodner/proteus v0.10.1
+```
+This is done by adding a retract directive to the go.mod file of your module. It consists of the word retract and the semantic version that should no longer be used. If a range of versions shouldn’t be used, you can exclude all versions in that range by placing the upper and lower bounds within brackets, separated by a comma. While it’s not required, you should include a comment after a version or version range to explain the reason for the retraction.
+
+You can validate that your code is working with the public module by setting the environment variable GOWORK=off and building your application:
+```
+$ rm workspace_app
+$ GOWORK=off go build
+$ ./workspace_app
+```
