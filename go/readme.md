@@ -221,7 +221,23 @@ ch4
 ---
 A shadowing variable is a variable that has the same name as a variable in a containing block. For as long as the shadowing variable exists, you cannot access a shadowed variable
 
-
+ch4 label for
+---
+```
+func main() {
+    samples := []string{"hello", "apple_π!"}
+outer:
+    for _, sample := range samples {
+        for i, r := range sample {
+            fmt.Println(i, r, string(r))
+            if r == 'l' {
+                continue outer
+            }
+        }
+        fmt.Println()
+    }
+}
+```
 ch10
 ---
 The **go get** command downloads modules and updates the go.mod file. You have two options when using go get. The simplest option is to tell go get to scan your module’s source code and add any modules that are found in import statements to go.mod
