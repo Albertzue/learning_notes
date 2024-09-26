@@ -238,6 +238,9 @@ outer:
     }
 }
 ```
+
+For the sake of completeness, Go does include a fallthrough keyword, which lets one case continue on to the next one
+
 ch10
 ---
 The **go get** command downloads modules and updates the go.mod file. You have two options when using go get. The simplest option is to tell go get to scan your module’s source code and add any modules that are found in import statements to go.mod
