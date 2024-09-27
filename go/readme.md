@@ -241,6 +241,48 @@ outer:
 
 For the sake of completeness, Go does include a fallthrough keyword, which lets one case continue on to the next one
 
+
+ch5 Variadic Input Parameters and Slices
+---
+```
+func addTo(base int, vals ...int) []int {
+    out := make([]int, 0, len(vals))
+    for _, v := range vals {
+        out = append(out, base+v)
+    }
+    return out
+}
+```
+Multiple Return Values
+The first difference that you’ll see between Go and other languages is that Go allows for multiple return values. Let’s add a small feature to the previous division program. You’re going to return both the dividend and the remainder from the function. Here’s the updated function:
+```
+func divAndRemainder(num, denom int) (int, int, error) {
+    if denom == 0 {
+        return 0, 0, errors.New("cannot divide by zero")
+    }
+    return num / denom, num % denom, nil
+}
+```
+Use _ whenever you don’t need to read a value that’s returned by a function.
+
+ch5 Named Return Values
+---
+```
+func divAndRemainder(num, denom int) (result int, remainder int, err error) {
+    if denom == 0 {
+        err = errors.New("cannot divide by zero")
+        return result, remainder, err
+    }
+    result, remainder = num/denom, num%denom
+    return result, remainder, err
+}
+```
+If you want to name only some of the return values, you can do so by using _ as the name for any return values you want to remain nameless.
+
+Blank Returns—Never Use These!
+If you use named return values, you need to be aware of one severe misfeature in Go: blank (sometimes called naked) returns. If you have named return values, you can just write return without specifying the values that are returned. This returns the last values assigned to the named return values
+
+
 ch10
 ---
 The **go get** command downloads modules and updates the go.mod file. You have two options when using go get. The simplest option is to tell go get to scan your module’s source code and add any modules that are found in import statements to go.mod
