@@ -282,6 +282,73 @@ If you want to name only some of the return values, you can do so by using _ as 
 Blank Returns—Never Use These!
 If you use named return values, you need to be aware of one severe misfeature in Go: blank (sometimes called naked) returns. If you have named return values, you can just write return without specifying the values that are returned. This returns the last values assigned to the named return values
 
+ch6 
+---
+ if a nil pointer is passed into a function via a parameter or a field on a parameter, you cannot set the value within the function
+
+within the Go runtime, a map is implemented as a pointer to a struct. Passing a map to a function means that you are copying a pointer
+
+When a slice is copied to a different variable or passed to a function, a copy is made of the length, capacity,
+Meanwhile, passing a slice to a function has more complicated behavior: any modification to the slice’s contents is reflected in the original variable, but using append to change the length isn’t reflected in the original variable, even if the slice has a capacity greater than its length
+The result is that a slice that’s passed to a function can have its contents modified, but the slice can’t be resized. As the only usable linear data structure, slices are frequently passed around in Go programs
+
+The first is the GOGC environment variable. The garbage collector looks at the heap size at the end of a garbage-collection cycle and uses the formula CURRENT_HEAP_SIZE + CURRENT_HEAP_SIZE*GOGC/100 to calculate the heap size that needs to be reached to trigger the next garbage-collection cycle.
+
+Setting GOGC to off disables garbage collection. This will make your programs run faster. However, turning off garbage collection on a long-running process will potentially use all available memory on your computer. This is not usually considered optimal behavior.
+
+The value for GOMEMLIMIT is specified in bytes, but you can optionally use the suffixes B, KiB, MiB, GiB, and TiB. For example, GOMEMLIMIT=3GiB sets the memory limit to 3 gibibytes
+
+ch7
+---
+
+In addition to struct literals, you can use any primitive type or compound type literal to define a concrete type. Here are a few examples:
+```
+type Score int
+type Converter func(string)Score
+type TeamScores map[string]Score
+```
+
+There is one key difference between declaring methods and functions: methods can be defined only at the package block level, while functions can be defined inside any block.
+
+One thing you might notice is that you were able to call the pointer receiver method even though c is a value type. When you use a pointer receiver with a local variable that’s a value type, Go automatically takes the address of the local variable when calling the method. In this case, c.Increment() is converted to (&c).Increment().
+
+hey can be pointer receivers (the type is a pointer) or value receivers (the type is a value type). The following rules help you determine when to use each kind of receiver:
+
+If your method modifies the receiver, you must use a pointer receiver.
+
+If your method needs to handle nil instances (see “Code Your Methods for nil Instances”), then it must use a pointer receiver.
+
+If your method doesn’t modify the receiver, you can use a value receiver.
+
+
+
+
+```
+const (
+    Uncategorized MailCategory = iota
+    Personal
+    Spam
+    Social
+    Advertisements
+)
+```
+The first constant in the const block has the type specified, and its value is set to iota. Every subsequent line has neither the type nor a value assigned to it. When the Go compiler sees this, it repeats the type and the assignment to all the subsequent constants in the block, which is iota
+```
+const (
+    Field1 = 0
+    Field2 = 1 + iota
+    Field3 = 20
+    Field4
+    Field5 = iota
+)
+
+func main() {
+    fmt.Println(Field1, Field2, Field3, Field4, Field5)
+}
+```
+```
+0 2 20 20 4
+```
 
 ch10
 ---
