@@ -359,6 +359,8 @@ As I mentioned, there’s another way to use go get. Instead of telling it to sc
 
 Sharp-eyed readers might have noticed that when we used go get a second time, the go: downloading messages weren’t displayed. The reason is that Go maintains a module cache on your local computer. Once a version of a module is downloaded, a copy is kept in the cache. Source code is pretty compact, and drives are pretty large, so this isn’t usually a concern. However, if you want to delete the module cache, use the command go clean -modcache.
 
+Use iota for “internal” purposes only.
+
 **If you want to fix this label automatically, use the command go mod tidy. It scans your source code and synchronizes the go.mod and go.sum files with your module’s source code, adding and removing module references. It also makes sure that the indirect comments are correct.**
 
 
