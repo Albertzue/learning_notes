@@ -54,3 +54,46 @@ Built-in command. This is a command built into the shell. As a result, there is 
  date
  Fri Jun 29 16:04:18 EDT 2019
  ```
+
+**Expanding commands**
+With command substitution, you can have the output of a command interpreted by the shell instead of by the command itself. In this way, you can have the standard output of a command become an argument for another command. The two forms of command substitution are $(command) and `command` (backticks, not single quotes).
+
+The command in this case can include options, metacharacters, and arguments. The following is an example of using command substitution:
+```
+$ vi $(find /home | grep xyzzy)
+```
+
+Sometimes, you want to pass arithmetic results to a command. There are two forms that you can use to expand an arithmetic expression and pass it to the shell: $[expression] or $(expression). The following is an example:
+```
+$ echo "I am $[2020 - 1957] years old."
+I am 63 years old.
+```
+
+**Using Shell Variables**
+
+You can see all variables set for your current shell by typing the set command. A subset of your local variables is referred to as environment variables. Environment variables are variables that are exported to any new shells opened from the current shell. Type env to see environment variables.
+
+
+**Configuring your shell**
+
+**/etc/profile	**
+```
+This sets up user environment information for every user. It is executed when you first log in. This file provides values for your path in addition to setting environment variables for such things as the location of your mailbox and the size of your history files. Finally, /etc/profile gathers shell settings from configuration files in the /etc/profile.d directory.|
+```
+**/etc/bashrc	**
+```
+This executes for every user who runs the bash shell each time a bash shell is opened. It sets the default prompt and may add one or more aliases. Values in this file can be overridden by information in each user's ~/.bashrc file.|
+```
+
+**~/.bash_profile**	
+```
+This is used by each user to enter information that is specific to his or her use of the shell. It is executed only once—when the user logs in. By default, it sets a few environment variables and executes the user's .bashrc file. This is a good place to add environment variables because, once set, they are inherited by future shells.
+```
+**~/.bashrc**	
+```
+This contains the information that is specific to your bash shells. It is read when you log in and also each time you open a new bash shell. This is the best location to add aliases so that your shell picks them up.
+```
+**~/.bash_logout**
+```
+This executes each time you log out (exit the last bash shell).
+```
