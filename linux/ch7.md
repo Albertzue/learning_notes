@@ -106,3 +106,60 @@ you can type **help test** on the command line to get the same information like 
 |-g file	|Does the file have the set group id (SGID) bit set?|
 |-h file|	Is the file a symbolic link? (same as -L)|
 |-k file|	Does the file have the sticky bit set?|
+
+
+
+There is also a special shorthand method of performing tests that can be useful for simple one-command actions. In the following example, the two pipes (||) indicate that if the directory being tested for doesn't exist (-d dirname), then make the directory (mkdir $dirname):
+```
+# [ test ] || action
+# Perform simple single command if test is false
+dirname="/tmp/testdir"
+[ -d "$dirname" ] || mkdir "$dirname"
+```
+
+Instead of pipes, you can use two ampersands to test if something is true. In the following example, a command is being tested to see if it includes at least three command-line arguments:
+```
+# [ test ] && {action}
+# Perform simple single action if test is true
+[ $# -ge 3 ] && echo "There are at least 3 command line arguments."
+```
+
+The case command
+---
+```
+case "VAR" in
+   Result1)
+      { body };;
+   Result2)
+      { body };;
+     *)
+        { body } ;;
+esac
+```
+The ″for…do″ loop
+---
+```
+for VAR in LIST
+do
+    { body }
+done
+```
+
+Remove sections of lines of text (cut)
+---
+The following example lists all home directories of users on your system. This grep command line pipes a list of regular users from the /etc/passwd file and displays the sixth field (-f6) as delimited by a colon (-d':'). **The hyphen at the end tells cut to read from standard input (from the pipe).**
+```
+$ grep /home /etc/passwd | cut -d':' -f6 -
+/home/chris
+/home/joe
+```
+
+**Translate or delete characters (tr)**
+The tr command is a character-based translator that can be used to replace one character or set of characters with another or to remove a character from a line of text.
+
+The following example translates all uppercase letters to lowercase letters and displays the words mixed upper and lower case as a result:
+```
+$ FOO="Mixed UPpEr aNd LoWeR cAsE"
+$ echo $FOO | tr [A-Z] [a-z]
+mixed upper and lower case
+```
