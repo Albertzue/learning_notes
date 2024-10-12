@@ -56,13 +56,13 @@ Not Set
 Performing arithmetic in shell scripts
 ---
 Integer arithmetic can be performed using the built-in let command or through the external expr or bc commands. After setting the variable BIGNUM value to 1024, the three commands that follow would all store the value 64 in the RESULT variable. The bc command is a calculator application that is available in most Linux distributions. The last command gets a random number between 0 and 10 and echoes the results back to you.
-
+```
 BIGNUM=1024
 let RESULT=$BIGNUM/16
 RESULT=`expr $BIGNUM / 16`
 RESULT=`echo "$BIGNUM / 16" | bc`
 let foo=$RANDOM; echo $foo
-
+```
 
 Another way to grow a variable incrementally is to use $(()) notation with ++I added to increment the value of I. Try typing the following:
 ```
