@@ -141,3 +141,145 @@ message InvalidField {
   uint32 id = 1;
 }
 ```
+will not compile because we reserved the tag 1. Similarly,
+```
+message InvalidField {
+  reserved "id";
+  uint32 id = 1;
+}
+```
+will not compile because we reserved the name id.
+
+nother thing to mention is that we can define more complex ranges of tags. If we wanted to remove the tags from 1 to 10, we would write the following:
+```
+reserved 1 to 10;
+```
+The start and the end of the range are inclusive. Meaning that we reserved the tag from 1 to 10 and not from 1 to 9.
+```
+reserved 1 to max;
+```
+In this case, we reserved all the possible tags. This is obviously not useful because it would mean we cannot define any field in the message.
+
+MapField
+---
+In Protobuf, we can write a map like this:
+```
+map<string, int32> occurrences = 1;
+```
+Notice that not all the types we saw previously in the field subsection are available as key types. We cannot use float/double, bytes, or message types as key types. Other than that restriction, as you can see, maps are similar to fields.
+
+Oneof
+---
+
+Sometimes, we need to explicitly set one value or the other. This kind of mutually exclusive data can be defined with oneof fields. They wrap multiple fields and enforce the logic of only one of those fields having a value.
+```
+oneof result {
+  Success success = 1;
+  Error error = 2;
+}
+```
+
+Message
+---
+we can have a maximum of 31 nested messages.
+
+Services
+---
+
+service is designed for Protobuf interaction with RPC frameworks, such as gRPC. 
+```
+service BookService {
+  rpc ListBooks(ListBooksRequest) returns (ListBooksResponse);
+  rpc GetBook(GetBookRequest) returns (Book);
+  rpc CreateBook(CreateBookRequest) returns (Book);
+  rpc UpdateBook(UpdateBookRequest) returns (Book);
+  rpc DeleteBook(DeleteBookRequest) returns (google.protobuf.Empty);
+}
+```
+
+It defines a contract for the BookService. The server will implement the List, Get, Create, Update, and Delete operations. Each of them will take some data as input (the types ending with Request) and will return some data as output (ListBooksResponse, Book, and google.protobuf.Empty). The client will also be aware of these parameters and outputs so that they can create requests and get responses back from the server.
+
+
+Out-of-the-box types
+---
+On top of all the scalar types that Protobuf provides as part of the language, it also provides some already-defined types called **well-known types (WKTs)**. All these types can be found in the src/google/protobuf folder in the GitHub repository (https://github.com/protocolbuffers/protobuf/tree/main/src/google/protobuf), and they are all defined under the **google.protobuf** package.
+
+Here is a list of the most common WKTs available:
+```
+Duration
+Timestamp
+FieldMask
+Any
+Struct
+```
+
+here is how you can use these types:
+
+```
+import "google/protobuf/duration.proto";
+import "google/protobuf/timestamp.proto";
+message RunRace {
+  google.protobuf.Duration length = 1;
+}
+message Account {
+  google.protobuf.Timestamp updated_at = 1;
+}
+```
+
+FieldMask
+---
+
+Sometimes, we need a way to select a subset of fields for a given message. Generally, this is done to reduce the payload size and make
+```
+message FieldMask {
+  repeated string paths = 1;
+}
+```
+```
+message Book {
+  oneof book_type {
+    PaperBack paperback = 1;
+    Ebook ebook = 2;
+    AudioBook audiobook = 3;
+  }
+}
+```
+If we only care about the paperback information, we would have the paperback path directly, not book_type.paperback.
+
+Any
+---
+As its name suggests, Any can represent any Protobuf message. We can serialize a message and keep the raw bytes inside it. This is basically a dynamic object.
+
+The Any definition looks like this (simplified):
+```
+message Any {
+  string type_url = 1;
+  bytes value = 2;
+}
+```
+
+Struct
+---
+The last common WKT is Struct. This one also represents a dynamic object but in a way that is similar to what the JSON format is doing. The definition of Struct looks like the following (simplified):
+```
+message Struct {
+  map<string, Value> fields = 1;
+}
+message Value {
+  oneof kind {
+    NullValue null_value = 1;
+    double number_value = 2;
+    string string_value = 3;
+    bool bool_value = 4;
+    Struct struct_value = 5;
+    ListValue list_value = 6;
+  }
+}
+enum NullValue {
+  NULL_VALUE = 0;
+}
+message ListValue {
+  repeated Value values = 1;
+}
+```
+As you can see, this example uses a little bit of everything that we have learned so far: messages, oneofs, fields, enums, repeated fields, and maps.
