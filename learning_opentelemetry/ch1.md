@@ -26,3 +26,23 @@ Many developers find the word telemetry confusing. It’s an overloaded term. Th
    and a transmission system for sending the data over the network to an analysis tool, where the actual observing occurs.
   
   Finally, telemetry plus an analysis equals observability. Understanding the best way to combine these two pieces into a useful observability system is what this book is all about.
+
+# The Three Browser Tabs of Observability
+While there are other useful forms of telemetry, the primacy of these three systems—logs, metrics, and tracing—led to the concept known today as the “three pillars of observability.”4
+
+# Emerging Complications
+The problem is that our systems are not composed of logging problems or metrics problems. They are composed of transactions and resources. When a problem occurs, these are the only two things we can modify: developers can change what the transactions do, and operators can change what resources are available. That’s it.
+
+But the devil is in the details. It’s possible for a simple, isolated bug to be confined to a single transaction. But most production problems emerge from the way many concurrent transactions interact.
+
+# The Three Pillars Were an Accident
+useful observations do not come from looking at data in isolation
+
+Unified telemetry means it’s finally possible to have unified analysis, which is critical to developing a deep understanding of the emergent problems inherent to live production systems.
+
+Does such a telemetry system exist? It does. And it’s called OpenTelemetry.
+Vertical integration makes things even worse: if you want to spot correlations across metrics, logs, and traces, you need these connections to be present in the telemetry your systems are emitting. Without unified telemetry, even if you were able to store these separate signals in the same database, you would still be missing key identifiers that make correlations reliable and consistent. So the three pillars are actually a bad design! What we need is an integrated system.
+
+# A Single Braid of Data
+Instead of three separate pillars, let’s use a new metaphor: a single braid of data.
+![image](https://github.com/user-attachments/assets/aeb25a5c-6478-4ad0-9027-2c30443a8b77)
