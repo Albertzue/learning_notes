@@ -69,3 +69,28 @@ The behavior of defer statements is straightforward and predictable. There are t
 1. A deferred function’s arguments are evaluated when the defer statement is evaluated.
 2. Deferred function calls are executed in Last In First Out order after the surrounding function returns.
 3. Deferred functions may read and assign to the returning function’s named return values.
+
+# flag package
+Package flag implements command-line flag parsing.
+
+#### Usage
+Define flags using flag.String, Bool, Int, etc.
+
+This declares an integer flag, -n, stored in the pointer nFlag, with type *int:
+```
+import "flag"
+var nFlag = flag.Int("n", 1234, "help message for flag n")
+```
+
+After all flags are defined, call
+```
+flag.Parse()
+```
+#### Command line flag syntax 
+The following forms are permitted:
+```
+-flag
+--flag   // double dashes are also permitted
+-flag=x
+-flag x  // non-boolean flags only
+```
