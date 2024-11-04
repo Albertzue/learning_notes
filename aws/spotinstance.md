@@ -27,3 +27,5 @@ The workflow can be summarized as:
 2. Use the two-minute notification window to gracefully prepare the node for termination.
 3. Taint the node and cordon it off to prevent new pods from being placed on it.
 4. Drain connections on the running pods.
+
+You can run the termination handler on any Kubernetes cluster running on AWS, including self-managed clusters and those created with Amazon Elastic Kubernetes Service. If you're using EKS managed node groups, you don't need the aws-node-termination-handler.
