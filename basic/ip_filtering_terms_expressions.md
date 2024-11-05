@@ -1,0 +1,25 @@
+1. Drop/Deny - When a packet is dropped or denied, it is simply deleted, and no further actions are taken. No reply to tell the host it was dropped, nor is the receiving host of the packet notified in any way. The packet simply disappears.
+
+2. Reject - This is basically the same as a drop or deny target or policy, except that we also send a reply to the host sending the packet that was dropped. The reply may be specified, or automatically calculated to some value. (To this date, there is unfortunately no iptables functionality to also send a packet notifying the receiving host of the rejected packet what happened (ie, doing the reverse of the Reject target). This would be very good in certain circumstances, since the receiving host has no ability to stop Denial of Service attacks from happening.)
+
+3. State - A specific state of a packet in comparison to a whole stream of packets. For example, if the packet is the first that the firewall sees or knows about, it is considered new (the SYN packet in a TCP connection), or if it is part of an already established connection that the firewall knows about, it is considered to be established. States are known through the connection tracking system, which keeps track of all the sessions.
+
+4. Chain - A chain contains a ruleset of rules that are applied on packets that traverses the chain. Each chain has a specific purpose (e.g., which table it is connected to, which specifies what this chain is able to do), as well as a specific application area (e.g., only forwarded packets, or only packets destined for this host). In iptables, there are several different chains, which will be discussed in depth in later chapters.
+
+5. Table - Each table has a specific purpose, and in iptables there are 3 tables. The nat, mangle and filter tables. For example, the filter table is specifically designed to filter packets, while the nat table is specifically designed to NAT (Network Address Translation) packets.
+
+6. Match - This word can have two different meanings when it comes to IP filtering. The first meaning would be a single match that tells a rule that this header must contain this and this information. For example, the --source match tells us that the source address must be a specific network range or host address. The second meaning is if a whole rule is a match. If the packet matches the whole rule, the jump or target instructions will be carried out (e.g., the packet will be dropped.)
+
+7. Target - There is generally a target set for each rule in a ruleset. If the rule has matched fully, the target specification tells us what to do with the packet. For example, if we should drop or accept it, or NAT it, etc. There is also something called a jump specification, for more information see the jump description in this list. As a last note, there might not be a target or jump for each rule, but there may be.
+
+8. Rule - A rule is a set of a match or several matches together with a single target in most implementations of IP filters, including the iptables implementation. There are some implementations which let you use several targets/actions per rule.
+
+9. Ruleset - A ruleset is the complete set of rules that are put into a whole IP filter implementation. In the case of iptables, this includes all of the rules set in the filter, nat and mangle tables, and in all of the subsequent chains. Most of the time, they are written down in a configuration file of some sort.
+
+10. Jump - The jump instruction is closely related to a target. A jump instruction is written exactly the same as a target in iptables, with the exception that instead of writing a target name, you write the name of another chain. If the rule matches, the packet will hence be sent to this second chain and be processed as usual in that chain.
+
+11. Connection tracking - A firewall which implements connection tracking is able to track connections/streams simply put. The ability to do so is often done at the impact of lots of processor and memory usage. This is unfortunately true in iptables as well, but much work has been done to work on this. However, the good side is that the firewall will be much more secure with connection tracking properly used by the implementer of the firewall policies.
+
+12. Accept - To accept a packet and to let it through the firewall rules. This is the opposite of the drop or deny targets, as well as the reject target.
+
+13. Policy - There are two kinds of policies that we speak about most of the time when implementing a firewall. First we have the chain policies, which tells the firewall implementation the default behaviour to take on a packet if there was no rule that matched it. This is the main usage of the word that we will use in this book. The second type of policy is the security policy that we may have written documentation on, for example for the whole company or for this specific network segment. Security policies are very good documents to have thought through properly and to study properly before starting to actually implement the firewall.
