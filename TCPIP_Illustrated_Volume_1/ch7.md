@@ -54,4 +54,9 @@ often only a single one.
 
 We shall ordinarily use the term NAT to include both traditional NAT and NAPT unless the distinction is important in a particular context.
 
-###  NAT and TCP
+###  Address and Port Translation Behavior
+Some NATs implement a special feature called port parity. Such NATs attempt to preserve the “parity” (evenness or oddness) of port numbers. Thus, if x is even, x1´ is even and vice versa.Although not as strong as port preservation, such behavior is sometimes useful for specific application protocols that use special port numberings
+
+###  Hairpinning and NAT Loopback
+An interesting issue arises when a client wishes to reach a server and both reside on the same, private side of the same NAT. NATs that support this scenario implement so-called hairpinning or NAT loopback
+![image](https://github.com/user-attachments/assets/c95ec62e-8e51-4bf6-ad9b-fb80b1d3cc70)
