@@ -96,3 +96,45 @@ The main components of Argo Events are:
 4. Trigger: Triggers in Argo Events are the mechanisms that respond to events detected by sensors. They can perform a wide range of actions, from starting a workflow to updating a resource. Understanding triggers is essential for automating responses to events.
 
 ![image](https://github.com/user-attachments/assets/037ce29d-2323-482f-bdfb-59b88c80c8a5)
+
+## ArgoRollout
+
+#### Progressive Delivery
+Progressive delivery is often described as an evolution of continuous delivery. It focuses on releasing updates of a product in a controlled and gradual manner, thereby reducing the risk of the release, typically coupling automation and metric analysis to drive the automated promotion or rollback of the update.
+
+##### Canary releases
+Gradually roll out the change to a small subset of users before rolling it out to the entire user base.
+
+##### Feature flags
+Control who gets to see what feature in the application, allowing for selective and targeted deployment.
+
+##### Experiments & A/B testing
+Test different versions of a feature with different segments of the user base.
+
+##### Phased rollouts
+Slowly roll out features to incrementally larger segments of the user base, monitoring and adjusting based on feedback.
+
+The primary goal of Progressive Delivery is to reduce the risk associated with releasing new features and to enable faster iteration by getting early feedback from users.
+
+
+![image](https://github.com/user-attachments/assets/cf602195-85b9-4b12-b8b2-f11f12ee79b2)
+#### Argo Rollouts Components
+
+##### Argo Rollouts Controller
+An operator that manages Argo Rollout Resources. It reads all the details of a rollout (and other resources) and ensures the desired cluster state.
+
+##### Argo Rollout Resource
+A custom Kubernetes resource managed by the Argo Rollouts Controller. It is largely compatible with the native Kubernetes Deployment resource, adding additional fields that manage the stages, thresholds, and techniques of sophisticated deployment strategies, including canary and blue-green deployments.
+
+##### Ingress
+The Kubernetes Ingress resource is used to enable traffic management for various traffic providers such as service meshes (e.g., Istio or Linkerd) or Ingress Controllers (e.g., Nginx Ingress Controller).
+
+##### AnalysisTemplate and AnalysisRun
+Analysis is an optional feature of Argo Rollouts and enables the connection of Rollouts to a monitoring system. This allows automation of promotions and rollbacks. To perform an analysis an AnalysisTemplate defines a metric query and their expected result. If the query matches the expectation, a Rollout will progress or rollback automatically, if it doesn’t. An AnalysisRuns is an instantiation of an AnalysisTemplate (similar to Kubernetes Jobs).
+
+
+
+|Templates|	DescriptionUse Case|
+|---------|--------------------|
+|AnalysisTemplate|	This template defines the metrics to be queried and the conditions for success or failure. The AnalysisTemplate specifies what metrics should be monitored and the thresholds for determining the success or failure of a deployment. It can be parameterized with input values to make it more dynamic and adaptable to different situations.|
+|AnalysisRun|	An AnalysisRun is an instantiation of an AnalysisTemplate. It is a Kubernetes resource that behaves similarly to a job in that it runs to completion. The outcome of an AnalysisRun can be successful, failed, or inconclusive, and this result directly impacts the progression of the Rollout's update. If the AnalysisRun is successful, the update continues; if it fails, the update is aborted; and if it's inconclusive, the update is paused.|
