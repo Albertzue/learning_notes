@@ -1,16 +1,16 @@
-1.A
-2.B
+1.A  C  AWS managed key can not be accessed accross the account
+2.B  D
 3.D
 4.B
 5.C
 6.D
-7.BC
+7.BC BD
 8.B
 9.A
 10.A
 11.B
 12.B
-13.C
+13.C  here
 14.C
 15.B
 16.B
