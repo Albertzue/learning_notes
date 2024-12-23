@@ -78,4 +78,26 @@ C
 A
 B
 C
+C
+B
+B
+D
+BD
+C !!
+D
+B
+B !!
+B
+B
+A
+A
+A
+C
+A
+A
+A
+A
+B
+A
+
 
