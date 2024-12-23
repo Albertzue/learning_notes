@@ -108,5 +108,55 @@ B
 C
 D
 A
+A !!
+AB
+D
+AC
+A
+C !!
+B
+C
+DE
+C
+A
+AD
+D !!
+A
+B
+D
+A
+C
+D
+A
+C
+C
+C
+D
+B
+C
+A
+AD
+A
+D
+B
+C
+DE
+B
+A
+D
+C !!
+D
+BD
+B
+B
+D
+BE
+B !!
+C
+D
+A
+C
+B
+C
 
 
