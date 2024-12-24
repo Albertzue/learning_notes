@@ -417,3 +417,34 @@ D !!
 C
 B
 D
+D !!
+B
+D !!
+AC
+C
+C
+A
+A
+BC
+A
+C
+B
+D
+C
+AC
+AC
+D
+D
+D
+BC
+A !!
+C
+B
+A
+A
+AB
+D
+C
+B
+B
+D
