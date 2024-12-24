@@ -388,3 +388,28 @@ A
 AC
 A
 C
+B !!
+C
+A !!
+BC
+C
+B
+C
+A
+C
+CD ！！
+C
+B !!
+A
+C
+AD
+A
+A
+B
+AD !!
+D
+A
+A
+B !!
+C
+C
