@@ -379,3 +379,12 @@ B
 A
 C　！！
 C
+A
+D
+B
+D
+B
+A
+AC
+A
+C
