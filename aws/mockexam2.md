@@ -144,19 +144,19 @@ DE
 B
 A
 D
-C !!
+C !! B 
 D
 BD
 B
-B
+B  C
 D
-BE
+BE  AE
 B !!
 C
 D
 A
 C
-B
+B  A
 C
 B
 C
@@ -195,12 +195,12 @@ C
 B
 c
 D
-A
+A D
 D
 A
 A
 A
-B
+B  A
 A
 C
 B
@@ -236,10 +236,10 @@ A
 A
 A
 C
-C
+C  B
 CE
 D
-BC
+BC  AB
 A
 B
 BE
@@ -249,7 +249,7 @@ BD
 B
 D
 A
-D !!
+D !! A
 D
 D
 B !!
@@ -259,7 +259,7 @@ C !!
 B
 A
 B !!
-B !!
+B !!  A
 B
 A
 A
@@ -291,7 +291,7 @@ C
 D !!
 AD
 A
-D
+D  A
 D
 A
 BE
@@ -310,7 +310,7 @@ C
 C
 B
 D
-A
+A  B
 C
 A
 D
@@ -327,12 +327,12 @@ D
 D
 D
 C
-D
+D  A
 A
-D !!
+D !!  B
 C
-D !!
-D
+D !! C
+D 
 D
 C
 A
@@ -358,7 +358,7 @@ D
 D
 D
 B
-D
+D  B
 C
 C
 C
@@ -370,7 +370,7 @@ B
 A
 A
 B
-B !!
+B !!  C
 C
 C!!
 A
@@ -379,7 +379,7 @@ B
 A
 C　！！
 C
-A
+A  B
 D
 B
 D
@@ -393,7 +393,7 @@ C
 A !!
 BC
 C
-B
+B  C
 C
 A
 C
@@ -406,7 +406,7 @@ AD
 A
 A
 B
-AD !!
+AD !!  AC
 D
 A
 A
@@ -430,12 +430,12 @@ A
 C
 B
 D
-C
+C D
 AC
 AC
 D
 D
-D
+D  B
 BC
 A !!
 C
@@ -448,9 +448,9 @@ C
 B
 B
 D
-C
+C  B
 AE
-C　！！
+C　！！ A
 Ａ
 Ｂ　！！
 Ｄ
@@ -466,14 +466,14 @@ C　！！
 Ｄ
 ＡＤ
 Ｂ
-Ｃ
+Ｃ  A
 Ｄ
-Ｃ
+Ｃ  B
 Ｂ
 Ｃ
 Ｂ
 Ｂ　！！
-Ｂ　！！
+Ｂ　！！ D
 Ａ
 Ｂ
 ＣＤ
