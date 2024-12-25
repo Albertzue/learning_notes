@@ -21,21 +21,21 @@ A
 A
 A
 C
-B
-D
-B
-D
+B  A
+D C
+B 
+D  A
 C
 AC
 B !!
 B
-D !!
-C !!
+D !!  B
+C !!  D
 C
 B
 AB
 A
-A
+A   B ??
 C
 A
 BD
@@ -47,7 +47,7 @@ C
 AC
 C
 D
-A
+A D
 B
 A
 A
@@ -67,7 +67,7 @@ B
 B
 B
 B
-B !!
+B !!  A
 A
 B
 C
@@ -77,7 +77,7 @@ A
 C
 A
 B
-C
+C  A
 C
 B
 B
@@ -86,7 +86,7 @@ BD
 C !!
 D
 B
-B !!
+B !!  C
 B
 B
 A
@@ -98,11 +98,11 @@ A
 A
 A
 B
-A
+A  C
 A
 B
-C
-AB
+C  B
+AB  BD
 B
 B
 C
@@ -113,7 +113,7 @@ AB
 D
 AC
 A
-C !!
+C !!  A
 B
 C
 DE
