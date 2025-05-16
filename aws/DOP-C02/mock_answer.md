@@ -11,3 +11,12 @@ C
 ABF ! BF
 AD
 B
+A
+C
+B
+C
+D !
+D
+A ! a service of EC2
+D ! Build artifact encryption
+B
