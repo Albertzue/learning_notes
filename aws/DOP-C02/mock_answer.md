@@ -43,3 +43,23 @@ C
 CE !
 D
 C
+C
+ABF
+D
+C
+B
+C
+B
+ABE ! EC2 instance profile or role
+C
+A
+AE
+D
+BE !!
+D
+B
+D
+D
+D ! A
+D
+CDF
