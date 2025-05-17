@@ -63,3 +63,11 @@ D
 D ! A
 D
 CDF
+D ! aws config recorder
+AD !
+B
+B
+D
+ACE
+B
+A 
