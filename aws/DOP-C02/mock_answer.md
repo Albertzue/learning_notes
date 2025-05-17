@@ -112,3 +112,20 @@ D
 A
 C
 B
+D
+B !
+BCE !
+CEF ! activation?
+D
+A
+BE
+DEF !
+B
+B
+A
+B
+CD
+BDE
+BCE ! E?
+A
+
