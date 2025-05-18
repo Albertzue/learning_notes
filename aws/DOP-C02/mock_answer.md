@@ -248,3 +248,33 @@ C !
 A !
 A
 A !
+A !
+D
+D
+D
+BD
+CE !
+A
+C !
+DEF
+B ! difference between cross stack and nest stack
+D !
+CDE
+B
+CD ! D?
+D
+D
+BD
+BDE
+A !
+ACE !
+BE !
+ABF !
+AD !
+A
+D
+AEF
+BDE
+D ! condition?
+B
+B
