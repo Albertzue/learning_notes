@@ -128,4 +128,45 @@ CD
 BDE
 BCE ! E?
 A
+A
+A
+C
+B
+A !
+A
+C !
+BD
+CD
+C
+A
+C
+B !
+B
+C
+A !
+C
+B !
+C
+C
+B
+D
+D
+B
+B
+A
+DE
+C
+A
+AE
+A
+B
+BCF !
+A
+ABE
+BE
+B !
+C !
+AE
+BC
+D
 
