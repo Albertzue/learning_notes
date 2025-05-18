@@ -169,4 +169,33 @@ C !
 AE
 BC
 D
-
+AE !
+C !!
+B
+B !
+B
+A
+C
+BCE
+BE
+D
+B
+D !
+AB
+A
+A
+D
+C ! ECR need vpc endpoint？
+C
+CDE!
+A
+B
+C
+BDE !
+ADF
+BE !
+BDE !
+A
+BD
+B
+BDF
