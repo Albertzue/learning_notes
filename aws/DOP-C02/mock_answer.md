@@ -203,3 +203,48 @@ B
 C
 A
 D
+B !
+D
+BDF !
+B !
+AD
+ACE
+C
+A
+B
+C
+D
+ABC
+B
+ADF ! fargate? aws batch ?
+AE !
+A !
+B
+A
+B
+AB ! trust anchor？
+C
+A ! Account Factory Customization
+A
+D
+BCE
+CD !
+BD ! difference between basic and enhanced scan of ECR
+AE !
+B
+B
+A !
+BCE !
+AC
+B
+C
+AD !
+C
+ACE !
+BCE
+BD
+B
+C !
+A !
+A
+A !
