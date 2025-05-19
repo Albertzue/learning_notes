@@ -4,7 +4,7 @@ B
 B
 A !
 ADF ! kms grant
-BD !
+BD ! AD   AppSec is no settings with  permission
 AC !
 C
 C
