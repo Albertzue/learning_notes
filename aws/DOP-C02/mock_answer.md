@@ -281,3 +281,85 @@ B
 D !
 AC
 C
+B
+C
+A
+A
+B !
+B !
+B !
+C !
+A
+A
+A
+B
+ADF
+C
+ACE !
+A
+B !
+DC
+B
+BE !
+A
+B !
+ACF
+D
+C
+B
+AC !
+B
+A
+ABE !
+C
+B
+C
+B
+CDE
+B
+C !
+C
+CEF ! ECR cache
+AB
+A
+CD !
+A
+AD ! SSM::PARAMETER?
+C !
+C !
+A ! manage event? data event
+B
+B
+A
+ !
+B
+B !
+AC !
+AD
+A !
+B
+D
+D !
+D
+C
+A !
+BC ! resource group
+D !
+A !
+C !
+B !
+BE !
+B
+A
+A !
+A
+D
+A !
+AB 
+B !
+D
+A
+B ! A?
+A !
+
+
