@@ -72,24 +72,24 @@ ACE
 B
 A 
 D
-B !
+B 
 B
-C ! deployment group
+C ! deployment group you can define many groups for deploy type: ec2/on-premise  asg and lambda
 D
 B
-D ! B
+D ! 
 BD ! log to s3?
 BCF !
-BD !
-D
+BD ! AD
+D  C
 C !
 B
 BD
 A !
 BD !
 A !
-B
-C !
+B A
+C ! A
 BD
 C
 B
@@ -98,7 +98,7 @@ D
 B !
 D 
 B
-ADE !
+ADE !  ACE
 B !
 B
 D
