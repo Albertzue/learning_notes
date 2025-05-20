@@ -21,12 +21,12 @@ A ! a service of EC2
 D ! Build artifact encryption
 B
 BD !  CE   for cross region deploy choose use two pipeline action to deploy to different region  s3 is a backbone for code pipeline
-B !
+B 
 C ! attribute mapping  principal?
 A 
-D !
+D 
 D
-BEF ! what is Cognito Identity pool/User pool
+BEF ! what is Cognito Identity pool/User pool    BDE
 C
 A
 BDF ! ALB access Log
