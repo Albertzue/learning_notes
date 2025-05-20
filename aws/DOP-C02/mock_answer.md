@@ -8,19 +8,19 @@ BD ! AD   AppSec is no settings with  permission
 AC !
 C
 C
-ABF ! BF
+ABF ! BF?    BCF
 AD
 B
 A
 C
-B
+B   A  if the permission is not right, the codepipeline will throw error instantly
 C
 D !
 D
 A ! a service of EC2
 D ! Build artifact encryption
 B
-BD !
+BD !  CE   for cross region deploy choose use two pipeline action to deploy to different region  s3 is a backbone for code pipeline
 B !
 C ! attribute mapping  principal?
 A 
