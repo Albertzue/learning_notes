@@ -31,19 +31,19 @@ C
 A
 BDF ! ALB access Log
 A
-C !
+C ! aws exam prefer to  use lambda to run script to script itself
 A
 ADE
 BCE
 C
 D
 BD
-A
+A  C for something change use eventbridge is better than cloudwatch
 C
-CE !
+CE !  AC
 D
 C
-C
+C D
 ABF
 D
 C
@@ -54,17 +54,17 @@ ABE ! EC2 instance profile or role
 C
 A
 AE
-D
-BE !!
-D
+D  A
+BE !!  AD
+D  C
 B
 D
 D
-D ! A
+D ! A    B
 D
 CDF
-D ! aws config recorder
-AD !
+D ! aws config recorder   C 
+AD ! AE 
 B
 B
 D
