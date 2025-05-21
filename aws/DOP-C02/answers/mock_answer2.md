@@ -63,3 +63,41 @@ D
 B
 D
 CDF
+D !
+AE
+B
+B
+D
+ACE
+B
+A
+D
+B
+B
+C
+D
+B
+D
+BD
+BCF
+AD
+C
+C
+B
+BD
+A
+BD
+B ！
+A
+A
+BD
+C
+B
+B
+D
+B
+D
+B
+ACE ！ 
+A
+B
