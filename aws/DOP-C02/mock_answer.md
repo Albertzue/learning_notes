@@ -98,28 +98,28 @@ D
 B !
 D 
 B
-ADE !  ACE
-B !
+ADE !  ACE   SCP is not used for IAM
+B !  A   no need to add new account because the organization
 B
 D
 B
-B !
+B !  A  managed policy can not be removed
 D
 B
-B
+B  A   B is 1 hour period which will cause downtime
 AD !
 D
 A
 C
 B
 D
-B !
+B !  A
 BCE !
 CEF ! activation?
 D
 A
 BE
-DEF !
+DEF !  ADE no need to assume a role for efs 
 B
 B
 A
