@@ -210,32 +210,32 @@ B !
 AD
 ACE
 C
-A
+A D
 B
 C
 D
-ABC
+ABC  ABF
 B
 ADF ! fargate? aws batch ?
 AE !
-A !
+A ! C
 B
 A
-B
+B A
 AB ! trust anchor？
 C
 A ! Account Factory Customization
 A
 D
-BCE
-CD !
+BCE CEF
+CD ! BE
 BD ! difference between basic and enhanced scan of ECR
 AE !
 B
 B
-A !
+A ! B
 BCE !
-AC
+AC AD
 B
 C
 AD !
