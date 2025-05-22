@@ -109,3 +109,44 @@ B
 B
 AD
 D
+A
+C
+B
+D
+A
+BCE
+BCF ！
+D
+A
+BE
+ADE
+B
+B 
+B !
+C !
+CD
+BDE
+BCE
+A
+A
+A
+C
+B
+A
+A
+C
+BD
+CD
+A
+B
+C
+C
+B
+C
+B
+C
+B
+C
+C
+D
+D
