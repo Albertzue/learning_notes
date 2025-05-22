@@ -150,3 +150,36 @@ C
 C
 D
 D
+B
+B
+B
+A
+AE
+D
+A
+BE
+A
+B
+BCD ！
+A
+ABE
+BC
+B ！
+C
+AD
+AC !
+B
+AE
+B
+C
+B ！
+B
+A
+C
+BDE ！
+CE
+C
+B
+B
+AB
+A
