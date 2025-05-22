@@ -150,55 +150,55 @@ C
 C
 B  D
 D
-D
+D  B
 B
 B
 A
-DE
-C
+DE  AE
+C D
 A
-AE
+AE BE
 A
 B
 BCF !
 A
 ABE
-BE
-B !
+BE  BC
+B ! A
 C !
-AE
+AE AD
 BC
-D
+D B
 AE !
-C !!
-B
-B !
+C !! B
+B C
+B ! D D is the most simple one
 B
 A
 C
 BCE
-BE
-D
+BE CE
+D C
 B
-D !
+D ! B
 AB
 A
 A
 D
-C ! ECR need vpc endpoint？
+C ! ECR need vpc endpoint？  D
 C
-CDE!
+CDE! ADE
 A
 B
 C
-BDE !
+BDE ! B
 ADF
 BE !
 BDE !
 A
 BD
 B
-BDF
+BDF  BCF
 B
 C
 A
