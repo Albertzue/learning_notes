@@ -205,7 +205,7 @@ A
 D
 B !
 D
-BDF !
+BDF ! BCD
 B !
 AD
 ACE
