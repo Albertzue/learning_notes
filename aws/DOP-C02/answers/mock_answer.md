@@ -132,23 +132,23 @@ A
 A
 C
 B
-A !
+A 
 A
-C !
+C ! WAF ACl is more suitable on application layer. Superssion rule is to filter findings by automatically archiving new findings that match the specified criteria
 BD
 CD
+C A
+A  B   EC2 action is more simple than SSM
 C
-A
-C
-B !
+B ! C  
 B
 C
-A !
+A ! B
 C
 B !
 C
 C
-B
+B  D
 D
 D
 B
