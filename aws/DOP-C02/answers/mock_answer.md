@@ -325,38 +325,38 @@ A
 CD !
 A
 AD ! SSM::PARAMETER?  BD
-C !
-C !
+C ! D
+C ! D
 A ! manage event? data event
-B
+B A
 B
 A
- !
+ ! CDE
 B
-B !
-AC !
+B ! A role will be inheritant in aws organization
+AC ! AD
 AD
-A !
-B
-D
+A ! C
+B D
+D A
 D !
 D
-C
+C A
 A !
-BC ! resource group
-D !
-A !
-C !
+BC ! resource group AD
+D ! A
+A ! C
+C ! A
 B !
-BE !
-B
+BE ! CE
+B C
 A
 A !
 A
 D
 A !
 AB 
-B !
+B ! A
 D
 A
 B ! A?
