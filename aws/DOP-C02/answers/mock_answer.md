@@ -244,42 +244,42 @@ ACE !
 BCE
 BD
 B
-C !
-A !
+C ! A
+A ! 
 A
+A ! C
 A !
-A !
-D
+D BD
 D
 D
 BD
 CE !
 A
 C !
-DEF
-B ! difference between cross stack and nest stack
+DEF ADF
+B ! difference between cross stack and nest stack A
 D !
-CDE
+CDE BCD
 B
 CD ! D?
 D
 D
 BD
-BDE
-A !
-ACE !
-BE !
-ABF !
+BDE ACE
+A ! B
+ACE ! ADF
+BE ! AD
+ABF ! ABC
 AD !
 A
 D
-AEF
+AEF ADE
 BDE
 D ! condition?
 B
 B
-D !
-AC
+D 
+AC AD
 C
 B
 C
@@ -287,44 +287,44 @@ A
 A
 B !
 B !
-B !
+B ! D
 C !
 A
-A
-A
+A B
+A C
 B
 ADF
 C
-ACE !
+ACE ! BCE
 A
-B !
-DC
+B ! C  detail monitor interfal is 1 min  basic is 5 min
+D A 
 B
-BE !
+BE ! CD
 A
-B !
+B ! C
 ACF
 D
-C
+C 
 B
-AC !
+AC ! CE
 B
 A
 ABE !
-C
+C A
 B
-C
+C B
 B
 CDE
 B
 C !
-C
+C  A
 CEF ! ECR cache
 AB
 A
 CD !
 A
-AD ! SSM::PARAMETER?
+AD ! SSM::PARAMETER?  BD
 C !
 C !
 A ! manage event? data event
