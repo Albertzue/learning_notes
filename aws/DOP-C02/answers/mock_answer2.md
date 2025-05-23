@@ -237,3 +237,22 @@ B
 BCE
 AD
 B
+C
+AD
+C
+ACE
+BCE
+BD
+B
+A
+A
+B !
+C
+A
+BD
+D
+D
+BD
+CE
+A
+C
