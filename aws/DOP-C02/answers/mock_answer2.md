@@ -183,3 +183,35 @@ B
 B
 AB
 A
+A
+B !
+D
+C
+ABE ！
+A
+B
+C
+B
+ADF
+BE
+BDE
+C
+CD !
+B
+BCF
+B
+A !
+A
+D
+D ！
+B ！
+CDF ！
+B
+AD
+ACE
+D ！
+D
+B
+A !
+D
+ABF
