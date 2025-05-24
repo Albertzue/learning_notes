@@ -319,3 +319,7 @@ CDE
 B
 C
 B !
+CEF
+AB
+A
+CD
