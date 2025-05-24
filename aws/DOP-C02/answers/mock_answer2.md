@@ -256,3 +256,55 @@ BD
 CE
 A
 C
+ADF
+A
+D
+BCE ！
+B
+CD
+D
+D
+BE !
+BDE ! ACE
+A !
+ADF
+AD
+ACD !
+AD
+A
+D
+ADE
+BEF ! 
+D
+B
+B
+D
+AD
+C
+B
+C
+A
+A
+B
+B
+D
+C
+A
+A
+B ！
+B
+ADF ！
+C
+BCF ！
+A
+C
+D ！
+B
+AE ！
+A 
+B ！
+ACF
+D
+C
+B
+CE
