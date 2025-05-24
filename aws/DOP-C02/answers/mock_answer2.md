@@ -221,4 +221,147 @@ AE
 B ！
 B
 A
+<<<<<<< HEAD
 A
+=======
+A
+AB
+C
+A
+A
+C !
+CEF
+BE
+BD
+AE
+B
+B
+B
+BCE
+AD
+B
+C
+AD
+C
+ACE
+BCE
+BD
+B
+A
+A
+B !
+C
+A
+BD
+D
+D
+BD
+CE
+A
+C
+ADF
+A
+D
+BCE ！
+B
+CD
+D
+D
+BE !
+BDE ! ACE
+A !
+ADF
+AD
+ACD !
+AD
+A
+D
+ADE
+BEF ! 
+D
+B
+B
+D
+AD
+C
+B
+C
+A
+A
+B
+B
+D
+C
+A
+A
+B ！
+B
+ADF ！
+C
+BCF ！
+A
+C
+D ！
+B
+AE ！
+A 
+B ！
+ACF
+D
+C
+B
+CE
+C B
+A
+ACE !
+A
+B
+B
+B
+CDE
+B
+C
+B !
+CEF
+AB
+A
+CD
+A
+BD
+D
+D
+A
+C !
+B
+A
+BCE !
+A !
+A
+AD
+AD
+C
+D
+A
+D
+D
+A
+A
+AD
+A
+C
+A
+B
+BE !
+D
+A
+A
+A
+D
+A
+AB
+A
+D
+A
+A
+A
+>>>>>>> f22fee54e16f584d3f1d686505983599a56b889d
