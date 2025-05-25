@@ -8,3 +8,76 @@ AD
 AC
 C
 C
+ACF BCF
+AD
+B
+A
+C
+A
+C
+D
+D
+A
+D
+B
+CE
+B
+C
+A
+D
+D
+BDE
+C
+A
+BDF
+A
+C
+A
+BDE ADE
+BDE BCE
+C
+D
+BD
+C
+C
+AC
+D
+C
+D
+ABF
+D
+C
+B
+C
+B
+ABE
+C
+A
+AE
+D A
+AD
+C
+B
+D
+D
+B
+D
+CDF
+C
+AE
+B
+C B
+A D
+ACE
+B
+A
+D
+B
+B
+C
+D
+B
+D
+BD
+BCF
+AD
