@@ -284,3 +284,30 @@ C
 B
 C
 A
+A
+B
+B
+D
+C
+A
+A
+C
+B
+ACF BDF
+C
+BCE
+A
+C
+D A
+B
+AE CD
+A
+C
+ACF
+D
+C
+B
+CE
+B
+A
+ACE ABE
