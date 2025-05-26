@@ -201,3 +201,82 @@ B
 BCF
 B
 C
+A
+D
+B
+D
+BCF BCD
+B
+AD
+ACE
+C
+D
+B
+C
+D
+ABF
+A B
+ADF
+AE
+C
+B
+A
+A
+AB
+C
+A
+A
+D
+CEF
+BC BE
+BD
+AE
+B
+B
+B
+BCE
+BD AD
+B
+C
+AD
+C
+ACF ACE
+BCE
+BD
+B
+A
+A
+A
+C
+A
+BD
+B D !
+D
+BD
+CE
+A
+C
+ADF
+A
+D
+BCD
+B
+CD
+D
+D
+BD
+ACE
+B
+ADF
+AD
+ABC
+AD
+A
+D
+ACE ADE
+BDE
+C D
+B
+B
+D
+BD AD
