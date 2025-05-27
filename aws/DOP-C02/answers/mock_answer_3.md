@@ -311,3 +311,53 @@ CE
 B
 A
 ACE ABE
+C A！
+B
+B
+B
+ABE CDE
+B
+C
+A
+CDF CEF
+AB
+A
+CD
+A
+BD
+D
+D
+A
+A
+B
+A
+BEF AEF
+B
+A
+AD
+AD
+C
+D
+A
+A D
+A D
+A
+A
+AD
+A
+C
+B A
+B
+CE
+B C
+A
+A
+A
+D
+A
+AB
+A
+D
+A
+B A
+A
