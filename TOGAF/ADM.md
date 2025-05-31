@@ -7,11 +7,36 @@ In this phase, the organizational framework, governance structures and architect
 principles are defined to ensure that the project is well prepared and structured.
 
 ### Phase B Business architecture
-  In phase B of the ADM, the business architecture is developed.  \
-  This phase focuses on capturing the company's business processes, organizational 
+In phase B of the ADM, the business architecture is developed.  \
+This phase focuses on capturing the company's business processes, organizational 
 structures and functions in detail and designing a target architecture that supports the 
-business strategy and serves as the basis for the IT architectures
+business strategy and serves as the basis for the IT architectures.
+
+### Phase C  Information system architecture
+ Application architecture: \
+ ❖ Identification of the necessary applications and their functions.\
+ ❖ Definition of the interfaces and interactions between the applications.\
+ ❖ Ensuring the integration of applications into the existing IT infrastructure.
  
+ Data architecture:\
+ ❖ Modeling of company data, including data flow and storage.\
+ ❖ Ensure that the data architecture supports the business requirements.
+
+### Phase D Technology architecture
+In Phase D Technology Architecture, the technological infrastructure required to 
+support the data and application architectures is developed. 
+
+This phase ensures that the technology components - such as hardware, software and 
+networks - are optimally aligned with the requirements of the business and information 
+system architectures.
+
+### Possibilities and solution
+In phase E Opportunities and solutions, the potential solutions that lead to the 
+achievement of the target architecture are identified and evaluated. 
+
+This phase focuses on determining the best strategic options, defining transition 
+architectures and determining the necessary steps to implement the target architecture.
+
 ### Phase F Migration planning
 In phase F Migration planning, a detailed plan is drawn up to manage the implementation 
 of the target architecture.  \
