@@ -6,3 +6,9 @@ capabilities, processes, structures and resources required to successfully manag
 implement architecture projects. \
 It ensures that an organization has the necessary governance and resources to carry out 
 and manage architecture development
+
+
+### Contract
+Contract refers to the contractual agreements concluded between the parties involved to 
+ensure that projects are carried out in accordance with the specified conditions. \
+It defines the agreements between architects and stakeholders.
