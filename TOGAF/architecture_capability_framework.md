@@ -1,0 +1,8 @@
+![image](https://github.com/user-attachments/assets/a74e8ed9-c3ac-4b24-bc57-81c115a56552)
+
+
+The Architecture Capability Framework within the TOGAF standard describes the 
+capabilities, processes, structures and resources required to successfully manage and 
+implement architecture projects. \
+It ensures that an organization has the necessary governance and resources to carry out 
+and manage architecture development
