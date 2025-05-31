@@ -30,7 +30,7 @@ This phase ensures that the technology components - such as hardware, software a
 networks - are optimally aligned with the requirements of the business and information 
 system architectures.
 
-### Possibilities and solution
+### Phase E Possibilities and solution
 In phase E Opportunities and solutions, the potential solutions that lead to the 
 achievement of the target architecture are identified and evaluated. 
 
