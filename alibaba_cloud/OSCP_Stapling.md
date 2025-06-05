@@ -20,3 +20,13 @@ The client receives the certificate and the OCSP response during the handshake a
 
 
 ![image](https://github.com/user-attachments/assets/f8f7df01-71b3-4125-af9c-8df460b03540)
+
+```
+OCSP Stapling功能默认关闭。
+
+OCSP Stapling功能默认缓存时间是1小时，缓存过期后第一个访问请求OCSP Stapling将不生效，直到重新获取OCSP Stapling信息为止。
+
+配置了HTTPS加速的域名，可启用或者关闭OCSP Stapling功能，删除HTTPS证书配置后，OCSP Stapling功能会同步失效。
+
+OCSP信息是无法伪造的，因此这一过程不会产生额外的安全问题。
+```
