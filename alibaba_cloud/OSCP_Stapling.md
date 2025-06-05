@@ -17,3 +17,6 @@ Reduced load on the CA: OCSP stapling reduces the burden on the CA's OCSP respon
 The server periodically contacts the CA's OCSP responder to get a signed OCSP response for its certificate. 
 The server caches the OCSP response and attaches it to the certificate during the TLS/SSL handshake. 
 The client receives the certificate and the OCSP response during the handshake and can use it to verify the certificate's revocation status. 
+
+
+![image](https://github.com/user-attachments/assets/f8f7df01-71b3-4125-af9c-8df460b03540)
