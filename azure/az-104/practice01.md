@@ -104,3 +104,48 @@ b
 c
 a
 34 !
+31
+b
+b ！
+nyn !
+c
+yyy !
+b
+b
+ynn
+b
+yyn
+a !
+b
+yyn !
+34 
+b
+a
+c
+d
+32
+identitys B2B
+a
+c
+d ！
+312
+user can register applications, restrict to Azure AD administration portal  
+nny
+b
+nny
+b
+b
+b
+c !
+43 !
+b
+yyy
+b
+cf
+d
+e ！
+236
+43
+11 ！
+d ！
+de ！
