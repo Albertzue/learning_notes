@@ -149,3 +149,52 @@ e ！
 11 ！
 d ！
 de ！
+nny
+a !
+d   end of part 2
+a !       1
+44 !      2
+b  
+34 
+31
+bce !
+yny !
+2431 
+nny
+contosostorage.file.core.windows.net\data
+make blob
+14 ！
+33
+nny ！
+b
+ce
+145
+43
+be
+a !
+12
+c
+31
+a !
+42 !
+a
+d
+b
+13
+nyn
+14 !
+22 !
+22
+a
+c
+d !
+c
+a
+yyn !
+b
+a !
+nyy
+b
+31 !
+c
+a
