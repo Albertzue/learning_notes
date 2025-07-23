@@ -254,3 +254,49 @@ b    1
 a
 b
 b
+33 ！
+a
+41
+31
+ad
+11
+432 ！
+a 
+a ！
+c
+b
+b
+a
+b
+a
+b
+a
+b
+ynn
+12
+a
+b
+11
+c
+da
+def ！
+d
+b
+22 ！
+b ！
+b
+a ！
+yyy
+13
+54 ！
+d
+ad ！
+a
+a
+b
+b
+a
+b
+23
+c
+d
