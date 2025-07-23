@@ -200,3 +200,57 @@ c
 a
 34 !
 d !
+nnn
+nny
+c
+33
+532
+b
+d
+IAM  GEO-replication(Redundency)
+e
+51 !  what is sign key?
+32
+a
+d
+15 !
+c
+32 !
+b
+a !
+b
+a !
+nyy !
+b !
+44 !
+33
+b !
+c !
+12
+c
+41
+bd
+c !
+object  read
+a !
+bce
+yyy !
+b !
+d 
+a
+23
+object list read
+nyn
+yyn !
+nnn ！
+yyn !
+a
+b
+e !
+32
+c !
+d !  end of part 3
+b    1
+a
+b
+b
