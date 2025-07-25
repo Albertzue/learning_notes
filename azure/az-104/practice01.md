@@ -2,7 +2,7 @@ c
 b
 b
 a
-c
+c  d
 b
 b
 b
@@ -27,7 +27,7 @@ a
 c
 b
 b
-a ！
+a ！done
 c ！
 a
 d
