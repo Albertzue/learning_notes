@@ -581,3 +581,26 @@ b
 c
 yny
 34
+35 !
+selected require MFA
+d !  end of part 6
+36 !
+123
+44 !
+a
+d !
+b
+ynn
+23 ！
+42 ！
+2
+C !
+??
+34
+13
+a
+nyn !
+c
+d
+33
+b 
