@@ -523,5 +523,9 @@ b !
 b    end of part 5
 b !  1
 a
+a
+43
+d
+22  6
 
  
