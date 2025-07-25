@@ -543,4 +543,41 @@ b !
 a !
 c !
 14 !
-d 
+d  23
+14 !
+34
+nyy
+yyn
+c
+nnn
+c
+215 !
+c !
+a
+a !
+b
+44
+ae !
+1
+b
+d !
+yny
+b
+a
+c
+a !
+bd !
+c !
+44
+43
+yny !
+c
+31 !
+d
+a
+b
+d
+b
+c
+yny
+34
