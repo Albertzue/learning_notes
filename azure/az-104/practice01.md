@@ -508,3 +508,20 @@ b
 22 !
 b ！
 yyn ！
+yny !
+c
+b !
+nyn
+4312
+b
+b
+c
+b !
+23 !
+b
+b !
+b    end of part 5
+b !  1
+a
+
+ 
