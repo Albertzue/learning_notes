@@ -31,18 +31,18 @@ a ！done
 c ！
 a
 d
-a ！
+a ！ b
 c ！
-d !
+d ! b
 abcde
 b
 b
 a end of part1
-11 !   
+11 !   22
 b
 ac
 nny
-nyn
+nyn nnn
 b
 23
 c
@@ -51,7 +51,7 @@ b
 a
 c ！
 a
-yny
+yny nyn
 c
 b
 a
@@ -60,9 +60,9 @@ b
 a
 243
 b
-nyn
+nyn yyn(nyn)
 a
-31
+31  21
 ae
 b
 user and groups  cloud app   Grant
@@ -78,10 +78,10 @@ yyn
 a
 b
 a ！
-156 
+156  516
 b
-a ！
-yyn !
+a ！ d
+yyn ! yny
 31
 33
 b
@@ -91,33 +91,33 @@ b
 a
 31
 b
-16
+16 46
 a !
 b
-54
-a !
+54  44 (54)
+a ! b
 b
 b
 a !
 bd
 b
 c
-a
-34 !
+a  b
+34 ! 31
 31
 b
 b ！
-nyn !
+nyn ! nyy (nny)
 c
-yyy !
+yyy ! nny(yny)
 b
 b
-ynn
+ynn yny
 b
 yyn
-a !
+a ! d
 b
-yyn !
+yyn ! ynn (nnn)
 34 
 b
 a
@@ -125,9 +125,9 @@ c
 d
 32
 identitys B2B
-a
+a c
 c
-d ！
+d ！  b
 312
 user can register applications, restrict to Azure AD administration portal  
 nny
