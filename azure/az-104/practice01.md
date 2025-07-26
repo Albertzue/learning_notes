@@ -192,19 +192,19 @@ c
 a
 yyn !
 b
-a !
+a ! b
 nyy
-b
+b  bc
 31 !
 c
 a
-34 !
+34 ! 44
 d !
 nnn
 nny
 c
-33
-532
+33 23
+532 523
 b
 d
 IAM  GEO-replication(Redundency)
@@ -213,36 +213,36 @@ e
 32
 a
 d
-15 !
+15 ! 52
 c
 32 !
 b
 a !
 b
-a !
+a ! e
 nyy !
 b !
-44 !
+44 ! 13
 33
-b !
-c !
+b ! a 
+c ! b
 12
 c
-41
-bd
+41 22
+bd be
 c !
 object  read
-a !
+a ! b
 bce
-yyy !
+yyy ! ynn (nnn)
 b !
 d 
 a
-23
-object list read
+23 22
+object list read    container list read
 nyn
-yyn !
-nnn ！
+yyn ! nnn(nyn)
+nnn ！nyn
 yyn !
 a
 b
@@ -263,7 +263,7 @@ ad
 432 ！
 a 
 a ！
-c
+c a
 b
 b
 a
@@ -285,12 +285,12 @@ b
 22 ！
 b ！
 b
-a ！
+a ！ c
 yyy
 13
 54 ！
 d
-ad ！
+ad ！ bd
 a
 a
 b
@@ -303,45 +303,45 @@ d
 b ！
 b
 12
-24
+24 53 (24)
 c ！
 c ！
-22 ！
+22 ！ 42
 b
 b
-12 ！  without agent？
+12 ！  without agent？ 52
 b
 b
-32
+42
 a
-51 ！
+51 ！ 21
 a
 b
 42 ！
 b
 b
 a
-c ！
+c ！ b
 12
 a
 b
 a
 d ！
-21
-a
+21  11
+a c
 31 ！
-d ！
-12 ！
+d ！ b
+12 ！41
 43
 yny
 a ！
 32
 24
-c ！
-iam  networking ！
+c ！ d
+iam  networking ！ Overview  Networking
 b ！
-22
-44
+22 23
+44    done part 4 92(page 357/1389)
 nny ！
 2
 yyn
