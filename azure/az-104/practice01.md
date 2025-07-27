@@ -371,34 +371,34 @@ b
 a
 b
 c !  end of part 4  d    done   page 535/913
-12
+12 32
 b
 11
-b
+b a
 22
 22
 c
-bce !
+bce ! bcf
 a
 yyn
 d
-275
+275 725
 yyn
 c
 b
 d
 a
 b
-b
-31
-1
+b a
+31 32
+a 
 a
-b !
+b ! a
 a
 ynn
 33 !
-1235
-a
+1235 3215
+a c
 d
 ac !
 41
@@ -408,33 +408,33 @@ b
 b
 d
 d
-nyn
+nyn nyy 
 b
 a
 abc
 13
 yyn
-23 !
+23 ! 21
 b
 b
-42 !
+42 ! 11
 yny
-11 !
+11 ! 55
 b
 b
-a 52
+a 
 a
 c
 b
-yyy
+yyy nyy
 b
 b
 b
 b
 b ！
-b
+b a
 a
-a !
+a ! c   page 634/913
 31
 212
 d
