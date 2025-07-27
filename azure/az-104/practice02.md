@@ -41,3 +41,6 @@ a     end of part 1
 22
 b
 ac
+nny
+nyn
+b
