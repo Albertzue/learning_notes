@@ -27,7 +27,7 @@ a
 c
 b
 b
-a ！done
+a ！
 c ！
 a
 d
@@ -152,8 +152,8 @@ de ！
 nny nnn
 a !
 d   end of part 2
-a !       1   d
-44 !      2   
+a !      d
+44 !     
 b  
 34 
 31
@@ -370,7 +370,7 @@ b
 b
 a
 b
-c !  end of part 4  d    done   page 535/913
+c !  end of part 4  d    
 12 32
 b
 11
