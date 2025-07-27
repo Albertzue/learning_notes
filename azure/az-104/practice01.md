@@ -437,30 +437,30 @@ a
 a ! c   page 634/913
 31
 212
-d
+d 
 b !
-bd !
-yny
-yny
+bd ! ce
+yny nny
+yny yyy
 11
 a !
 b
 b
 235
-a
+a  b
 b
-4123 
-yyy !
+4123   4125
+yyy ! nyn
 a
-b !
-1231
+b ! c
+1231 2231
 b
 a
 c
 b
-311 !
+311 ! 111
 d
-nyn
+nyn nyy  page 670/913
 de
 b !
 yyn
