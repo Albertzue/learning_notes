@@ -467,11 +467,11 @@ yyn
 nyy
 d !
 nyy
-ynn !
-b !
+ynn !  yny
+b ! c
 bc
 b !
-a 
+a c
 b
 d
 nnn
@@ -479,7 +479,7 @@ b
 b
 13
 c
-e
+e c
 a
 nnn !
 c
@@ -490,9 +490,9 @@ c
 c
 d
 a
-645 !
+645 !  621
 b
-b !
+b ! a
 d
 d
 d
@@ -502,13 +502,13 @@ a
 d !
 e
 c !
+b 
+d b
 b
-d
-b
-22 !
-b ！
-yyn ！
-yny !
+22 ! 32
+b ！ a
+yyn ！ nyn
+yny ! ynn
 c
 b !
 nyn
@@ -516,20 +516,20 @@ nyn
 b
 b
 c
-b !
+b ! d
 23 !
 b
 b !
 b    end of part 5
-b !  1
-a
+b !  
+a 
 a
 43
 d
-22  6
+22  
 44 !
 d
-nyy !
+nyy ! nnn
 b
 nyy
 nny !
