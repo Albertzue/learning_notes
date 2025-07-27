@@ -531,41 +531,41 @@ d
 d
 nyy ! nnn
 b
-nyy
+nyy nny
 nny !
 a
 c !
 21
 4217 !
-31 ！
+31
 d ！
-b !
+b ! d
 a !
-c !
+c ! b
 14 !
-d  23
-14 !
-34
+d  
+14 ! 12
+34 31
 nyy
 yyn
 c
 nnn
-c
-215 !
+c d
+215 ! 251
 c !
 a
 a !
 b
 44
-ae !
-1
+ae ! ac
+a
 b
 d !
 yny
 b
 a
 c
-a !
+a !  page 813/913
 bd !
 c !
 44
