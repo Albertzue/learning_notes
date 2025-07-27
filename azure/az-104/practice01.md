@@ -567,39 +567,39 @@ a
 c
 a !  page 813/913
 bd !
-c !
+c ! a
 44
 43
 yny !
 c
-31 !
+31 ! 12
 d
 a
 b
 d
 b
 c
-yny
+yny nny （nyy）
 34
-35 !
+35 ! 52
 selected require MFA
 d !  end of part 6
-36 !
+36 !   
 123
 44 !
 a
 d !
 b
 ynn
-23 ！
+23 ！21
 42 ！
-2
-C !
-??
+b
+C ! e
+?? b
 34
 13
 a
-nyn !
+nyn ! yyn
 c
 d
 33
