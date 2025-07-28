@@ -5,7 +5,7 @@ a
 d
 b
 b
-a
+a b
 b
 b
 b
@@ -42,7 +42,7 @@ a     end of part 1
 b
 ac
 nny
-nyn
+nyn  nnn
 b
 23
 c
@@ -60,7 +60,7 @@ b
 a
 243
 b
-yyn
+yyn nyn
 a
 21
 ae
@@ -73,7 +73,7 @@ c
 b
 a
 b
-b
+b c 
 yyn
 a
 b
@@ -83,11 +83,11 @@ b
 d
 yny
 31
-21 
+21  33
 b
-ynn
+ynn nnn
 b
-b
+b 
 a
 31
 b
@@ -97,7 +97,7 @@ b
 54
 b
 b
-a
+a b
 a
 bd
 b
@@ -109,10 +109,10 @@ b
 b
 nny
 c
-yyn
+yyn yny
 b
 b
-yyy
+yyy yny
 b
 yyn
 d
@@ -149,16 +149,16 @@ d
 14
 d
 de
-nny
+nny nnn
 a
 d end of part 2
-b
+b d
 44
 b
-44
+44 34
 31
 bce
-ynn
+ynn nnn
 3241
 nny !
 contosostorage.file.core.windows.net/data
@@ -167,12 +167,12 @@ contosostorage.file.core.windows.net/data
 33
 nny
 b
-ce
-314
+ce ac
+314 145
 43
 be
 d
-14
+14 12
 c
 31
 b
@@ -183,7 +183,7 @@ b
 13   page 214/794
 nyn
 43
-21
+21 22
 22
 a
 c
@@ -193,7 +193,7 @@ a
 yyn
 b
 b
-yyy
+yyy nyy
 bc
 31
 c
@@ -209,7 +209,7 @@ b
 d
 IAM GEO-replication
 e
-31
+31 51
 32
 a
 d
@@ -224,12 +224,12 @@ nyy
 b
 13
 33
-b
-c !
+b a
+c ! b
 12
 c
 22  
-bd
+bd be
 c
 object read
 b
@@ -237,11 +237,11 @@ bce
 nnn
 b
 d
-b
+b a
 22
 container read list
 nyn
-yyn
+yyn nyn
 nyn
 yyn
 a
@@ -254,8 +254,8 @@ b
 a
 b
 b  page 311/794
-21
-a
+21  33
+a 
 41
 31
 ad
@@ -330,7 +330,7 @@ d
 11 ！
 c
 31
-d
+d b
 41
 43
 yny
@@ -342,16 +342,16 @@ networking overview
 b !
 23
 44
-nyy
+nyy 
 b
 ynn
-b
+b d
 35
 b
 b
 a
 b
-yyy
+yyy yny
 c
 yny
 d
@@ -374,7 +374,7 @@ d  end of part 4
 32
 b
 11
-b
+b a
 22
 22
 c
@@ -382,7 +382,7 @@ bcf
 a
 yyn
 d
-274
+274 725
 yyn
 c
 b
@@ -407,7 +407,7 @@ b
 b
 b
 d
-d
+d 
 nyy
 b
 a
@@ -426,7 +426,7 @@ a
 a
 c
 b
-yyy !
+yyy ! nyy
 b
 b
 b
@@ -441,19 +441,19 @@ d
 b
 ce
 nny
-yyyy
+yyy
 11
 a
 b
 b
-253
+253 235
 b
 b
 4125
 nyn
 a
 c
-1231
+1231 2231
 b
 a
 c
@@ -479,7 +479,7 @@ b
 b
 13
 c
-e
+e c
 a
 nnn
 c
@@ -492,10 +492,10 @@ d
 a
 621
 b
+d a
 d
 d
-d
-c
+c d
 a
 d
 a
@@ -507,13 +507,13 @@ b
 b
 32
 a
-nyy
+nyy nyn
 ynn
 c
 b
 nyn
 4312
-e
+e b
 b
 c
 d
@@ -523,4 +523,4 @@ b
 b  end of part 5 page651/794
 b
 a
-a
+a 
