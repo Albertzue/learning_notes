@@ -520,7 +520,7 @@ d
 23
 b
 b
-b  end of part 5 page651/794
+b  end of part 5 
 b
 a
 a    check answer
@@ -580,4 +580,27 @@ d
 b
 c
 nyy
-34  page 728/794
+34 
+52   end of part 6
+selected MFA
+d
+36
+123
+44
+a
+d
+b
+ynn
+11
+42
+b ！
+e
+？？ b
+34
+13
+a
+ynn
+c
+d
+33
+b
