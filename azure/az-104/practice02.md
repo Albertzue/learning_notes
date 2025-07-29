@@ -345,7 +345,7 @@ b !   90
 nyy 
 b
 ynn
-b    96
+b    
 35
 b
 b
@@ -374,7 +374,7 @@ d  end of part 4
 32
 b
 11
-b a
+b a  4
 22
 22
 c
@@ -547,7 +547,7 @@ d
 12
 31
 nyy
-ynn yyn
+ynn yyn  27
 c
 nny  nnn
 c d
@@ -572,7 +572,7 @@ a
 42 43  49
 yny
 c
-12 !
+12 
 d
 a
 b
@@ -591,7 +591,7 @@ a
 d
 b
 ynn
-11 21
+11 21    872
 42
 b ！
 e
