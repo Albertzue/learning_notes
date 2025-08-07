@@ -60,4 +60,53 @@ d !
 c 
 c
 d !
-
+a
+b !
+c !
+a !
+d !
+a !
+b
+a
+b
+d !
+bd
+ac
+d
+b !
+c
+c !
+c !
+c !
+c
+ // missing question
+d !
+b
+a
+a
+d
+c !
+a
+b
+a
+ac
+b
+c
+c
+c
+d ！
+c
+a !
+c
+a
+be !
+a !
+ad !
+d
+d
+b !
+d
+d !
+bd
+d !
+a
