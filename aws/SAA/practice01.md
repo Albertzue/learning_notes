@@ -159,3 +159,57 @@ a
 bc
 c
 b !
+a !
+a
+c
+d !
+d
+c
+d !
+c 
+c !
+b
+a !
+b
+b
+b
+a
+b
+a !
+a
+bc !
+a
+c !
+a
+a !
+b !
+b !
+bd !
+a !
+ad !
+b
+a
+bd !
+b
+a !
+c
+d
+be
+d
+d !
+d !
+a !
+b
+d
+c !
+c !
+a
+d 
+b
+a
+d
+d !
+a !
+a
+b !
+a !
