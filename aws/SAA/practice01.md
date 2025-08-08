@@ -229,3 +229,32 @@ c
 a
 c
 b
+d !
+ab
+c
+c !
+d
+a !
+c !
+a !
+d !
+c
+c
+a !
+c
+d
+d !
+ae ！
+d
+d ！
+d
+b
+a
+b !
+b
+d
+bd !
+a ！
+c !
+a !
+c !
