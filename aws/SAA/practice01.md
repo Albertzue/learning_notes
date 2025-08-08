@@ -149,3 +149,12 @@ d
 a
 a !
 ac
+d
+d
+b !
+b !
+ad ！
+be ！
+a
+bc
+c
