@@ -213,3 +213,19 @@ a !
 a
 b !
 a !
+c !
+d !
+ad
+d
+b
+d
+a 
+ad
+ae
+a !
+ae !
+b !
+c
+a
+c
+b
