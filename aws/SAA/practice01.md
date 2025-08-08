@@ -110,3 +110,42 @@ d !
 bd
 d !
 a
+d !
+c
+c
+ad
+c !
+d 
+b !
+a
+c
+b
+d !
+c
+ad
+b
+a
+b
+ae
+b
+c !
+a
+c
+a !
+a !
+ac ！
+b !
+b
+d !
+ac !
+b
+c !
+d
+b
+a
+b
+b
+d
+a
+a !
+ac
