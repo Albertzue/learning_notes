@@ -374,3 +374,31 @@ d
 d !
 a
 a
+c
+b
+b
+a !
+c
+a
+c !
+c
+c
+b
+de
+d
+a
+bd
+d !
+a
+c !
+c !
+c
+a !
+c
+c
+b !
+c
+a
+a
+d
+d
