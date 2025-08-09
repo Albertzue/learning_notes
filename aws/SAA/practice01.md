@@ -288,3 +288,20 @@ c
 c
 b
 c
+bd !
+ab !
+d !
+b
+b
+d
+b
+c
+a !
+c 
+a !
+cd !
+d !
+a !
+c !
+a
+d !
