@@ -305,3 +305,72 @@ a !
 c !
 a
 d !
+bc !
+b !
+b
+c
+c !
+c
+b
+c !
+c
+a !
+ad 
+a
+b !
+d
+c
+c
+d 
+a !
+bd !
+a
+b
+d !
+a
+a
+c
+c
+a !
+b
+a
+a
+b !
+c
+a
+d !
+c !
+c
+a !
+a !
+d
+a !
+b
+b
+ac
+c
+b !
+a
+b
+d !
+b
+ad
+c
+c
+c !
+c
+be !
+b
+ce !
+c
+d !
+a !
+a
+a !
+c
+bd !
+b
+d
+d !
+a
+a
