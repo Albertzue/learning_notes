@@ -471,4 +471,36 @@ c
 c
 a
 a
-
+a
+c
+b
+b
+b !
+b
+b
+b
+b !
+c
+ae !
+b !
+a
+c !
+c
+c !
+c
+d !
+d
+ad !
+d
+c
+de !
+c
+a
+d !
+ad !
+a
+ad
+a
+a
+c
+b !
