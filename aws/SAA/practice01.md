@@ -504,3 +504,28 @@ a
 a
 c
 b !
+b !
+bd !
+b
+c
+b
+a
+d
+b
+cde !
+b
+a !
+a
+c 
+a !
+c
+bc
+d !
+c
+a !
+a
+b !
+d !
+b
+c
+a
