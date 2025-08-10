@@ -409,3 +409,43 @@ a
 c
 c !
 c
+d
+c
+b !
+a
+bd 
+c
+b
+ce !
+b
+b !
+d
+ab !
+a
+b !
+a
+b
+b
+d
+c
+b
+b !
+c
+a
+a !
+a
+b
+d
+a
+cd
+c
+d
+c
+b
+a !
+d ! batch?
+a ! active-active ?
+b !
+b
+cef
+bcf
