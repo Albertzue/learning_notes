@@ -603,3 +603,48 @@ c !
 b !
 d
 d
+b
+c
+a !
+b
+b !
+d
+d
+b !
+d 
+d
+c !
+be
+c
+c
+c
+a ！
+cd
+b
+b !
+c
+b !
+c !
+d !
+c
+c
+c !
+c
+c
+c
+b !
+c
+bc
+a !
+a
+be
+b
+a
+a
+ad !
+b !
+a
+c !
+d
+b
+a
