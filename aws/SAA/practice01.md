@@ -529,3 +529,39 @@ d !
 b
 c
 a
+acd !
+a
+a
+b !
+d
+a
+a
+c
+c
+adf
+a !
+be !
+d !
+b !
+d !
+a
+d
+b
+bd !
+a
+d !
+a
+c
+b !
+b
+a !
+c
+be !
+b !
+a
+be !
+b !
+c
+c
+b
+a
