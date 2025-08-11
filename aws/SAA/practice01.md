@@ -568,3 +568,38 @@ a
 a
 c
 b
+a !
+c
+a
+a
+c
+d
+c !
+a
+b
+d
+a
+a
+d !
+c !
+d !
+b
+c
+d
+b
+a
+b
+d
+b !
+c
+c
+a
+b
+bcf !
+abc !
+a
+b !
+c !
+b !
+d
+d
