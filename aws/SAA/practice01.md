@@ -648,3 +648,15 @@ c !
 d
 b
 a
+c
+a !
+a
+d
+ce
+d
+c !
+ae !
+c
+d
+b
+d
