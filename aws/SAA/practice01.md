@@ -750,3 +750,52 @@ b !
 c !
 c
 ad !
+d !
+d
+b
+a !
+c 
+a !
+b !
+c
+d !
+c
+b
+c
+c
+d
+c
+a !
+b !
+c
+c !
+ac
+d
+b
+b !
+c
+ac
+b !
+b !
+a
+a
+b
+d !
+c !
+b 
+b
+a !
+c
+a !
+be
+d
+c
+c
+b
+ab !
+b !
+b !
+b
+a !
+b !
+a
