@@ -660,3 +660,42 @@ c
 d
 b
 d
+c
+a
+d !
+be
+a !
+d !
+c
+b
+b !
+b
+b !
+bd
+d
+b
+d
+b
+cef !
+a
+b
+a
+ac
+d !
+b
+d !
+bc !
+c !
+d
+cd !
+bc !
+a
+d
+b
+b
+c !
+b
+b
+b
+ad
+c !
