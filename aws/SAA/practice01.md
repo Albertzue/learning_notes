@@ -880,3 +880,12 @@ bc
 b
 ae !
 c
+d
+ace
+cd !
+bc !
+a !
+a
+b !
+c
+d !
