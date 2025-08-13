@@ -889,3 +889,18 @@ a
 b !
 c
 d !
+c 
+a !
+a
+d !
+a
+a
+c !
+b
+ab ！
+b
+d
+c !
+a
+ad !
+c
