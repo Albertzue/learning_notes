@@ -841,7 +841,7 @@ b !
 a !
 d
 c
-d !
+d !c
 c
 b
 a
@@ -904,3 +904,40 @@ c !
 a
 ad !
 c
+c !
+a !
+d
+a !
+c
+d !
+c
+b
+c
+d
+d
+c
+d !
+b !
+a
+b
+ae !
+c
+b
+b !
+d
+a
+adf !
+d
+cd !
+c
+a
+a !
+bc
+bc !
+d !
+d
+b
+d 
+d
+c !
+c ！
