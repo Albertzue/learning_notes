@@ -969,3 +969,51 @@ d
 a !
 c !
 d 
+a
+adf
+a
+a
+b
+a
+d !
+b
+c !
+b !
+b !
+d !
+b
+b
+d
+ab
+ad !
+a !
+c
+c
+b
+d
+a
+c
+c
+c
+a
+b
+b !
+d
+a !
+b
+c
+a !
+ae !
+b !
+a
+a !
+abc !
+bc !
+a
+a !
+a
+a
+b !
+d 
+c
+d !
