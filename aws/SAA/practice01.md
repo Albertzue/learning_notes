@@ -9,11 +9,11 @@ b
 b
 b
 a
-c !
+c !  a
 a  what is multi-region secret replication !
 c
-d !
-a !
+d ! c
+a ! b
 a
 ab
 d
@@ -21,11 +21,11 @@ d!
 d
 b
 b
-c !
+c ! b
 d
 a !
-b
-a !
+b a
+a ! b
 c
 c
 a
