@@ -44,7 +44,7 @@ b !
 ab
 be
 b
-c !
+c ! d
 d
 c
 d !
