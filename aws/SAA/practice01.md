@@ -26,11 +26,11 @@ d
 a !
 b a
 a ! b
-c
+c a
 c
 a
 b
-a !
+a ! c
 d
 c !
 b !
