@@ -31,14 +31,14 @@ c
 a
 b
 a ! c
-d
-c !
+d  b
+c ! d
 b !
-c
+c b
 c
 a
 a
-a ！
+a ！ b
 c
 b !
 ab
