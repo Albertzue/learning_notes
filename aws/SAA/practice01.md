@@ -46,25 +46,25 @@ be
 b
 c ! d
 d
-c
+c b
 d !
-de !
-a
+de ! bd
+a c
 c
 c !
 c
-d !
-a !
+d ! c
+a ! b
 c
 d !
 c 
 c
 d !
 a
-b !
+b ! d
 c !
-a !
-d !
+a ! c
+d !  here
 a !
 b
 a
