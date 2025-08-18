@@ -169,7 +169,7 @@ d !
 c 
 c !
 b
-a ! c here
+a ! c 
 b
 b
 b
@@ -179,26 +179,26 @@ a !
 a
 bc !
 a
-c !
+c ! b
 a
 a !
 b !
-b !
-bd !
+b ! 
+bd ! ad
 a !
-ad !
+ad ! bd
 b
 a
-bd !
-b
+bd ! be
+b a
 a !
 c
 d
 be
 d
+d ! b
 d !
-d !
-a !
+a ! b
 b
 d
 c !
