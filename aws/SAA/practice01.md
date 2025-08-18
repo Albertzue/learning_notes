@@ -64,48 +64,48 @@ a
 b ! d
 c !
 a ! c
-d !  here
+d !  
 a !
 b
-a
+a c
 b
 d !
-bd
+bd  cd
 ac
-d
+d  a
 b !
 c
-c !
-c !
-c !
+c ! b
+c ! a
+c ! b
 c
- // missing question
-d !
+ // missing question  
+d ! c
 b
 a
 a
 d
-c !
+c !  a
 a
 b
 a
 ac
 b
 c
-c
+c  d
 c
 d ！
-c
-a !
+c 
+a ! d
 c
 a
 be !
 a !
-ad !
+ad !  ac
 d
 d
-b !
-d
+b ! d
+d a
 d !
 bd
 d !
