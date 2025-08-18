@@ -152,11 +152,11 @@ ac
 d
 d
 b !
-b !
-ad ！
-be ！
+b ! c
+ad ！ ae
+be ！ de
 a
-bc
+bc ac
 c
 b !
 a !
@@ -164,12 +164,12 @@ a
 c
 d !
 d
-c
+c d
 d !
 c 
 c !
 b
-a !
+a ! c here
 b
 b
 b
