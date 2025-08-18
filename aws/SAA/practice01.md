@@ -198,17 +198,17 @@ be
 d
 d ! b
 d !
-a ! b here
-b
+a ! b 
+b a
 d
 c !
 c !
-a
+a c
 d 
-b
+b a
 a
 d
-d !
+d ! here
 a !
 a
 b !
