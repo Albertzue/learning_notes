@@ -107,8 +107,8 @@ d
 b ! d
 d a
 d !
-bd
-d !
+bd cd
+d !  here
 a
 d !
 c
