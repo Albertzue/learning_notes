@@ -108,41 +108,41 @@ b ! d
 d a
 d !
 bd cd
-d !  here
+d !  
 a
-d !
+d ! c
 c
 c
 ad
-c !
+c ! a
 d 
 b !
-a
-c
+a b
+c a
 b
 d !
-c
+c a
 ad
 b
-a
+a d
 b
 ae
 b
-c !
+c ! d
 a
 c
-a !
-a !
+a ! c
+a ! d
 ac ！
 b !
 b
 d !
 ac !
-b
+b a
 c !
 d
 b
-a
+a d
 b
 b
 d
