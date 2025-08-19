@@ -208,28 +208,28 @@ d
 b a
 a
 d
-d ! here
+d ! 
 a !
 a
 b !
 a !
-c !
-d !
-ad
+c ! b
+d ! a
+ad ae
 d
 b
 d
 a 
 ad
-ae
-a !
+ae ce
+a ! b
 ae !
 b !
 c
 a
 c
 b
-d !
+d ! c
 ab
 c
 c !
@@ -244,24 +244,24 @@ a !
 c
 d
 d !
-ae ！
+ae ！ ce
 d
 d ！
 d
 b
 a
-b !
+b ! c
 b
 d
 bd !
 a ！
-c !
+c ! d
 a !
-c !
-bd !
+c ! d
+bd ! ac 
 a
 ad
-b
+b d here
 c
 b ！
 d ！
