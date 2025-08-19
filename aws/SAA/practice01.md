@@ -305,31 +305,31 @@ a !
 c !
 a
 d !
-bc !
-b !
+bc ! bd
+b ! a
 b
 c
-c !
+c ! b
 c
 b
-c !
+c ! d
 c
 a !
 ad 
 a
-b !
+b ! a
 d
 c
-c
+c b
 d 
 a !
-bd !
+bd ! ab
 a
-b
+b d
 d !
 a
 a
-c
+c b
 c
 a !
 b
@@ -348,46 +348,46 @@ a !
 b
 b
 ac
-c
+c  d
 b !
-a
+a b
 b
 d !
 b
 ad
 c
 c
-c !
+c ! b
 c
 be !
 b
-ce !
+ce ! bd
 c
 d !
 a !
 a
 a !
 c
-bd !
+bd ! cd
 b
 d
 d !
 a
 a
-c
+c b
 b
 b
-a !
-c
+a ! d
+c b
 a
-c !
+c ! a
 c
 c
 b
 de
 d
 a
-bd
+bd ad here
 d !
 a
 c !
