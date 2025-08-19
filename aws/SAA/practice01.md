@@ -387,8 +387,8 @@ b
 de
 d
 a
-bd ad here
-d !
+bd ad？ bd
+d ! c
 a
 c !
 c !
@@ -402,32 +402,32 @@ a
 a
 d
 d
-ae
+ae de
 cd
 d
-a
+a b
 c
-c !
+c ! b
 c
 d
-c
+c b
 b !
 a
 bd 
 c
 b
 ce !
-b
+b d
 b !
 d
 ab !
-a
-b !
+a b
+b ! c
 a
 b
 b
 d
-c
+c bc
 b
 b !
 c
@@ -437,7 +437,7 @@ a
 b
 d
 a
-cd
+cd ac
 c
 d
 c
