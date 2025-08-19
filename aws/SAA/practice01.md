@@ -261,34 +261,34 @@ c ! d
 bd ! ac 
 a
 ad
-b d here
+b d 
 c
-b ！
+b ！a
 d ！
 a
 c
 a !
 c
 b !
-d ! pilot light deployment?
+d ! pilot light deployment? b
 b
-a
+a c 
 ad !
-c
-ae !
+c d
+ae ! be
 a !
 b
 a !
 b
 d !
 b !
-c !
+c ! b
 c
-c
+c b
 c
 b
 c
-bd !
+bd ! ab
 ab !
 d !
 b
@@ -296,10 +296,10 @@ b
 d
 b
 c
-a !
+a ! b
 c 
-a !
-cd !
+a ! c
+cd ! ac
 d !
 a !
 c !
