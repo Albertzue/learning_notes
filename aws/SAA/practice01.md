@@ -605,10 +605,10 @@ d
 d
 b
 c
-a ! here
+a ! 
 b
 b !
-d
+d a
 d
 b !
 d 
@@ -619,20 +619,20 @@ c
 c
 c
 a ！
-cd
+cd ad
 b
-b !
+b ! d
 c
 b !
-c !
-d !
+c ! a
+d ! c
+c d
+c
+c ! b
 c
 c
-c !
 c
-c
-c
-b !
+b ! c here
 c
 bc
 a !
