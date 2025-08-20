@@ -444,15 +444,15 @@ c a
 b
 a !
 d ! batch?
-a ! active-active ? here
-b !
+a !
+b ! c
 b
 cef
 bcf
 b
 d
 c !
-adf
+adf bdf
 c !
 c !
 bc
@@ -464,17 +464,17 @@ c
 a
 c !
 a
-a !
+a ! b
 b
 c
-c
+c d
 c
 a
 a
-a
+a c
 c
-b
-b
+b c
+b d
 b !
 b
 b
@@ -482,13 +482,13 @@ b
 b !
 c
 ae !
-b !
+b ! a
 a
 c !
 c
 c !
-c
-d !
+c b
+d ! a here
 d
 ad !
 d
