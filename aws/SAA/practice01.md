@@ -536,53 +536,53 @@ b !
 d
 a
 a
-c
-c
-adf
-a !
-be !
-d !
+c b
+c d
+adf ace
+a ! b
+be ! ad
+d ! a
 b !
 d !
 a
-d
+d b
 b
 bd !
 a
-d !
+d ! b
 a
 c
-b !
+b ! a
 b
-a !
+a ! b
 c
 be !
-b !
+b ! a
 a
-be !
+be ! ab
 b !
-c
+c b
 c
 b
 a
 a
-c
+c a
 b
 a !
 c
-a
+a d
 a
 c
 d
 c !
 a
-b
+b a
 d
+a b
 a
-a
+d ! c
+c ! a
 d !
-c !
-d !
 b
 c
 d
@@ -590,13 +590,13 @@ b
 a
 b
 d
-b !
+b ! a
 c
 c
 a
 b
-bcf !
-abc !
+bcf ! acf
+abc ! acf
 a
 b !
 c !
@@ -605,7 +605,7 @@ d
 d
 b
 c
-a !
+a ! here
 b
 b !
 d
