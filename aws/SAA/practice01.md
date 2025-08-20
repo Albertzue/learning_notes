@@ -488,50 +488,50 @@ c !
 c
 c !
 c b
-d ! a here
-d
-ad !
+d ! a 
+d b
+ad ! def
 d
 c
-de !
+de ! bd
 c
 a
 d !
 ad !
+a c
+ad ce
 a
-ad
-a
-a
-c
-b !
-b !
+a c
+c 
+b ! c
+b ! a
 bd !
 b
 c
-b
+b c
 a
-d
+d a
 b
-cde !
+cde ! bce
 b
 a !
 a
-c 
-a !
+c b
+a ! b
 c
 bc
 d !
 c
 a !
-a
-b !
+a  d
+b ! d
 d !
 b
 c
 a
-acd !
+acd ! adf
 a
-a
+a c  here
 b !
 d
 a
