@@ -632,7 +632,7 @@ c ! b
 c
 c
 c
-b ! c here
+b ! c 
 c
 bc
 a !
@@ -641,30 +641,30 @@ be
 b
 a
 a
-ad !
+ad ! ae
 b !
-a
-c !
-d
-b
+a c
+c ! a
+d b
+b c
 a
 c
-a !
-a
+a ! b
+a b
 d
 ce
 d
-c !
+c ! b
 ae !
 c
 d
 b
 d
-c
+c a
 a
-d !
+d ! b
 be
-a !
+a ! c
 d !
 c
 b
@@ -674,21 +674,21 @@ b !
 bd
 d
 b
-d
+d a
 b
-cef !
+cef ! ace
 a
-b
+b a
 a
 ac
-d !
+d ! b
 b
-d !
-bc !
+d ! c
+bc ! ab
 c !
 d
 cd !
-bc !
+bc ! be
 a
 d
 b
@@ -697,9 +697,9 @@ c !
 b
 b
 b
-ad
+ad ac
 c !
-a !
+a ! b
 b !
 c
 ad !
@@ -708,19 +708,19 @@ b
 c
 be
 a
-a !
+a ! c
 a !
 b
-d !
-d !
+d ! b
+d ! a
 a
-c !
+c ! d
 c !
 b !
 c
 d
-c !
-a
+c ! a
+a c
 b
 b !
 d
@@ -731,7 +731,7 @@ a
 c
 b !
 b
-a !
+a ! d here
 a
 b
 ad !
