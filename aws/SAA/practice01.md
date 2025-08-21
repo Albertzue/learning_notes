@@ -750,8 +750,8 @@ b !
 c !
 c
 ad !
-d ! a here
-d
+d ! a 
+d b
 b
 a !
 c 
@@ -761,7 +761,7 @@ c
 d !
 c
 b
-c
+c b
 c
 d
 c
@@ -769,8 +769,8 @@ a !
 b !
 c
 c !
-ac
-d
+ac ab
+d 
 b
 b !
 c
@@ -782,47 +782,47 @@ a
 b
 d !
 c !
-b 
+b  c
 b
 a !
 c
 a !
 be
 d
-c
+c a
 c
 b
-ab !
+ab ! bd
 b !
 b !
 b
 a !
 b !
-a
+a d
 d
-b !
+b ! a
 c !
 c !
 b !
 d
 a
+b ! a
+d ! c
 b !
-d !
-b !
-a !
+a ! c
 a 
 b
 d !
 b !
-d !
+d ! c
 a
 b
-a !
+a ! c
 c !
 a !
 c
 c
-a !
+a ! b here
 b !
 d !
 d !
