@@ -731,26 +731,26 @@ a
 c
 b !
 b
-a ! d here
+a ! d 
 a
 b
-ad !
-d
+ad ! ce
+d b
 a
 a
 a
 a
 d !
-b !
+b ! a
 b
 ac !
 c !
-d !
+d ! a
 b !
 c !
 c
 ad !
-d !
+d ! a here
 d
 b
 a !
