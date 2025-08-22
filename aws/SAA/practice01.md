@@ -822,26 +822,26 @@ c !
 a !
 c
 c
-a ! b here
+a ! b
 b !
 d !
 d !
 a 
 b
 d 
-d !
-a
+d ! c
+a c
 c
 c
-a
+a b
 c
 d
 c
 b !
-a !
+a ! b
 d
 c
-d !c
+d !
 c
 b
 a
@@ -855,16 +855,16 @@ c
 c
 d
 a
-d !
-ad !
+d ! c 
+ad ! ac
 a !
 a
-b !
+b ! d
 b
 c
 ae
 a
-a !
+a ! d
 b !
 a
 c !
@@ -873,33 +873,33 @@ d
 b
 a
 d !
-cd
+cd bd
 b !
-b !
+b ! d
 bc
 b
 ae !
 c
-d
+d b
 ace
 cd !
 bc !
 a !
 a
 b !
-c
+c a
 d !
-c 
+c a
 a !
 a
 d !
-a
+a b
 a
 c !
-b
+b d
 ab ！
 b
-d
+d  a here
 c !
 a
 ad !
