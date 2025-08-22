@@ -899,15 +899,15 @@ c !
 b d
 ab ！
 b
-d  a here
-c !
+d  a 
+c ! a
 a
 ad !
 c
 c !
 a !
-d
-a !
+d  
+a ! b here
 c
 d !
 c
