@@ -907,7 +907,7 @@ c
 c !
 a !
 d  
-a ! b here
+a ! b 
 c
 d !
 c
@@ -915,9 +915,9 @@ b
 c
 d
 d
-c
-d !
-b !
+c a
+d ! a
+b ! d
 a
 b
 ae !
@@ -925,18 +925,18 @@ c
 b
 b !
 d
-a
-adf !
-d
-cd !
+a b
+adf ! acf
+d a
+cd ! ac
 c
 a
 a !
 bc
 bc !
-d !
+d ! c
 d
-b
+b d
 d 
 d
 c !
@@ -949,21 +949,21 @@ b !
 d !
 c !
 c
-c
+c a
 a
 d !
+d a
 d
-d
-ad !!
-d !
-c
-c !
-a !
-a !
+ad !! bd
+d ! a
+c d
+c ! a
+a ! c
+a ! b
 c
 d
 a
-c !
+c ! b here
 a !
 d
 a !
