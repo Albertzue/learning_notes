@@ -963,15 +963,15 @@ a ! b
 c
 d
 a
-c ! b here
+c ! b 
 a !
 d
 a !
-c !
+c ! d
 d 
-a
-adf
-a
+a c
+adf ace
+a ad
 a
 b
 a
@@ -979,7 +979,7 @@ d !
 b
 c !
 b !
-b !
+b ! here
 d !
 b
 b
