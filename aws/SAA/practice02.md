@@ -21,3 +21,10 @@ d
 d
 b
 b
+c  !
+d
+a
+a
+b
+a
+c
