@@ -979,41 +979,41 @@ d !
 b
 c !
 b !
-b ! here
+b ! 
 d !
-b
+b a
 b
 d
 ab
 ad !
-a !
+a ! c
 c
 c
 b
-d
+d c
 a
-c
+c b
 c
 c
 a
 b
 b !
 d
-a !
+a ! d
 b
 c
 a !
-ae !
-b !
-a
+ae ! cd
+b ! c
+a d
+a ! b
+abc ! bcd
+bc ! ac
+a d
 a !
-abc !
-bc !
-a
-a !
-a
+a b
 a
 b !
-d 
+d  c
 c
-d !
+d ! b
