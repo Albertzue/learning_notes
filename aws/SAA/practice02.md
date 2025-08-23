@@ -84,3 +84,32 @@ c
 b
 a
 a
+d
+a
+a
+b
+a
+ac
+b
+c
+d
+c
+d
+b
+d
+c
+a
+be
+a
+ac
+d
+d
+b d
+d a
+d
+cd
+d
+a
+d c
+c
+c
