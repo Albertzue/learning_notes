@@ -129,3 +129,35 @@ b
 ae
 b
 d
+a
+c
+a c
+d
+ac
+b
+b
+d
+ac
+a
+c
+d
+b
+d
+b
+a
+d
+a
+a
+c
+d
+d
+b
+c
+be  ae
+de
+b  a
+ac
+c
+b
+a
+a
