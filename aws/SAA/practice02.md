@@ -299,3 +299,23 @@ c
 b
 b c
 a
+ac
+d
+a
+c
+a
+d
+bd
+a
+b
+c
+b
+c
+b
+d
+c
+a
+ad
+a
+a
+d
