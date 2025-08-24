@@ -238,3 +238,64 @@ a
 c
 a
 d
+c
+c
+a
+c
+d
+d
+ce
+d
+d
+d
+b
+a
+c
+b
+d
+bd
+d a
+d
+a
+a d
+ac
+a
+ad
+b d
+c
+a
+d
+b a
+c
+a
+c
+b
+d b
+b
+b
+bd ad
+d
+ae be
+a
+b
+a
+b
+d
+b
+b
+c
+b
+c
+b
+d c
+ab
+be
+d
+b
+b
+d
+b
+c
+b
+b c
+a
