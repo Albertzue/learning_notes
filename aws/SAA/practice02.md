@@ -318,4 +318,43 @@ a
 ad
 a
 a
+d 
+d c
+b
 d
+a
+ab
+b
+b
+d
+a
+a
+b
+c
+a
+b
+a
+a
+b
+c
+a
+c d
+b c
+c 
+a
+a
+c
+a
+b
+c b
+ac
+d
+b
+b
+b
+a d
+b
+ad
+c
+c
+b
