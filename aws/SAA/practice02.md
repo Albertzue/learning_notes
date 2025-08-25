@@ -499,3 +499,102 @@ a
 d
 ad
 c
+ae ce
+a
+c
+c
+c
+b a
+bd
+b
+c
+c
+a
+a
+b
+bce
+b
+a
+a
+b
+b
+c
+bc
+d
+c
+a
+d
+d
+d
+b
+c
+d a
+abf adf
+a
+c
+b
+d
+a
+a
+c b
+c d
+acf ace
+b
+ad
+a
+b
+d
+a
+d b
+b
+bd
+a
+b
+a
+c
+a
+b
+d b
+c
+be
+b a
+a
+ab
+d b
+b
+c
+b
+a
+a
+a
+b
+a
+c
+d
+a
+c
+d
+c
+a
+a
+d
+a b
+c a
+c
+a
+d
+b
+b c
+a d
+b
+a
+b
+d
+a
+c
+c
+a
+b
+bcf acf
+adf acf
+a
