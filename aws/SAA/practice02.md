@@ -598,3 +598,19 @@ b
 bcf acf
 adf acf
 a
+b
+c
+c b
+a d
+d
+b
+c
+a
+b
+b
+a
+d
+b
+d
+d
+c
