@@ -768,3 +768,34 @@ c
 a
 b
 c
+c
+ac ab
+d
+b
+b
+c
+ac
+c b
+b
+a
+a
+b
+d
+c
+c
+b
+b a
+c
+d a
+be
+d
+a
+c
+b
+ab bd
+b
+b
+b
+a
+b
+a d
