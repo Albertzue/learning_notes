@@ -670,3 +670,6 @@ c
 a b
 b
 b
+d b
+bd
+d
