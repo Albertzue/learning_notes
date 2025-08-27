@@ -1,5 +1,5 @@
 a
-a
+a  c
 a
 a
 c
@@ -21,7 +21,7 @@ d
 d
 b
 b
-c  !
+c  ! b
 d
 a
 a
@@ -34,7 +34,7 @@ c
 b
 d
 b
-a
+a b
 c
 a
 a
@@ -77,7 +77,7 @@ b
 c
 b
 a
-c
+c  b
 c
 empty
 c
@@ -95,13 +95,13 @@ c
 d
 c
 d
-b
+b c
 d
 c
 a
 be
 a
-ac
+ac 
 d
 d
 b d
@@ -113,14 +113,14 @@ a
 d c
 c
 c
-bd
-c
+bd  ad
+c a
 d
-a
+a b
 b
 a
 b
-d
+d 
 a
 ad
 b
@@ -144,11 +144,11 @@ d
 b
 d
 b
-a
+a b
 d
 a
 a
-c
+c ac
 d
 d
 b
@@ -164,7 +164,7 @@ a
 c
 d
 d
-c
+c d
 d
 c
 c
@@ -187,11 +187,11 @@ b
 ad
 a
 bd
-a
+a b
 a
 be
-b
-a
+b a
+a 
 c
 d
 be
@@ -207,7 +207,7 @@ c
 d
 a
 a
-c
+c d
 d
 a
 a
@@ -226,7 +226,7 @@ b
 ae
 b
 c
-b
+b a
 c
 b
 c
@@ -272,7 +272,7 @@ c
 b
 d b
 b
-b
+b c
 bd ad
 d
 ae be
@@ -289,7 +289,7 @@ c
 b
 d c
 ab
-be
+be ab
 d
 b
 b
@@ -298,8 +298,8 @@ b
 c
 b
 b c
-a
-ac
+a c
+ac 
 d
 a
 c
@@ -324,8 +324,8 @@ b
 d
 a
 ab
-b
-b
+b a
+b d
 d
 a
 a
@@ -343,7 +343,7 @@ b c
 c 
 a
 a
-c
+c d
 a
 b
 c b
@@ -619,7 +619,7 @@ c
 c
 c
 a
-cd
+cd ad
 b
 d
 c
