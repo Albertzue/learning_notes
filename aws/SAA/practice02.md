@@ -944,3 +944,20 @@ d c
 b
 c
 a
+b
+b
+d
+c
+c
+a
+a
+d
+d a
+d
+bc bd
+a
+d
+a
+a c
+b
+c
