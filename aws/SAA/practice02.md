@@ -855,3 +855,41 @@ c
 c
 d
 a
+c
+ad ac
+a
+a
+a d
+b
+c
+ae
+a
+d
+b
+a
+c
+a
+d
+b
+a
+d
+bd
+b
+b d
+bc
+b
+ae
+c
+b
+ace
+cd
+ab bc
+a
+a
+b
+c a
+d
+a
+a
+a
+d
