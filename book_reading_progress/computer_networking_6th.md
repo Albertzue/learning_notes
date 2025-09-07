@@ -1,7 +1,7 @@
 ## page：
 2025/9/6   41
 2025/9/7  113
-
+2025/9/8  116
 ## new words: 
 relay 
 
@@ -49,6 +49,14 @@ spammer
 
 critique
 
+helical
+
+attenuated
+
+sheath
+
+insulated
+
 ## terms：
 **gateway** The device that makes a connection between two or more networks and provides the necessary translation, both in terms of hardware and software
 
@@ -56,3 +64,8 @@ critique
 
 **cut-through switching**
 
+**full-duplex links**
+
+**half-duplex links**
+
+**simplex links**
