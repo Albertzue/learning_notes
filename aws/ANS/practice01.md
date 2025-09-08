@@ -38,3 +38,5 @@ c d
 b c
 ? b
 c
+be
+d c
