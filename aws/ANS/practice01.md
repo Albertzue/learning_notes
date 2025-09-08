@@ -14,3 +14,9 @@ d b
 bcd bdf
 b
 aef acd
+c
+c
+d
+? ce
+a
+bce
