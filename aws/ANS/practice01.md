@@ -8,3 +8,9 @@ def
 ab ad
 c
 b
+ce bd
+a c
+d b
+bcd bdf
+b
+aef acd
