@@ -20,3 +20,21 @@ d
 ? ce
 a
 bce
+bd bc
+c
+c
+d
+d b
+c
+d
+bde
+a
+d
+bce bcd
+b d
+c
+c a
+c d
+b c
+? b
+c
