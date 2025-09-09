@@ -44,3 +44,23 @@ b
 c
 d
 b c
+c
+a b
+c
+c b
+ce ac
+a
+be
+c
+c d
+c a
+c
+a c
+d
+c d
+b c
+bd
+ace
+c
+a
+c b
