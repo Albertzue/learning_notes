@@ -74,3 +74,13 @@ d c
 c
 c
 d
+a
+a
+bcf
+c
+a
+d
+a b
+b
+c
+be ce
