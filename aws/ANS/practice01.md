@@ -84,3 +84,7 @@ a b
 b
 c
 be ce
+b
+c
+a b
+c
