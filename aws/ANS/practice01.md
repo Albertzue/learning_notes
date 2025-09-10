@@ -89,3 +89,13 @@ c
 a b
 c
 bcf acf
+ae ac
+d c
+c
+c
+a
+a b
+c
+b
+d
+abe
