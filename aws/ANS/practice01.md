@@ -99,3 +99,14 @@ c
 b
 d
 abe
+d
+b
+d b
+a
+d b
+bdf def
+acf
+d
+ace
+be ab
+cde bcf
