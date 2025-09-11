@@ -114,3 +114,7 @@ a
 b
 bd ad
 ? d
+d
+b
+a d
+ac
