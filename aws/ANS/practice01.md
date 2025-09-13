@@ -133,3 +133,7 @@ a
 bc
 c
 ac
+b
+b a
+c b
+bcf
