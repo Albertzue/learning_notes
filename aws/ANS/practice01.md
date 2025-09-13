@@ -137,3 +137,14 @@ b
 b a
 c b
 bcf
+bdf bde
+ab
+de ac
+b
+d b
+ac bc
+d
+c
+a
+a b
+bce bcf
