@@ -148,3 +148,10 @@ c
 a
 a b
 bce bcf
+ac
+bc be
+b
+c
+b d
+a
+c
