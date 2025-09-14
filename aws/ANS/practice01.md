@@ -155,3 +155,35 @@ c
 b d
 a
 c
+b
+a
+ade
+bd
+b
+a
+b c
+c b
+b
+a
+be ad
+a b
+b d
+acf abe
+b
+ae be
+d c
+a
+c
+d
+b d
+a
+b
+ac
+b
+d c
+ac ae
+c
+b c
+b
+? b
+c
