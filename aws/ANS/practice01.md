@@ -187,3 +187,16 @@ b c
 b
 ? b
 c
+a
+be bc
+d b
+bce
+a
+b
+c b
+c
+a b
+be bd
+a
+d
+a b
