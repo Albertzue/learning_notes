@@ -200,3 +200,8 @@ be bd
 a
 d
 a b
+d
+c b
+c b
+c d
+bcf acd
