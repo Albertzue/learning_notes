@@ -205,3 +205,26 @@ c b
 c b
 c d
 bcf acd
+a b
+cde
+ace
+c
+b
+be
+d
+bde bce
+acf ace
+de bd
+c
+d
+bce bcf
+a b
+cd
+a d
+d
+d a
+d
+b
+abf cde
+d
+ce bc
