@@ -239,3 +239,13 @@ d b
 c b
 c
 a c
+c
+a d
+b c
+b d
+bd bc
+c
+b d
+d
+c
+a
