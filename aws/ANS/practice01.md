@@ -228,3 +228,14 @@ b
 abf cde
 d
 ce bc
+b a
+d a
+a
+d
+bef ace
+d c
+adf?  the answer option is wrong
+d b
+c b
+c
+a c
