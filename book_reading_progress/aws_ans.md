@@ -1,0 +1,1 @@
+1. Since this is a chargeable operation, another approach that can be used is to rename the new files with a version number and change the application to point to the new version. This will force the edge cache to be updated and the older version to expire and eventually be removed from the edge cache without incurring any charges. 
