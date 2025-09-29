@@ -17,3 +17,7 @@ acd
 c
 c
 d
+bd ce !
+c a
+bce
+bc
