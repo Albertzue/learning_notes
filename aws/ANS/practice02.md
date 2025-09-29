@@ -10,3 +10,8 @@ c
 b
 ad bd
 c
+b
+bdf
+b
+acd
+c
