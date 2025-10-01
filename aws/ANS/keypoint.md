@@ -22,6 +22,9 @@ supports this
 
 One DxGW can connect to up to 6 TGW in different accountsand regions.SiteLink will enable the on-prem DC's to communicate via DxGW and the underlying DX connection.
 
+You cannot attach a Direct Connect gateway to a transit gateway when the Direct Connect gateway is already associated with a virtual private gateway or is attached to a private virtual interface
+
+Direct Connect hosted connections only support 1 VIF per connection
 
 ### Transit Gateway(TGW):
 VXLAN is not supported with TGW
@@ -48,3 +51,9 @@ compromised.
 
 ### EKS:
 we cannot filter VPC flow logs based on EKS worker nodes , but we can create VPC flow logs based on subnetsas resource
+
+### NAT:
+      If a connection that's using a NAT gateway is idle for 350 seconds or more, the connection times out.
+      
+      To prevent the connection from being dropped, you can initiate more traffic over the connection. Alternatively, you can enable
+      TCP keepalive on the instance with a value less than 350 seconds
