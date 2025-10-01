@@ -51,3 +51,10 @@ b
 bc ac
 a
 be
+c
+b d
+c a
+c
+c
+d
+a d
