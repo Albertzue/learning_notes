@@ -8,6 +8,7 @@
 
 2025/09/29 page 388
 
+2025/10/01 Done
 
 1. Since this is a chargeable operation, another approach that can be used is to rename the new files with a version number and change the application to point to the new version. This will force the edge cache to be updated and the older version to expire and eventually be removed from the edge cache without incurring any charges. 
 2. The best practice is to limit the use of invalidation requests and instead use an object versioning approach or shorten the header’s expiration time.
