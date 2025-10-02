@@ -58,3 +58,25 @@ c
 c
 d
 a d
+c
+bc bd ?
+ace
+c
+d a
+b
+b
+b
+a b
+a b
+b
+c a
+d c
+c
+c
+d
+a
+a
+bcf
+c
+a
+d
