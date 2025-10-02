@@ -1,3 +1,4 @@
+flow logs does not capture the DNS query itself
 
       When you create a VPC endpoint to an AWS service, you can enable private DNS. When enabled, the setting createsan AWS
       managed Route 53 private hosted zone (PHZ) which enables the resolution of public AWS service endpoint to the private IP of
@@ -38,6 +39,13 @@ You cannot attach a Direct Connect gateway to a transit gateway when the Direct 
 
 Direct Connect hosted connections only support 1 VIF per connection
 
+The higher the LOCAL_PREF value, the more preferred the route is
+
+You can configure Bidirectional Forwarding Detection (BFD) on your network. Asynchronous BFD isautomaticallyenabled for
+each AWS Direct Connect virtual interface. It'sautomaticallyenabled for Direct Connect virtual interfaces, but does not take
+effect until you configure it on your router.
+
+
 ### Transit Gateway(TGW):
 VXLAN is not supported with TGW
 
@@ -55,6 +63,10 @@ Acceleration is only supported forSite-to-Site VPN connections that are attached
 Accelerated site-to-site VPN isavailable only with TGW VPN attachment, where you can enable it, but you do not manage or
 even view the accelerators.
 
+VPC peering has no bandwidth limit unlike Transit Gateway (50Gb/s per VPC attachment)
+
+AWS Transit Gateway Network Manager Route Analyzer, which is designed for analyzing routes in a transit
+gateway network, not within a single VPC
 
 #### PrivateLink endpoint:
 You cannot create a service endpoint for an ALB. Endpoint services require either a NetworkLoad Balancer or a Gateway Load Balancer 
@@ -89,3 +101,6 @@ Single PHZ can be associated with VPCsacross regions.
       
       To prevent the connection from being dropped, you can initiate more traffic over the connection. Alternatively, you can enable
       TCP keepalive on the instance with a value less than 350 seconds
+
+### Network firewall:
+An EXTERNAL_NET rule is a predefined variable in AWS Network Firewall's stateful Suricata-compatible rules that represents all IP addresses outside of your specified HOME_NET. Network Firewall uses HOME_NET to define your private or trusted networks and EXTERNAL_NET to represent all other public IP addresses. Rules using EXTERNAL_NET as a source or destination allow or block traffic from or to the public internet or other external networks. 
