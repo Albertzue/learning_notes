@@ -38,6 +38,8 @@ management overhead and directlyaddresses the issue of dropped traffic between A
 
 Peering TGW will ensure VPC's in the 2 AWS regions connect.
 
+Acceleration is only supported forSite-to-Site VPN connections that are attached to a transit gateway. Virtual private gateways do not support accelerated VPN connections.
+
 #### PrivateLink endpoint:
 You cannot create a service endpoint for an ALB. Endpoint services require either a NetworkLoad Balancer or a Gateway Load Balancer 
 
@@ -51,6 +53,8 @@ compromised.
 
 ### EKS:
 we cannot filter VPC flow logs based on EKS worker nodes , but we can create VPC flow logs based on subnetsas resource
+
+### 
 
 ### NAT:
       If a connection that's using a NAT gateway is idle for 350 seconds or more, the connection times out.
