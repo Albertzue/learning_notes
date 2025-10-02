@@ -141,3 +141,16 @@ bde
 ab
 ae ac
 c b
+b
+be bc
+d
+c
+a
+b
+bdf bcf
+ac
+be
+c b
+c
+a d
+a
