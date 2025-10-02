@@ -1,3 +1,15 @@
+
+      When you create a VPC endpoint to an AWS service, you can enable private DNS. When enabled, the setting createsan AWS
+      managed Route 53 private hosted zone (PHZ) which enables the resolution of public AWS service endpoint to the private IP of
+      the interface endpoint.The managed PHZ only works within the VPC with the interface endpoint.
+      In our setup, when we want spoke VPCs to be able to resolve VPC endpoint DNS hosted in a centralized VPC, the managed PHZ
+      won’t work.
+      To overcome this, disable the option that automatically creates the private DNS when an interface endpoint is created. Next,
+      manually create a Route 53 PHZ and add an Alias record with the full AWS service endpoint name pointing to the interface
+      endpoint,as shown in the following figure.
+
+
+
 #### There are 3 valid traffic mirrorendpoints: 
       NetworkInterface
       NetworkLoad Balancer
@@ -40,6 +52,10 @@ Peering TGW will ensure VPC's in the 2 AWS regions connect.
 
 Acceleration is only supported forSite-to-Site VPN connections that are attached to a transit gateway. Virtual private gateways do not support accelerated VPN connections.
 
+Accelerated site-to-site VPN isavailable only with TGW VPN attachment, where you can enable it, but you do not manage or
+even view the accelerators.
+
+
 #### PrivateLink endpoint:
 You cannot create a service endpoint for an ALB. Endpoint services require either a NetworkLoad Balancer or a Gateway Load Balancer 
 
@@ -51,10 +67,22 @@ Perfect Forward Secrecy is a feature that providesadditional safeguardsagainst t
 the use of a unique random session key.This prevents the decoding of captured data,even if the secret long-term key is
 compromised.
 
+Access logs isan optional feature of Elastic Load Balancing that is disabled by default. After you enable access logs for your
+load balancer,Elastic Load Balancing captures the logs and stores them in the Amazon S3 bucket that you specify as
+compressed files. You can disable access logs at any time. ELB can only send access logs to S3; from there use Athena for querying.
+
+If you need to passencrypted traffic to targets without the load balancer decrypting it, you can create a NetworkLoad Balancer
+or Classic Load Balancer with a TCP listener on port 443
+
 ### EKS:
 we cannot filter VPC flow logs based on EKS worker nodes , but we can create VPC flow logs based on subnetsas resource
 
-### 
+### Route53：
+Enabling the "fail open" feature in the Route 53 Resolver DNS Firewall VPC configuration ensures that if DNS
+Firewall becomes unresponsive, DNS queries will still be resolved.
+
+Single PHZ can be associated with VPCsacross regions.
+
 
 ### NAT:
       If a connection that's using a NAT gateway is idle for 350 seconds or more, the connection times out.
