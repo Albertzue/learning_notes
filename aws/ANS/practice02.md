@@ -80,3 +80,64 @@ bcf
 c
 a
 d
+a b
+b
+c
+ce
+b
+c
+b
+c
+ace acf
+ab acr
+a c
+c
+b c
+a
+a b
+c
+c b
+d
+abe
+c  d
+b
+b
+b a
+b
+bdf def
+acf
+d
+ace
+be ab
+bdf bcf
+a
+b
+ad
+d
+d
+b
+d
+ac
+b
+cd ae
+bc
+c b
+c
+b
+d
+c
+d
+a
+b
+a
+ce bc
+c
+ac
+b
+a
+a b
+bcf
+bde
+ab
+ae ac
+c b
