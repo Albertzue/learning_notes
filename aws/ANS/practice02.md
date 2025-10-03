@@ -170,3 +170,12 @@ b
 b d
 abe
 b
+ce be
+d c
+a
+c
+c d
+d
+a
+b
+ab ac
