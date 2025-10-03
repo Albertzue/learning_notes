@@ -179,3 +179,24 @@ d
 a
 b
 ab ac
+b
+c
+ac ae
+b c
+c
+b
+b
+c
+a
+ac bc
+d b
+bce
+a
+b
+c b
+c
+b
+bc bd
+a
+d
+b
