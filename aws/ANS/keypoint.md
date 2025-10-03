@@ -1,3 +1,5 @@
+automatic failover = BGP
+
 flow logs does not capture the DNS query itself
 
       When you create a VPC endpoint to an AWS service, you can enable private DNS. When enabled, the setting createsan AWS
@@ -89,6 +91,9 @@ compressed files. You can disable access logs at any time. ELB can only send acc
 If you need to passencrypted traffic to targets without the load balancer decrypting it, you can create a NetworkLoad Balancer
 or Classic Load Balancer with a TCP listener on port 443
 
+You cannot directly use AWS ACM (Certificate Manager) for communication between an Application Load
+Balancer (ALB) and an EC2 instance
+
 ### EKS:
 we cannot filter VPC flow logs based on EKS worker nodes , but we can create VPC flow logs based on subnetsas resource
 
@@ -100,6 +105,8 @@ Single PHZ can be associated with VPCsacross regions.
 
 Route 53 manages the ZSK automatically.The user only needs to manage the KSK (key-signing key).There is no need to explicitly request a ZSK.
 DNSSEC worksat the zone level. A DS record isadded to the parent zone, not foreach subdomain, to create the chain of trust
+
+To set up Route 53 health checks on the private IP addresses of EC2 instances, you need to assign a public IP address to the EC2 instance as Route 53 health checkers can onlyaccess resources with publicly routable IP addresses
 
 ### NAT:
       If a connection that's using a NAT gateway is idle for 350 seconds or more, the connection times out.
