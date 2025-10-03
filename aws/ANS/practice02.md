@@ -154,3 +154,19 @@ c b
 c
 a d
 a
+c
+b
+a
+ade
+bd
+b
+a
+b c
+c b
+b
+a
+bc ad
+b
+b d
+abe
+b
