@@ -45,6 +45,9 @@ You can configure Bidirectional Forwarding Detection (BFD) on your network. Asyn
 each AWS Direct Connect virtual interface. It'sautomaticallyenabled for Direct Connect virtual interfaces, but does not take
 effect until you configure it on your router.
 
+private vif and transit vif are both support sitelink
+
+you cannot add iPv6 to an existing s2s and a s2s cannot be dual stack
 
 ### Transit Gateway(TGW):
 VXLAN is not supported with TGW
@@ -95,6 +98,8 @@ Firewall becomes unresponsive, DNS queries will still be resolved.
 
 Single PHZ can be associated with VPCsacross regions.
 
+Route 53 manages the ZSK automatically.The user only needs to manage the KSK (key-signing key).There is no need to explicitly request a ZSK.
+DNSSEC worksat the zone level. A DS record isadded to the parent zone, not foreach subdomain, to create the chain of trust
 
 ### NAT:
       If a connection that's using a NAT gateway is idle for 350 seconds or more, the connection times out.
