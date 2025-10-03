@@ -1,4 +1,10 @@
+ALB cannot be specified as the target of an endpoint service
+
+Adding routes to the PrivateLink endpoints in the route table is not necessary for endpoint communication
+
 automatic failover = BGP
+
+Firewall logging is onlyavailable for traffic that you forward to the stateful rulesengine.
 
 flow logs does not capture the DNS query itself
 
@@ -51,6 +57,8 @@ private vif and transit vif are both support sitelink
 
 you cannot add iPv6 to an existing s2s and a s2s cannot be dual stack
 
+Jumbo frames will apply only to propagated routes via AWS Direct Connect and static routes via transit gateways. Jumbo frames on transit gateways support only 8500 bytes
+
 ### Transit Gateway(TGW):
 VXLAN is not supported with TGW
 
@@ -93,6 +101,10 @@ or Classic Load Balancer with a TCP listener on port 443
 
 You cannot directly use AWS ACM (Certificate Manager) for communication between an Application Load
 Balancer (ALB) and an EC2 instance
+
+Newly registered targetsenter slow start mode only when there isat least one healthy target that is not in slow start mode.
+
+ALB ip is not static and it can change thus why is not an optimal solution
 
 ### EKS:
 we cannot filter VPC flow logs based on EKS worker nodes , but we can create VPC flow logs based on subnetsas resource
