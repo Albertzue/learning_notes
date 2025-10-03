@@ -59,6 +59,9 @@ you cannot add iPv6 to an existing s2s and a s2s cannot be dual stack
 
 Jumbo frames will apply only to propagated routes via AWS Direct Connect and static routes via transit gateways. Jumbo frames on transit gateways support only 8500 bytes
 
+Byenabling SiteLink on the existing transit VIFS, we can establish a site-to-site link between the two data centers, which will
+allow traffic to be routed through both connectionsand ensure high availability in case of a connection disruption.
+
 ### Transit Gateway(TGW):
 VXLAN is not supported with TGW
 
@@ -106,6 +109,12 @@ Newly registered targetsenter slow start mode only when there isat least one hea
 
 ALB ip is not static and it can change thus why is not an optimal solution
 
+By disabling cross-zone load balancing, traffic will only be routed within the same Availability Zone unless there are no healthy
+targetsavailable in that zone.Thisensures that traffic from the front end of the application stays within the same Availability
+Zone unless necessary.
+
+WAF is only available for ALB
+
 ### EKS:
 we cannot filter VPC flow logs based on EKS worker nodes , but we can create VPC flow logs based on subnetsas resource
 
@@ -119,6 +128,15 @@ Route 53 manages the ZSK automatically.The user only needs to manage the KSK (ke
 DNSSEC worksat the zone level. A DS record isadded to the parent zone, not foreach subdomain, to create the chain of trust
 
 To set up Route 53 health checks on the private IP addresses of EC2 instances, you need to assign a public IP address to the EC2 instance as Route 53 health checkers can onlyaccess resources with publicly routable IP addresses
+
+Amazon Route 53 Resolver DNS Firewall with the AWSManagedDomainsBotnetCommandandControl managed rule group:
+
+     1.Scalable and Managed: Automatically updates the list of known botnet domains.
+     
+     2. Preemptive Blocking: Prevents EC2 instances from resolving malicious domains.
+     
+     3. Low Operational Overhead: Easy to implement and maintain.
+
 
 ### NAT:
       If a connection that's using a NAT gateway is idle for 350 seconds or more, the connection times out.
