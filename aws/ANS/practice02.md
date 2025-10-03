@@ -200,3 +200,11 @@ bc bd
 a
 d
 b
+d
+c b
+b
+d
+adf acd
+d b
+cde
+ace
