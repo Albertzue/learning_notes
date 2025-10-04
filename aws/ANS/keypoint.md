@@ -1,3 +1,5 @@
+The mirrored traffic isalways sent using UDP encapsulation
+
 1. A: Register the receiver ENIs to the multicast group.
 2. D: Associate the receiver subnets with the multicast domain.
 3. E: Allow the sender's UDP traffic in the receiver’s security group.
@@ -103,6 +105,16 @@ VPC peering has no bandwidth limit unlike Transit Gateway (50Gb/s per VPC attach
 AWS Transit Gateway Network Manager Route Analyzer, which is designed for analyzing routes in a transit
 gateway network, not within a single VPC
 
+Transit Gateway Connect:
+      Directly integrates with Direct Connect
+      Native support for VRF separation
+      Minimal operational overhead
+      Easy to scale with new MPLS VPNs
+      Supports overlapping IP addresses
+      Uses existing Direct Connect infrastructure
+
+TGW peering attachments do not support route propagation
+
 #### PrivateLink endpoint:
 You cannot create a service endpoint for an ALB. Endpoint services require either a NetworkLoad Balancer or a Gateway Load Balancer 
 
@@ -133,6 +145,14 @@ targetsavailable in that zone.Thisensures that traffic from the front end of the
 Zone unless necessary.
 
 WAF is only available for ALB
+
+ALB access logs capture detailed information about requests sent to the load balancer, including:
+      Client IP addresses
+      Request paths
+      Community vote distribution
+      Server response codes
+      Latency
+      Additional details like request and response headers,SSL cipher,SSL protocol
 
 ### EKS:
 we cannot filter VPC flow logs based on EKS worker nodes , but we can create VPC flow logs based on subnetsas resource
