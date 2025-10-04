@@ -208,3 +208,35 @@ adf acd
 d b
 cde
 ace
+c
+d b
+de be
+a d
+ace bce
+acf ace
+bd
+c
+d
+bcf
+b
+ae cd ?
+a d
+d
+a
+b d
+b
+abc cde
+d
+ac bc ? ac
+d a
+a
+a
+b d
+bde ace
+c
+ade
+b
+b
+c
+a c
+c
