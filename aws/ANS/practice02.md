@@ -240,3 +240,12 @@ b
 c
 a c
 c
+a d
+b c
+d
+bc
+c
+d
+d
+c
+a
