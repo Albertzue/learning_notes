@@ -1,3 +1,22 @@
+1. A: Register the receiver ENIs to the multicast group.
+2. D: Associate the receiver subnets with the multicast domain.
+3. E: Allow the sender's UDP traffic in the receiver’s security group.
+
+
+If your networkinterface has multiple IPv4 addressesand traffic is sent to a secondary private IPv4 address, the flow log
+displays the primary private IPv4 address in the dstaddr field.To capture the original destination IP address, create a flow log
+with the pkt-dstaddr field.
+
+aws global accelerator support ALB, Network Load Balancer (NLB), Amazon EC2 instance, or Elastic IP address. 
+
+To expose an internet-facing application with source IP visibility, use the ip target type for the NLB and set the Kubernetes
+service'sexternalTrafficPolicy to Local.This configuration ensures that the original source IP address is preserved and visible to
+the pods
+
+Manually specifying an IPv6 blockis unnecessary
+
+prepend is only be user from DTC to AWS, but not from AWS to DTC
+
 ALB cannot be specified as the target of an endpoint service
 
 Adding routes to the PrivateLink endpoints in the route table is not necessary for endpoint communication
@@ -146,3 +165,8 @@ Amazon Route 53 Resolver DNS Firewall with the AWSManagedDomainsBotnetCommandand
 
 ### Network firewall:
 An EXTERNAL_NET rule is a predefined variable in AWS Network Firewall's stateful Suricata-compatible rules that represents all IP addresses outside of your specified HOME_NET. Network Firewall uses HOME_NET to define your private or trusted networks and EXTERNAL_NET to represent all other public IP addresses. Rules using EXTERNAL_NET as a source or destination allow or block traffic from or to the public internet or other external networks. 
+
+### Cloud WAN:
+Segment filters control what attachments can join a segment, not inter-segment communication
+
+
