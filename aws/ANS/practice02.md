@@ -249,3 +249,14 @@ d
 d
 c
 a
+abc
+bcf
+ace
+a c
+b d
+b
+a c
+c d
+b
+a
+a
