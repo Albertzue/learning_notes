@@ -1,3 +1,19 @@
+AWS Global Accelerator cannot be shared via AWS RAM.
+
+NAT64 is available by default on an AWS NAT Gateway when used with an IPv6-enabled subnet. However, DNS64 must be
+explicitly enabled at the subnet level for it to work properly.
+
+S3 Gateway Endpoint (for EC2 instances):This will allow EC2 instances within the VPC to access the S3 bucket via private IP
+addresses, bypassing the public internet.The traffic will stay within the AWS network, maintaining privacy.
+
+S3 Interface Endpoint (for on-premises servers):Since the on-premises servers cannot accessS3 via the VPC gatewayendpoint,
+the interface endpoint providesa way for the on-premises servers to connect to S3 through the private network using a private
+IP. By using the DNS name associated with the interface endpoint, the on-premises servers will route traffic through the VPC
+interface endpoint, keeping the traffic private.
+
+Zonal shift isa feature of AWS Elastic Disaster Recovery (DRS) for mitigating zonal outages, not forenabling communication
+with targets in different Availability Zones
+
 The mirrored traffic isalways sent using UDP encapsulation
 
 1. A: Register the receiver ENIs to the multicast group.
@@ -115,6 +131,8 @@ Transit Gateway Connect:
 
 TGW peering attachments do not support route propagation
 
+only 6 tgw we can attach to the one DGW
+
 #### PrivateLink endpoint:
 You cannot create a service endpoint for an ALB. Endpoint services require either a NetworkLoad Balancer or a Gateway Load Balancer 
 
@@ -154,6 +172,9 @@ ALB access logs capture detailed information about requests sent to the load bal
       Latency
       Additional details like request and response headers,SSL cipher,SSL protocol
 
+Instance ID registration is not supported across VPC peering connections because the NLB cannot resolve private DNS names or
+directly communicate with instances in a different VPC.
+
 ### EKS:
 we cannot filter VPC flow logs based on EKS worker nodes , but we can create VPC flow logs based on subnetsas resource
 
@@ -189,4 +210,8 @@ An EXTERNAL_NET rule is a predefined variable in AWS Network Firewall's stateful
 ### Cloud WAN:
 Segment filters control what attachments can join a segment, not inter-segment communication
 
-
+### CloudFront
+Amazon CloudFront supports origin failover natively for primaryand secondary origins. It can automatically fail over to the secondary origin if the primary is unhealthy.
+To control how quickly failover happens, you use:
+1. Origin connection timeout:Time CloudFront waits to establish a connection.
+2. Origin connection attempts: Number of retryattempts before declaring failure
