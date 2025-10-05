@@ -30,3 +30,13 @@ d
 bce bde
 a
 b d
+bcd
+d
+c
+a
+d
+c
+b
+c
+be
+c
