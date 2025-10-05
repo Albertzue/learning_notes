@@ -1,3 +1,6 @@
+ACM is not supported on EC2 oreither 3rd
+party or self signed cert can be used
+
 1. AWS Global Accelerator cannot be shared via AWS RAM.
 
 2. NAT64 is available by default on an AWS NAT Gateway when used with an IPv6-enabled subnet. However, DNS64 must be explicitly enabled at the subnet level for it to work properly.
@@ -63,12 +66,12 @@ provides the capability to monitor the routing tables associated with the transi
 to CloudWatch Logs Insights. Once in CloudWatch Logs Insights, you can use EventBridge rules to trigger notifications based on
 routing changes.
 
- 21.     self signed certificate does not supported for Cloud Front
+ 21.  self signed certificate does not supported for Cloud Front
       ACM doesnot support Certificate export, ACM is not supported on EC2
       self signed certsare not supported for Cloud Front.
 
 #### DX:
-AS_PATH prepending isa standard BGP way of influencing return traffic for advertised prefixesand SDWAN
+AS_PATH prepending is a standard BGP way of influencing return traffic for advertised prefixesand SDWAN
 supports this
 
 7224:7300 has the highest priority whilst 7224:7100 has the lowest
