@@ -1,51 +1,48 @@
-AWS Global Accelerator cannot be shared via AWS RAM.
+1. AWS Global Accelerator cannot be shared via AWS RAM.
 
-NAT64 is available by default on an AWS NAT Gateway when used with an IPv6-enabled subnet. However, DNS64 must be
-explicitly enabled at the subnet level for it to work properly.
+2. NAT64 is available by default on an AWS NAT Gateway when used with an IPv6-enabled subnet. However, DNS64 must be explicitly enabled at the subnet level for it to work properly.
 
-S3 Gateway Endpoint (for EC2 instances):This will allow EC2 instances within the VPC to access the S3 bucket via private IP
-addresses, bypassing the public internet.The traffic will stay within the AWS network, maintaining privacy.
+3. S3 Gateway Endpoint (for EC2 instances):This will allow EC2 instances within the VPC to access the S3 bucket via private IP addresses, bypassing the public internet.The traffic will stay within the AWS network, maintaining privacy.
 
-S3 Interface Endpoint (for on-premises servers):Since the on-premises servers cannot accessS3 via the VPC gatewayendpoint,
-the interface endpoint providesa way for the on-premises servers to connect to S3 through the private network using a private
+4. S3 Interface Endpoint (for on-premises servers):Since the on-premises servers cannot accessS3 via the VPC gatewayendpoint,
+the interface endpoint provides a way for the on-premises servers to connect to S3 through the private network using a private
 IP. By using the DNS name associated with the interface endpoint, the on-premises servers will route traffic through the VPC
 interface endpoint, keeping the traffic private.
 
-Zonal shift isa feature of AWS Elastic Disaster Recovery (DRS) for mitigating zonal outages, not forenabling communication
-with targets in different Availability Zones
+5. Zonal shift is a feature of AWS Elastic Disaster Recovery (DRS) for mitigating zonal outages, not for enabling communication with targets in different Availability Zones
 
-The mirrored traffic isalways sent using UDP encapsulation
+6. The mirrored traffic is always sent using UDP encapsulation
 
-1. A: Register the receiver ENIs to the multicast group.
-2. D: Associate the receiver subnets with the multicast domain.
-3. E: Allow the sender's UDP traffic in the receiver’s security group.
+7. multicast
+      1. A: Register the receiver ENIs to the multicast group.
+      2. D: Associate the receiver subnets with the multicast domain.
+      3. E: Allow the sender's UDP traffic in the receiver’s security group.
 
 
-If your networkinterface has multiple IPv4 addressesand traffic is sent to a secondary private IPv4 address, the flow log
+8. If your network interface has multiple IPv4 addresses and traffic is sent to a secondary private IPv4 address, the flow log
 displays the primary private IPv4 address in the dstaddr field.To capture the original destination IP address, create a flow log
 with the pkt-dstaddr field.
 
-aws global accelerator support ALB, Network Load Balancer (NLB), Amazon EC2 instance, or Elastic IP address. 
+9. aws global accelerator support ALB, NLB, EC2 instance, or Elastic IP address. 
 
-To expose an internet-facing application with source IP visibility, use the ip target type for the NLB and set the Kubernetes
-service'sexternalTrafficPolicy to Local.This configuration ensures that the original source IP address is preserved and visible to
-the pods
+10. To expose an internet-facing application with source IP visibility, use the ip target type for the NLB and set the Kubernetes
+service's externalTrafficPolicy to Local.This configuration ensures that the original source IP address is preserved and visible to the pods
 
-Manually specifying an IPv6 blockis unnecessary
+11. Manually specifying an IPv6 block is unnecessary
 
-prepend is only be user from DTC to AWS, but not from AWS to DTC
+12. prepend is only be user from DTC to AWS, but not from AWS to DTC
 
-ALB cannot be specified as the target of an endpoint service
+13. ALB cannot be specified as the target of an endpoint service
 
-Adding routes to the PrivateLink endpoints in the route table is not necessary for endpoint communication
+14. Adding routes to the PrivateLink endpoints in the route table is not necessary for endpoint communication
 
-automatic failover = BGP
+15. automatic failover = BGP
 
-Firewall logging is onlyavailable for traffic that you forward to the stateful rulesengine.
+16. Firewall logging is only available for traffic that you forward to the stateful rules engine.
 
-flow logs does not capture the DNS query itself
+17. flow logs does not capture the DNS query itself
 
-      When you create a VPC endpoint to an AWS service, you can enable private DNS. When enabled, the setting createsan AWS
+18.   When you create a VPC endpoint to an AWS service, you can enable private DNS. When enabled, the setting creates an AWS
       managed Route 53 private hosted zone (PHZ) which enables the resolution of public AWS service endpoint to the private IP of
       the interface endpoint.The managed PHZ only works within the VPC with the interface endpoint.
       In our setup, when we want spoke VPCs to be able to resolve VPC endpoint DNS hosted in a centralized VPC, the managed PHZ
@@ -56,10 +53,10 @@ flow logs does not capture the DNS query itself
 
 
 
-#### There are 3 valid traffic mirrorendpoints: 
-      NetworkInterface
-      NetworkLoad Balancer
-      Gateway Load Balancerendpoints
+19.   There are 3 valid traffic mirror endpoints: 
+            NetworkInterface
+            NetworkLoad Balancer
+            Gateway Load Balancerendpoints
 
 **Transit Gateway** Network Manager provides a centralized view of global networks built on AWS Transit Gateway. It also
 provides the capability to monitor the routing tablesassociated with the transit gateway,and then forward routing information
