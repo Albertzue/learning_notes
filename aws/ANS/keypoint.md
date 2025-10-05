@@ -54,18 +54,18 @@ service's externalTrafficPolicy to Local.This configuration ensures that the ori
 
 
 19.   There are 3 valid traffic mirror endpoints: 
-            NetworkInterface
+            Network Interface
             NetworkLoad Balancer
             Gateway Load Balancerendpoints
 
-**Transit Gateway** Network Manager provides a centralized view of global networks built on AWS Transit Gateway. It also
-provides the capability to monitor the routing tablesassociated with the transit gateway,and then forward routing information
+20. **Transit Gateway** Network Manager provides a centralized view of global networks built on AWS Transit Gateway. It also
+provides the capability to monitor the routing tables associated with the transit gateway, and then forward routing information
 to CloudWatch Logs Insights. Once in CloudWatch Logs Insights, you can use EventBridge rules to trigger notifications based on
 routing changes.
 
-      self signed certsare not supported for Cloud Front
-      Incorrect as ACM doesnot support Certificate export, ACM is not supported on EC2
-      Incorrect as self signed certsare not supported for Cloud Front.
+ 21.     self signed certificate does not supported for Cloud Front
+      ACM doesnot support Certificate export, ACM is not supported on EC2
+      self signed certsare not supported for Cloud Front.
 
 #### DX:
 AS_PATH prepending isa standard BGP way of influencing return traffic for advertised prefixesand SDWAN
