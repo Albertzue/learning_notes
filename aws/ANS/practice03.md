@@ -108,3 +108,46 @@ def
 acf
 d
 ace
+bc ab   
+bcd bcf
+a
+b
+bd ad 11
+d
+d
+b
+d
+bc ac
+b
+ae
+bc
+b
+c
+b
+d
+c
+d
+a
+b
+a
+ac bc
+c
+ac
+b
+a
+b
+bcf
+bdf bde
+ab
+ad ac
+b
+b
+bc
+d
+b c
+a
+b
+bcf
+ac
+be
+d b  17
