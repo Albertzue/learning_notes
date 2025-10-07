@@ -181,4 +181,23 @@ b
 ab ac
 b
 c
-ac ae
+ac ae 23
+c
+c
+b
+b
+c
+a
+bc
+b
+bce
+a
+b
+b
+c
+b
+bd
+a
+d
+b
+d
