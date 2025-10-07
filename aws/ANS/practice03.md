@@ -151,3 +151,34 @@ bcf
 ac
 be
 d b  17
+c
+a d
+a
+c
+b
+d a
+ade
+bd
+b
+a
+b c
+b
+b
+d a
+ad
+b
+d
+abe
+b
+be
+c
+a
+c
+d
+d
+a
+b
+ab ac
+b
+c
+ac ae
