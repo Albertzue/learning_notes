@@ -201,3 +201,52 @@ a
 d
 b
 d
+b
+c b
+d
+acd
+b
+cde
+ace
+c
+b
+be
+d
+bde bce
+ace
+bd
+c
+d
+bcf
+b
+ae cd!!!
+d
+d
+a
+d
+b
+bce cde
+d
+bc
+a
+a
+a
+d
+adf ace
+c
+ade ? adf !
+b
+b
+c
+c
+c
+d
+c
+a d
+bc
+c
+d
+d
+a c
+a
+abc
