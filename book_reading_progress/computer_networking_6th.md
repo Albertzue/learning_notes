@@ -3,6 +3,15 @@
 2025/9/7  113
 2025/9/8  133
 2025/9/9  158
+2025/10/09 227 ps: physical layer is skipped currerntly 
+## Keypoint:
+
+#### physical layer：
+1. A device that converts between a stream of digital bits and an analog signal that represents the bits is called a **modem**
+
+#### datalink layer：
+<img width="907" height="307" alt="image" src="https://github.com/user-attachments/assets/a89d0358-97fd-4b27-a184-180f0708c810" />
+
 ## new words: 
 relay 
 
