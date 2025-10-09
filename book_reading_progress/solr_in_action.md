@@ -7,6 +7,7 @@
 <img width="775" height="899" alt="image" src="https://github.com/user-attachments/assets/9ef833ff-851a-4537-b1aa-1c801aedd3a0" />
 <img width="1177" height="528" alt="image" src="https://github.com/user-attachments/assets/2a162ec1-5f8c-4c72-9bc9-f90adf9315b7" />
 <img width="637" height="399" alt="image" src="https://github.com/user-attachments/assets/18757696-4856-4792-a644-0c7957f1082a" />
+<img width="802" height="446" alt="image" src="https://github.com/user-attachments/assets/08fcc87d-75ed-41bc-a215-1ff763a3f23c" />
 
 **Term frequency (tf)** is a measure of how often a particular term appears in a matching
 document, and it’s an indication of how “well” a document matches the term
