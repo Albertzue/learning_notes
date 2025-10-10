@@ -6,7 +6,7 @@
 
 2025/10/09 page 130
 
-2025/10/10 page 144
+2025/10/10 page 146
 
 <img width="775" height="899" alt="image" src="https://github.com/user-attachments/assets/9ef833ff-851a-4537-b1aa-1c801aedd3a0" />
 <img width="1177" height="528" alt="image" src="https://github.com/user-attachments/assets/2a162ec1-5f8c-4c72-9bc9-f90adf9315b7" />
@@ -28,4 +28,4 @@ the values in those fields are duplicated across many documents.
 #### new words
 
 adage 
-
+tweet
