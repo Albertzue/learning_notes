@@ -9,14 +9,37 @@
 
 2025/10/09 227 ps: physical layer is skipped currerntly 
 
+2025/10/10 251
+
 ## Keypoint:
 
 #### physical layer：
 1. A device that converts between a stream of digital bits and an analog signal that represents the bits is called a **modem**
 
+<img width="795" height="247" alt="image" src="https://github.com/user-attachments/assets/c2d70f73-58e1-41b7-b88c-67a9d0b2d9e6" />
+
 #### datalink layer：
 <img width="907" height="307" alt="image" src="https://github.com/user-attachments/assets/a89d0358-97fd-4b27-a184-180f0708c810" />
 
+
+
+**Unacknowledged connectionless service** consists of having the source machine
+send independent frames to the destination machine without having the destination
+machine acknowledge them. **Ethernet** is a good example of a data link layer that
+provides this class of service.
+
+**Acknowledged connectionless service** there are still no logical connections used, but each frame sent is individually acknowledged. 802.11 (WiFi) is a good example of this type of link
+layer service
+
+**ESC** special escape byte
+
+The data link layer on the receiving end removes the escape bytes before
+giving the data to the network layer. This technique is called **byte stuffing**.
+
+An n-bit unit containing data and check bits is referred to as an n-bit **codeword**
+
+The number of bit positions in which two codewords differ is called the **Hamming distance**. Its significance is that
+if two codewords are a Hamming distance d apart, it will require d single-bit errors to convert one into the other
 ## new words: 
 relay 
 
@@ -79,8 +102,6 @@ encase
 cutaway
 
 attenuate
-
-<img width="795" height="247" alt="image" src="https://github.com/user-attachments/assets/c2d70f73-58e1-41b7-b88c-67a9d0b2d9e6" />
 
 distortion
 
