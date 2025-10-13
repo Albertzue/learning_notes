@@ -11,6 +11,8 @@
 
 2025/10/10 251
 
+2025/10/13 plan/real   300/358
+
 ## Keypoint:
 
 #### physical layer：
@@ -40,6 +42,16 @@ An n-bit unit containing data and check bits is referred to as an n-bit **codewo
 
 The number of bit positions in which two codewords differ is called the **Hamming distance**. Its significance is that
 if two codewords are a Hamming distance d apart, it will require d single-bit errors to convert one into the other
+
+The technique of temporarily delaying outgoing acknowledgements so that they can be hooked onto the next outgoing data frame is known as **piggybacking**
+
+One option, called **go-back-n**, is for the receiver to just discard all subsequent frames, sending no acknowledgements for the discarded frames.
+
+the **selective repeat protocol**, is to allow the receiver to accept and buffer correct frames received following a damaged or lost one.
+<img width="853" height="697" alt="image" src="https://github.com/user-attachments/assets/4ec85211-5c79-430e-bb26-382b102b7001" />
+
+**FDM** (Frequency Division Multiplexing)
+
 ## new words: 
 relay 
 
