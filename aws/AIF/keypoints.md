@@ -15,3 +15,27 @@ input size.
 information can be included.
 8. **Batch size** This is the number of prompts processed at once, affecting throughput, not individual prompt length. It's about processing multiple promptsefficiently.
 9. **Model size** This relates to the model's overall capacity and complexity, not directly to the input prompt length. Size impacts performance, not input limits.
+---
+
+10. **Amazon SageMaker JumpStart** is specifically designed to help teams quickly deployand use foundation models (FMs) with the
+following benefits:
+```
+Provides pre-trained models that can be deployed with just a few clicks
+Allows deployment within your VPC for secure access
+Includes popular foundation models from various providers
+Offers fine-tuning capabilities for customization
+Handles the infrastructure management automatically
+```
+### Which functionality does Amazon SageMaker Clarify provide (following are not right answers)
+11. **Integrates a RAG workflow**: RAG workflowsare used for combining retrieved documents with model outputs, typically in language models, but this is not a function of SageMaker Clarify.
+12. **Monitors the quality of ML models in production**: Monitoring model quality in production is handled bySageMaker Model
+Monitor, notSageMaker Clarify.
+13. **Documents critical details about ML models**: This functionality is part of Amazon SageMaker Model Cards, which documents model details for transparencyand compliance.
+---
+
+14.  Recall-Oriented Understudy for Gisting Evaluation(ROUGE technique） is for text summarization evaluation, not lending decisions
+
+
+## new words
+1. Hallucinations
+2. Plagiarism
