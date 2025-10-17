@@ -15,6 +15,8 @@
 
 2025/10/13 plan/real   380/383
 
+2025/10/17  450/425
+
 ## Keypoint:
 
 #### physical layer：
@@ -24,8 +26,6 @@
 
 #### datalink layer：
 <img width="907" height="307" alt="image" src="https://github.com/user-attachments/assets/a89d0358-97fd-4b27-a184-180f0708c810" />
-
-
 
 **Unacknowledged connectionless service** consists of having the source machine
 send independent frames to the destination machine without having the destination
@@ -53,6 +53,37 @@ the **selective repeat protocol**, is to allow the receiver to accept and buffer
 <img width="853" height="697" alt="image" src="https://github.com/user-attachments/assets/4ec85211-5c79-430e-bb26-382b102b7001" />
 
 **FDM** (Frequency Division Multiplexing)
+
+#### network layer:
+1. If connectionless service is offered, packets are injected into the network individually and routed independently
+of each other. No advance setup is needed. In this context, the packets are frequently called **datagrams** (in analogy with telegrams) and the network is called a **datagram network**.
+
+2. If connection-oriented service is used, a path from the source
+router all the way to the destination router must be established before any data
+packets can be sent. This connection is called a **VC** (Virtual Circuit), in analogy
+with the physical circuits set up by the (old) telephone system, and the network is
+called a **virtual-circuit network**.
+
+3. Routing algorithms can be grouped into two major classes: **nonadaptive** and
+**adaptive**.
+
+4. **Nonadaptive algorithms** do not base their routing decisions on any
+measurements or estimates of the current topology and traffic. Instead, the choice
+of the route to use to get from I to J (for all I and J) is computed in advance,
+offline, and downloaded to the routers when the network is booted. This procedure
+is sometimes called **static routing**.
+
+5. **Adaptive algorithms**, in contrast, change their routing decisions to reflect
+changes in the topology, and sometimes changes in the traffic as well. These
+**dynamic routing** algorithms differ in where they get their information (e.g.,
+locally, from adjacent routers, or from all routers), when they change the routes
+(e.g., when the topology changes, or every 6T seconds as the load changes), and
+what metric is used for optimization (e.g., distance, number of hops, or estimated
+transit time).
+
+6. The distance vector routing algorithm is sometimes called by other names,
+most commonly the distributed **Bellman-Ford routing algorithm**
+
 
 ## new words: 
 relay 
@@ -122,6 +153,8 @@ distortion
 amplitudes
 
 toll
+
+convergence
 
 ## terms：
 **gateway** The device that makes a connection between two or more networks and provides the necessary translation, both in terms of hardware and software
