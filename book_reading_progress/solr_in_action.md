@@ -1,16 +1,18 @@
-2025/09/28 page 66
+2025/09/28  66
 
-2025/09/29 page 94
+2025/09/29  94
 
-2025/09/30 page 115
+2025/09/30  115
 
-2025/10/09 page 130
+2025/10/09  130
 
-2025/10/10 page 178
+2025/10/10  178
 
-2025/10/13 page plan/real   220/230
+2025/10/13  plan/real   220/230
 
-2025/10/14 page plan/real   260/234
+2025/10/14  plan/real   260/234
+
+2025/10/17  plan/real   260/243
 
 <img width="775" height="899" alt="image" src="https://github.com/user-attachments/assets/9ef833ff-851a-4537-b1aa-1c801aedd3a0" />
 <img width="1177" height="528" alt="image" src="https://github.com/user-attachments/assets/2a162ec1-5f8c-4c72-9bc9-f90adf9315b7" />
@@ -31,6 +33,8 @@ term appears within), and calculating its inverse
 
 **A denormalized document** is one in which all fields are self-contained within the document, even if
 the values in those fields are duplicated across many documents. 
+
+ In SolrCloud, an index split across multiple nodes is called a **collection**
 
 #### new words
 
