@@ -15,3 +15,22 @@ c
 c
 d b
 a b
+a
+a
+c
+c
+b
+c b
+c
+a
+b
+a
+a b
+a
+d
+a
+a
+c b
+a
+a
+b
