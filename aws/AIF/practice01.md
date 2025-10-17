@@ -50,3 +50,14 @@ ac
 c a
 b
 b c
+d
+c
+a
+d
+c b
+a b
+c a
+c a
+c b
+d a
+a
