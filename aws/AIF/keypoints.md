@@ -47,7 +47,15 @@ good choice forevaluating model accuracy in a fine-tuned large language model (L
 22. In Stable Diffusion, Classifier-Free Guidance (CFG) scale controls how strongly the model follows the text prompt versus generating freely (more randomness).
   A higher CFG scale means the model adheres more closely to the prompt, resulting in more specific and detailed images.
   A lower CFG scale introduces more randomness, leading to less relevant or vague outputs
-    
+
+23. **BERTScore** is specifically designed forevaluating text generation quality
+24.
+```
+ Human-in-the-loop: Human review of generated outputsallows for filtering or modification of biased or toxic content after generation. Community vote distribution
+ Data augmentation:This occurs during training, modifying the training data itself, not the generated outputs.
+ Feature engineering: Also a training phase activity, focusing on input features, not generated content.
+ Adversarial training: Used during training to improve robustness, not to filter post-generation content.
+ ```
 ## new words
 1. Hallucinations
 2. Plagiarism
