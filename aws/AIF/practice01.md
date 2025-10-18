@@ -61,3 +61,21 @@ c a
 c b
 d a
 a
+b
+a
+a
+c
+a
+b
+b
+ae ac
+c
+c d
+c
+a c
+d b
+b
+b a
+a
+b
+b
