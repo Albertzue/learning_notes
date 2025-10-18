@@ -98,3 +98,9 @@ c
 c
 a
 a
+c a
+a c
+a
+a
+b
+c
