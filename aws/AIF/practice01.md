@@ -136,3 +136,6 @@ b
 d
 a c
 a b
+b c
+b
+c
