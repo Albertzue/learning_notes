@@ -2,6 +2,7 @@
 
 2025/10/13 plan/real  100/110
 
+2025/10/19  121
 ## Keypoints:
 
 **Moby project**
@@ -52,4 +53,47 @@ COPY ./web /app/web
 COPY sample.txt /data/my-sample.txt
 ADD sample.tar /app/bin/
 ADD http://example.com/sample.txt /data/
+```
+
+```
+ADD --chown=11:22 ./data/web* /app/data/
+```
+The preceding statement will copy all files starting with web and put them into the /app/data folder in the image, and at the same time assign user 11 and group 22 to these files.
+
+---
+```
+RUN cd /app/bin
+RUN touch sample.txt
+```
+```
+WORKDIR /app/bin
+RUN touch sample.txt
+```
+The former will create the file in the root of the image filesystem, while the latter will create the file at the expected location in the /app/bin folder. Only the WORKDIR keyword sets the context across
+the layers of the image. The cd command alone is not persisted across layers.
+
+---
+Now that we have dealt with this, we can get back to CMD and ENTRYPOINT. ENTRYPOINT is used to define the command of the expression, while CMD is used to define the parameters for the
+command. Thus, a Dockerfile using Alpine as the base image and defining ping as the process to run in the container could look like this:
+```
+FROM alpine:3.17
+ENTRYPOINT [ "ping" ]
+CMD [ "-c", "3", "8.8.8.8" ]
+```
+The beauty of this is that I can now override the CMD part that I have defined in the Dockerfile(remember, it was ["-c", "3","8.8.8.8"]) when I create a new container by adding the new values at the end of the docker container run expression, like this:
+```
+$ docker container run --rm -it pinger -w 5 127.0.0.1
+```
+
+If we want to override what’s defined in ENTRYPOINT in the Dockerfile, we need to use the --entrypoint parameter in the docker container run expression. Let’s say we want to execute a shell in the container instead of the ping command. We could do so by using the following command:
+```
+$ docker container run --rm -it --entrypoint /bin/sh pinger
+```
+```
+FROM alpine:3.17
+CMD wget -O - http://www.google.com
+```
+Here, I have even used the shell form to define CMD. But what happens in this situation if ENTRYPOINT is undefined? If you leave ENTRYPOINT undefined, then it will have the default value of /bin/sh -c, and whatever the value of CMD is will be passed as a string to the shell command. The preceding definition would thereby result in entering the following code to run the process inside the container:
+```
+/bin/sh -c "wget -O - http://www.google.com"
 ```
