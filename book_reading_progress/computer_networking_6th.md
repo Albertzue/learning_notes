@@ -18,6 +18,8 @@
 2025/10/17  450/425
 
 2025/10/19 450/451
+
+2025/10/20  480/505
 ## Keypoint:
 
 #### physical layer：
@@ -84,6 +86,11 @@ transit time).
 
 6. The distance vector routing algorithm is sometimes called by other names,
 most commonly the distributed **Bellman-Ford routing algorithm**
+<img width="932" height="410" alt="image" src="https://github.com/user-attachments/assets/807e9abf-ec9a-47b9-a62f-6f71e6f18ed0" />
+<img width="1102" height="547" alt="image" src="https://github.com/user-attachments/assets/e12c55a3-9207-42f3-b5b7-219060c69f92" />
+<img width="892" height="711" alt="image" src="https://github.com/user-attachments/assets/6d4da922-53c6-4c81-848a-154add61538b" />
+
+
 
 
 ## new words: 
