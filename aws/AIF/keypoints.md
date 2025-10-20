@@ -56,6 +56,12 @@ good choice forevaluating model accuracy in a fine-tuned large language model (L
  Feature engineering: Also a training phase activity, focusing on input features, not generated content.
  Adversarial training: Used during training to improve robustness, not to filter post-generation content.
  ```
+25.
+```
+    Providing a set of examples before asking a question: Few-shot prompting
+    Asking the model a question without providing examples: Zero-shot prompting
+    Breaking down complex problems into logical steps: Chain-of-thought prompting
+```
 ## new words
 1. Hallucinations
 2. Plagiarism
