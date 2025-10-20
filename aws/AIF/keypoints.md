@@ -62,6 +62,26 @@ good choice forevaluating model accuracy in a fine-tuned large language model (L
     Asking the model a question without providing examples: Zero-shot prompting
     Breaking down complex problems into logical steps: Chain-of-thought prompting
 ```
+26. Which content categories can the guardrails filter：
+      ```
+      1. Hate
+      2. Violence
+      3. Sexual content
+      4. Self-harm
+      ```
+27. **Prompt chaining** is a technique where a complex taskis broken down into smaller subtasks,and each subtaskis processed
+sequentially bya large language model (LLM).The output of one step becomes the input to the next, forming a chain of
+prompts.
+28. Amazon SageMaker Model Monitor:
+```
+  Specifically designed to monitor model qualityand performance in production
+  Detects data drift and model drift by comparing current predictionsagainst baseline statistics
+  Automatically identifies changes in model accuracyand performance over time
+  Provides real-time monitoring and alerting when model quality degrades
+  Generates detailed reports on model performance metrics
+  Can monitor multiple models simultaneously
+  Integrates with CloudWatch for notificationsand automated responses
+```
 ## new words
 1. Hallucinations
 2. Plagiarism
