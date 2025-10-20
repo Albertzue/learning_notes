@@ -3,6 +3,7 @@
 2025/10/13 plan/real  100/110
 
 2025/10/19  121
+2025/10/20  160/166
 ## Keypoints:
 
 **Moby project**
@@ -96,4 +97,30 @@ CMD wget -O - http://www.google.com
 Here, I have even used the shell form to define CMD. But what happens in this situation if ENTRYPOINT is undefined? If you leave ENTRYPOINT undefined, then it will have the default value of /bin/sh -c, and whatever the value of CMD is will be passed as a string to the shell command. The preceding definition would thereby result in entering the following code to run the process inside the container:
 ```
 /bin/sh -c "wget -O - http://www.google.com"
+```
+---
+```
+docker container run -it --name reader \
+    -v shared-data:/app/data:ro \
+    ubuntu:22.04 /bin/bash
+```
+Here we have a container called reader that has the same volume mounted as read-only (ro).
+
+---
+
+```
+ARG BASE_IMAGE_VERSION=12.7-stretch
+FROM node:${BASE_IMAGE_VERSION}
+WORKDIR /app
+COPY packages.json .
+RUN npm install
+COPY . .
+CMD npm start
+```
+if we want to create a special image for, say, testing purposes, we can override this variable at
+image build time using the --build-arg parameter, as follows:
+```
+docker image build \
+    --build-arg BASE_IMAGE_VERSION=12.7-alpine \
+    -t my-node-app-test .
 ```
