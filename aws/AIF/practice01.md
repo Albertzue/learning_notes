@@ -158,3 +158,18 @@ a
 c a
 d
 d
+b
+c
+c
+b d
+ab ac
+b
+ac
+b
+c
+c
+b d
+a c
+c
+d b
+c
