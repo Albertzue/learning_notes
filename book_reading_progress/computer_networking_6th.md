@@ -20,6 +20,9 @@
 2025/10/19 450/451
 
 2025/10/20  480/505
+
+2025/10/21 550/570
+
 ## Keypoint:
 
 #### physical layer：
@@ -89,8 +92,12 @@ most commonly the distributed **Bellman-Ford routing algorithm**
 <img width="932" height="410" alt="image" src="https://github.com/user-attachments/assets/807e9abf-ec9a-47b9-a62f-6f71e6f18ed0" />
 <img width="1102" height="547" alt="image" src="https://github.com/user-attachments/assets/e12c55a3-9207-42f3-b5b7-219060c69f92" />
 <img width="892" height="711" alt="image" src="https://github.com/user-attachments/assets/6d4da922-53c6-4c81-848a-154add61538b" />
+<img width="972" height="407" alt="image" src="https://github.com/user-attachments/assets/837289d2-94d8-44cd-ba5e-128f7ca8aedf" />
 
 
+### transport layer
+<img width="1125" height="331" alt="image" src="https://github.com/user-attachments/assets/a3b34f08-df8a-4a35-b2d9-c3ba6d428c78" />
+<img width="994" height="450" alt="image" src="https://github.com/user-attachments/assets/cafac8f7-360a-45b9-b732-476765d36db1" />
 
 
 ## new words: 
