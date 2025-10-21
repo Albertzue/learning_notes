@@ -200,3 +200,56 @@ b
 b
 b
 d
+a
+a
+c
+a
+a c
+a
+b a
+b a
+a
+a
+a
+b
+c
+c d
+b
+b d
+b
+c
+b
+c
+d b
+a
+b a
+ae
+c
+a
+23
+b
+a
+d b
+b
+d b?
+123 132
+c
+a
+a
+b
+c
+c
+ac
+c
+c a
+324
+c
+d
+a b
+d
+a
+a c
+a
+a
+b c
+a
