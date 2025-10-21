@@ -86,7 +86,32 @@ prompts.
 
 30. Jumpstart offers prebuilt solutions - including fraud detection templatesand pretrained models you can deploy quickly.
 31. Amazon Bedrockallows you to customize (fine-tune) foundation models securely without managing infrastructure. It is costeffective and fully managed,and the data remains in the AWS Region.
-32. A Bilingual Evaluation Understudy (BLEU) score is an algorithm that measures the quality of machine-translated text by comparing it to one or more high-quality human translations
+32. A Bilingual Evaluation Understudy (BLEU) score is an algorithm that measures the quality of machine-translated text by comparing it to one or more high-quality human translations.
+33. Batch inference processes data in large batchesat scheduled intervals.
+34.  Top K isa decoding parameter used during text generation by large language models (LLMs) that:
+```
+Limits the number of candidate next tokens to the top K most likely optionsat each step.
+From this shortlist, the model samples one token, introducing controlled randomness.
+Helps balance between coherence and diversity in output.
+Forexample, if Top K = 50, the model will only consider the 50 most probable next tokensand randomly choose one based on
+their probabilities
+```
+35. ReAct prompting (Reasoning and Acting) isa prompt engineering technique that:
+```
+Combines step-by-step reasoning (e.g.,analyzing a customer's request)
+With actions, such as calling external tools or APIs, like inventory systems or product databases
+Is ideal for use cases requiring real-time interaction with external data sources
+```
+
+36. Amazon SageMaker Ground Truth is designed specifically for:
+```
+  Data labeling at scale (including for computer vision tasks like image classification, object detection, etc.)
+  Providing a user-friendly interface for annotators.
+  Supporting human-in-the-loop workflows.
+  Reducing labeling costs using active learning and automated labeling
+```
+37. **Model Shapley values** are a method from game theory used to explain the output of a machine learning model by fairly attributing the contribution of each input feature to a specific prediction
+38. **AWS Bedrock PartyRock** is a space where you can build AI-generated apps in a playground powered by Amazon Bedrock. It's a fast and fun way to learn about generative AI.
 ## new words
 1. Hallucinations
 2. Plagiarism
