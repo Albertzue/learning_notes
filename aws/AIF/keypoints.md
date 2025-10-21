@@ -82,6 +82,11 @@ prompts.
   Can monitor multiple models simultaneously
   Integrates with CloudWatch for notificationsand automated responses
 ```
+29. The company wants to improve the model’s domain knowledge by providing specific documents. is fine tuning not pre-training.Pretraining refers to training a model from scratch on a large dataset to learn general features and representations. It is notfocused on adapting to specific domain knowledge. Since the company already has a model and wants to improve its domainknowledge with specific documents, fine-tuning is the more suitable choice. Pretraining refers to training a model on a large general dataset before any specific task, which may not be as effective for domain-specific enhancements
+
+30. Jumpstart offers prebuilt solutions - including fraud detection templatesand pretrained models you can deploy quickly.
+31. Amazon Bedrockallows you to customize (fine-tune) foundation models securely without managing infrastructure. It is costeffective and fully managed,and the data remains in the AWS Region.
+32. A Bilingual Evaluation Understudy (BLEU) score is an algorithm that measures the quality of machine-translated text by comparing it to one or more high-quality human translations
 ## new words
 1. Hallucinations
 2. Plagiarism
