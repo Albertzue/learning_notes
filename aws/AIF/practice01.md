@@ -253,3 +253,66 @@ a
 a
 b c
 a
+a
+231
+a
+c
+a
+a b
+a
+c
+132
+a b
+d
+321
+b
+d c
+c b
+b
+a
+c
+c
+213
+d
+c
+d
+a
+341
+d
+b d
+132
+a
+c
+c
+d
+b
+c
+b
+3124
+c
+d
+a
+b
+d b
+b
+d
+b
+231
+c
+a
+b
+b
+c d
+a b
+a
+b
+1432
+b d
+215
+b
+231
+c
+c b
+c
+d b
+d
