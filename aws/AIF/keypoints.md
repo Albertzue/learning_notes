@@ -112,6 +112,8 @@ Is ideal for use cases requiring real-time interaction with external data source
 ```
 37. **Model Shapley values** are a method from game theory used to explain the output of a machine learning model by fairly attributing the contribution of each input feature to a specific prediction
 38. **AWS Bedrock PartyRock** is a space where you can build AI-generated apps in a playground powered by Amazon Bedrock. It's a fast and fun way to learn about generative AI.
+39. Fine-tuning a foundation model involves providing labeled training data where each example consists of a prompt (the input to the model) and a completion (the desired output).This structure helps the model learn specific patterns or behaviors tailored to the company’s data and use case. In Amazon Bedrock, fine-tuning relies on a structured dataset that aligns with the model's learning requirements to improve its accuracy for domain-specific tasks.
+
 ## new words
 1. Hallucinations
 2. Plagiarism
