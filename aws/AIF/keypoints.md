@@ -90,13 +90,13 @@ prompts.
 33. Batch inference processes data in large batchesat scheduled intervals.
 34.  Top K isa decoding parameter used during text generation by large language models (LLMs) that:
 ```
-Limits the number of candidate next tokens to the top K most likely optionsat each step.
-From this shortlist, the model samples one token, introducing controlled randomness.
-Helps balance between coherence and diversity in output.
-Forexample, if Top K = 50, the model will only consider the 50 most probable next tokensand randomly choose one based on
-their probabilities
+  Limits the number of candidate next tokens to the top K most likely options at each step.
+  From this shortlist, the model samples one token, introducing controlled randomness.
+  Helps balance between coherence and diversity in output.
+  Forexample, if Top K = 50, the model will only consider the 50 most probable next tokensand randomly choose one based on
+  their probabilities
 ```
-35. ReAct prompting (Reasoning and Acting) isa prompt engineering technique that:
+35. ReAct prompting (Reasoning and Acting) is a prompt engineering technique that:
 ```
 Combines step-by-step reasoning (e.g.,analyzing a customer's request)
 With actions, such as calling external tools or APIs, like inventory systems or product databases
@@ -142,6 +142,29 @@ handles various forms of bias or discrimination. Using these datasets will provi
 45. Reinforcement learning: is the most suitable strategy for a chatbot to continuously improve its responses based on real-time feedbackfrom users.
 46. Confusion matrix isa key metric forevaluating classification models. It providesa summary of the model's predictions,
 showing the true positive, false positive, true negative,and false negative counts.
+
+47. Adversarial prompting isa technique designed to prevent prompt injection attacks, which are attempts to manipulate a
+model's behavior by injecting harmful or misleading instructions within the input prompt.This technique involves using
+carefully crafted prompts that make it harder for the model to misinterpret or be misled by unwanted inputs.
+48. A logistic regression model is interpretable and allows direct adjustment of the weightsassigned to different variables
+(features).
+49. Amazon Bedrock Agents specifically helps you build generative AI applications that can run multi-step tasksacross company systemsand data sources, simplifying the process of building conversational AI applications.
+50. Federated learning is a machine learning technique that:
+```
+  Trains modelsacross multiple decentralized devices or servers holding local data samples.
+  Does not move the data; instead, only model updates (like gradients or weights) are shared and aggregated.
+  Ensures data privacyand compliance by keeping sensitive data (e.g., personal or regulated data) on-premises or on edge
+  devices.
+  This technique isespecially useful in scenarios where data privacy regulations (like HIPAA, GDPR) restrict centralizing data.
+```
+51. AWS HealthScribe is designed specifically for healthcare applicationsand offers:
+```
+    Speech-to-text functionality tailored for clinical conversations
+    Automatic clinical note generation
+    Medical terminology support
+    HIPAA-eligible features for compliance in healthcare settings
+    This makes it ideal for helping hospital staff improve their skills in dictating clinical notes using generative AI.
+```
 ## new words
 
 1. Hallucinations
