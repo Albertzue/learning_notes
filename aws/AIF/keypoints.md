@@ -28,7 +28,7 @@ Handles the infrastructure management automatically
 ```
 ### Which functionality does Amazon SageMaker Clarify provide (following are not right answers)
 11. **Integrates a RAG workflow**: RAG workflowsare used for combining retrieved documents with model outputs, typically in language models, but this is not a function of SageMaker Clarify.
-12. **Monitors the quality of ML models in production**: Monitoring model quality in production is handled bySageMaker Model
+12. **Monitors the quality of ML models in production**: Monitoring model quality in production is handled by SageMaker Model
 Monitor, notSageMaker Clarify.
 13. **Documents critical details about ML models**: This functionality is part of Amazon SageMaker Model Cards, which documents model details for transparencyand compliance.
 ---
@@ -114,6 +114,35 @@ Is ideal for use cases requiring real-time interaction with external data source
 38. **AWS Bedrock PartyRock** is a space where you can build AI-generated apps in a playground powered by Amazon Bedrock. It's a fast and fun way to learn about generative AI.
 39. Fine-tuning a foundation model involves providing labeled training data where each example consists of a prompt (the input to the model) and a completion (the desired output).This structure helps the model learn specific patterns or behaviors tailored to the company’s data and use case. In Amazon Bedrock, fine-tuning relies on a structured dataset that aligns with the model's learning requirements to improve its accuracy for domain-specific tasks.
 
+38.
+**Temperature**:This controls the randomness of the output, not the input prompt length.Temperature affects creativity, not
+input size.
+***Context window**:This defines the maximum length of the input prompt the model can process. It directly limits how much
+information can be included.
+**Batch size**:This is the number of prompts processed at once,affecting throughput, not individual prompt length. It's about
+processing multiple promptsefficiently.
+**Model size**:This relates to the model's overall capacityand complexity, not directly to the input prompt length.Size impacts performance, not input limits.
+
+39. Amazon SageMakerServerless Inference allows you to deploy machine learning models in a fully managed, serverlessenvironment. You don't need to manage the underlying infrastructure (such asEC2 instances) to handle predictions.
+40. AWS Artifact allows you to access AWS compliance reports,and it also includesa feature that sendsemail notifications when
+new compliance documents become available. This feature directlyaddresses the company's need to receive notifications
+when ISV compliance reportsare released.
+41. Named entity recognition (NER) is a process in natural language processing that identifies and categorizes key information in text, such as names of people, organizations, and locations.
+42. An Amazon Bedrock knowledge base allows you to incorporate your company's proprietary data into the foundation model. By
+feeding the model with relevant information, you can enhance its ability to generate more accurate and informative responses.
+43. Benchmark datasetsare specifically designed forevaluating models on specific tasks, including fairness
+and bias.These datasets typically include a wide range of content and scenarios designed to assess how well the model
+handles various forms of bias or discrimination. Using these datasets will provide the least administrative effort because they are pre-structured and widely recognized forevaluating model behavior acrossa variety of contexts
+
+44. Set up inference for a custom model:
+      ```
+      1. Purchase Provisioned Throughput
+      2. Deploy custom model for on-demand inference
+      ```
+45. Reinforcement learning: is the most suitable strategy for a chatbot to continuously improve its responses based on real-time feedbackfrom users.
+46. Confusion matrix isa key metric forevaluating classification models. It providesa summary of the model's predictions,
+showing the true positive, false positive, true negative,and false negative counts.
 ## new words
+
 1. Hallucinations
 2. Plagiarism
