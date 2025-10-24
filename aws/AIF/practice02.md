@@ -88,3 +88,119 @@ c
 b
 d
 b
+c
+b
+c
+d
+a
+a c
+c
+c
+a
+a
+c a
+c
+a
+a
+b
+c
+b
+b
+b
+b
+a
+b
+a
+4213
+a c
+a
+d
+a
+d
+b
+c
+b
+a
+b a
+212
+ad
+a
+a
+a
+a
+b
+a
+d
+b
+1122
+b d
+c
+b
+c
+b
+c
+a
+321
+1342
+b
+a
+d
+a
+ab
+a d
+b
+d
+a
+a
+321
+a
+a
+c a
+d
+d
+d b
+c
+c
+d
+ac
+b
+ac 
+b
+c
+c
+d
+a c
+c
+b
+c
+b
+a
+a
+d
+b
+a
+c
+c
+c
+221 211
+b
+c
+241 243
+d
+b
+143
+c
+bc
+b
+a
+b
+d
+d
+b
+c b
+b
+d
+a
+a
+c
+a
