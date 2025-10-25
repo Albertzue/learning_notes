@@ -165,6 +165,8 @@ carefully crafted prompts that make it harder for the model to misinterpret or b
     HIPAA-eligible features for compliance in healthcare settings
     This makes it ideal for helping hospital staff improve their skills in dictating clinical notes using generative AI.
 ```
+52.  An autoencoder is a type of artificial neural network used to learn efficient codings of unlabeled data (unsupervised learning). An autoencoder learns two functions: an encoding function that transforms the input data, and a decoding function that recreates the input data from the encoded representation.
+
 ## new words
 
 1. Hallucinations
