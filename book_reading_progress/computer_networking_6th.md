@@ -1,4 +1,4 @@
-## page：
+<img width="802" height="562" alt="image" src="https://github.com/user-attachments/assets/1209fc58-e710-48d6-97c7-23cd0e85580b" />## page：
 2025/9/6   41
 
 2025/9/7  113
@@ -23,6 +23,7 @@
 
 2025/10/21 550/572
 
+2025/11/27  630/593
 ## Keypoint:
 
 #### physical layer：
@@ -99,7 +100,17 @@ most commonly the distributed **Bellman-Ford routing algorithm**
 <img width="1125" height="331" alt="image" src="https://github.com/user-attachments/assets/a3b34f08-df8a-4a35-b2d9-c3ba6d428c78" />
 <img width="994" height="450" alt="image" src="https://github.com/user-attachments/assets/cafac8f7-360a-45b9-b732-476765d36db1" />
 
+1. The idea behind RPC is to make a remote procedure call look as much as possible like a local one. In the simplest form, to call a remote procedure, the client program must be bound with a small library procedure, called the client stub, that represents the server procedure in the client’s address space. Similarly, the server is bound with a procedure called the server stub. These procedures hide the fact that the procedure call from the client to the server is not local.
+<img width="750" height="418" alt="image" src="https://github.com/user-attachments/assets/bd614884-f09a-4cc9-86db-2148687f1561" />
+**note**: Step 2 is the client stub packing the parameters into a message and making a system call to send the message. Packing the parameters is called **marshaling**.
 
+2. **RTP (Real-time Transport Protocol)**. It is described in RFC 3550 and is now in widespread use for multimedia applications.
+<img width="821" height="353" alt="image" src="https://github.com/user-attachments/assets/0794d442-bb2e-4df4-b796-ed6eec742e66" />
+3. All TCP connections are full duplex and point-to-point. Full duplex means that traffic can go in both directions at the same time. Point-to-point means that each connection has exactly two end points. TCP does not support multicasting or broadcasting.
+
+<img width="802" height="562" alt="image" src="https://github.com/user-attachments/assets/1e739ffd-f405-4724-84bd-b979701066b4" />
+
+   
 ## new words: 
 relay 
 
