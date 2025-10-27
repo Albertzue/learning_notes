@@ -23,7 +23,7 @@
 
 2025/10/21 550/572
 
-2025/11/27  630/601
+2025/11/27  630/648
 ## Keypoint:
 
 #### physical layer：
@@ -110,6 +110,8 @@ most commonly the distributed **Bellman-Ford routing algorithm**
 
 <img width="802" height="562" alt="image" src="https://github.com/user-attachments/assets/1e739ffd-f405-4724-84bd-b979701066b4" />
 
+### Application Layer
+1. DNS is a hierarchical naming scheme and a distributed database system that implements this naming scheme. It is primarily used for mapping host names to IP addresses, but it has several other purposes,
    
 ## new words: 
 relay 
