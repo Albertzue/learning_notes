@@ -1,5 +1,5 @@
 ### Info
-
+https://www.certskills.com/ccna2024-07/
 ### schedule(plan/finish)
 2025/10/28 100/100
 ### keynotes
