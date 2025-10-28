@@ -24,6 +24,8 @@
 2025/10/21 550/572
 
 2025/11/27  630/648
+
+2025/11/28  670/done
 ## Keypoint:
 
 #### physical layer：
@@ -112,7 +114,11 @@ most commonly the distributed **Bellman-Ford routing algorithm**
 
 ### Application Layer
 1. DNS is a hierarchical naming scheme and a distributed database system that implements this naming scheme. It is primarily used for mapping host names to IP addresses, but it has several other purposes,
-   
+2. The process of looking up a name and finding an address is called **name resolution**.
+3. An authoritative record is one that comes from the authority that manages the record and is thus always correct. Authoritative records are in contrast to cached records, which may be out of date.
+
+
+
 ## new words: 
 relay 
 
@@ -183,6 +189,10 @@ amplitudes
 toll
 
 convergence
+
+jurisdiction
+
+innocuous
 
 ## terms：
 **gateway** The device that makes a connection between two or more networks and provides the necessary translation, both in terms of hardware and software
