@@ -6,7 +6,9 @@
 
 2025/10/29  80/83
 
-2025/10/30   110/
+2025/10/30   110/95
+
+2025/10/31    138/
 ### keynotes
 
 #### chapter 1&2
@@ -28,6 +30,8 @@
 4. <img width="943" height="425" alt="image" src="https://github.com/user-attachments/assets/6861731d-f5df-4149-a12b-9bf5b48caeaf" />
 5. <img width="971" height="594" alt="image" src="https://github.com/user-attachments/assets/7071ed45-3929-4f0a-ba80-1f33edd19d8e" />
 <img width="634" height="206" alt="image" src="https://github.com/user-attachments/assets/0db72892-4e14-423e-ad89-d9080e8d6500" />
+
+#### chapter 4
 
 
 ### new words
