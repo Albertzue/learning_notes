@@ -5,6 +5,7 @@ https://www.certskills.com/ccna2024-07/
 
 2025/10/29 130/120
 
+2025/10/31  150/146
 ### keynotes
 
 #### Chapter 1
@@ -68,6 +69,26 @@ as 12-digit hexadecimal numbers. Cisco devices typically add some periods to the
 
 #### chapter 3
 1. WAN technologies define the physical (Layer 1) standards and data-link (Layer 2) protocols used to communicate over long distances.
+2. <img width="790" height="160" alt="image" src="https://github.com/user-attachments/assets/0d3cef41-b96b-4406-8162-a8e243f7154f" />
+
+3. The **leased line** service, a physical layer service, delivers bits in both directions, at a predetermined speed, using full-duplex logic. In fact, conceptually it acts as if you had a fullduplex crossover Ethernet link between two routers, as shown in Figure 3-2. The leased line uses two pairs of wires, one pair for each direction of sending data, which allows full-duplex operation.
+<img width="784" height="221" alt="image" src="https://github.com/user-attachments/assets/7aa5d456-fdbc-4f62-adb1-83728e2ca6fb" />
+4. <img width="856" height="523" alt="image" src="https://github.com/user-attachments/assets/e053c788-bc08-47f7-985d-b03ad9804bad" />
+5.<img width="838" height="547" alt="image" src="https://github.com/user-attachments/assets/334931bc-9281-4c6f-b84f-ede32db5467a" />
+6. <img width="993" height="213" alt="image" src="https://github.com/user-attachments/assets/098e265e-056e-4ae5-8f5f-a3207d7b9835" />
+
+
+7. The default router is also referred to as the default gateway.
+8. Two IP addresses, not separated from each other by a router, must be in the same group (subnet).Two IP addresses, separated from each other by at least one router, must be in different groups (subnets).
+9. <img width="905" height="329" alt="image" src="https://github.com/user-attachments/assets/2e3034ea-6cd1-45a4-b889-4fac610d2517" />
+
+10. TCP/IP defines the Address Resolution Protocol (ARP) as the method by which any host or router on a LAN can dynamically learn the MAC address of another IP host or router on the same LAN. ARP defines a protocol that includes the ARP Request, which is a message that makes the simple request “if this is your IP address, please reply with your MAC address.” ARP also defines the ARP Reply message, which indeed lists both the original IP address and the matching MAC address.
+
+11. You can see the contents of the ARP cache on most PC operating systems by using the arp -a command from a command prompt.
+12. **Ping** uses the Internet Control Message Protocol (ICMP), sending a message called an ICMP echo request to another IP address. The computer with that IP address should reply with an ICMP echo reply. If that works, you successfully have tested the IP network. In other words, you know that the network can deliver a packet from one host to the other and back. ICMP does not rely on any application, so it really just tests basic IP connectivity—Layers 1, 2, and 3 of the OSI model.
+<img width="788" height="315" alt="image" src="https://github.com/user-attachments/assets/dc43fc08-21f1-438f-8c44-bc3cf2c65fbc" />
+
+#### chapter 4
 
 ### new words
 1. excerpt
@@ -78,3 +99,6 @@ as 12-digit hexadecimal numbers. Cisco devices typically add some periods to the
 6. Requests For Comments (RFC)
 7. electromagnetic interference (EMI)
 8. ranch
+9. High-Level Data Link Control (HDLC)
+10. Point-to-Point Protocol (PPP)
+11. Open Shortest Path First (OSPF) 
