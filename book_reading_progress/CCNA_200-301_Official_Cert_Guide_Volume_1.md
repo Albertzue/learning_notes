@@ -6,6 +6,8 @@ https://www.certskills.com/ccna2024-07/
 2025/10/29 130/120
 
 2025/10/31  150/146
+
+2025/11/01  167/168
 ### keynotes
 
 #### Chapter 1
@@ -89,7 +91,21 @@ as 12-digit hexadecimal numbers. Cisco devices typically add some periods to the
 <img width="788" height="315" alt="image" src="https://github.com/user-attachments/assets/dc43fc08-21f1-438f-8c44-bc3cf2c65fbc" />
 
 #### chapter 4
+1. User EXEC mode, sometimes also called user mode, allows the user to look around but not break anything. The “EXEC mode” part of the name refers to the fact that in this mode, when you enter a command, the switch executes the command and then displays messages that describe the command’s results.
+2. Cisco IOS supports a more powerful EXEC mode called privileged mode (also known as enable mode). The formal name, privileged mode, refers to the fact that IOS allows powerful (or privileged) commands from that mode.
+<img width="974" height="583" alt="image" src="https://github.com/user-attachments/assets/eccdee38-f131-4180-90a4-60c3cbf4c1fd" />
 
+3.  by default, a switch allows console access only. By default, the console requires no password at all, and no password to reach enable mode for users that happened to connect from the console.
+4.  <img width="991" height="401" alt="image" src="https://github.com/user-attachments/assets/3f2ab082-b895-4e76-b8d0-a025de6b99b2" />
+
+5. configuration mode, which is the mode used to configure the switch.
+6. <img width="1005" height="325" alt="image" src="https://github.com/user-attachments/assets/37e1b88f-aef5-4d31-9f50-bc9f09a27ce1" />
+The text inside parentheses in the command prompt identifies the configuration mode. For example, the first command prompt after you enter configuration mode lists (config), meaning global configuration mode. After the line console 0 command, the text expands to (config-line), meaning line configuration mode. Each time the command prompt changes within config mode, you have moved to another configuration mode.
+<img width="994" height="295" alt="image" src="https://github.com/user-attachments/assets/2635a88d-f644-42ef-9d32-72b935ae3978" />
+7.<img width="871" height="523" alt="image" src="https://github.com/user-attachments/assets/d3e6bf21-8554-40c9-8e14-6a39812c5951" />
+
+8. If you want to keep that configuration, you have to copy the running-config file into NVRAM, overwriting the old startup-config file.
+9. Note that Cisco IOS does not have a command that erases the contents of the runningconfig file. To clear out the running-config file, simply erase the startup-config file, and then reload the switch, and the running-config will be empty at the end of the process.
 ### new words
 1. excerpt
 2. As an aside
