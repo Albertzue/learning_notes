@@ -9,7 +9,7 @@ https://www.certskills.com/ccna2024-07/
 
 2025/11/01  167/168
 
-2025/11/02  188/171
+2025/11/02  188/188
 ### keynotes
 
 #### Chapter 1
@@ -112,6 +112,8 @@ The text inside parentheses in the command prompt identifies the configuration m
 #### chapter 5
 1. <img width="869" height="563" alt="image" src="https://github.com/user-attachments/assets/6d3f70c6-6266-46e7-b42f-6cf73fca97c2" />
 2. <img width="905" height="630" alt="image" src="https://github.com/user-attachments/assets/d2696143-023e-46bd-80bf-1aaf7ebb47a1" />
+3. <img width="926" height="404" alt="image" src="https://github.com/user-attachments/assets/2425e52c-9e5b-442b-adeb-b98d0625e36c" />
+4. <img width="924" height="355" alt="image" src="https://github.com/user-attachments/assets/1ef6f576-ca14-4884-8377-734ab6264526" />
 
 ### new words
 1. excerpt
@@ -124,4 +126,5 @@ The text inside parentheses in the command prompt identifies the configuration m
 8. ranch
 9. High-Level Data Link Control (HDLC)
 10. Point-to-Point Protocol (PPP)
-11. Open Shortest Path First (OSPF) 
+11. Spanning Tree Protocol (STP)
+12. Open Shortest Path First (OSPF) 
