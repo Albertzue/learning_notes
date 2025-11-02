@@ -108,6 +108,10 @@ The text inside parentheses in the command prompt identifies the configuration m
 
 8. If you want to keep that configuration, you have to copy the running-config file into NVRAM, overwriting the old startup-config file.
 9. Note that Cisco IOS does not have a command that erases the contents of the runningconfig file. To clear out the running-config file, simply erase the startup-config file, and then reload the switch, and the running-config will be empty at the end of the process.
+
+#### chapter 5
+1. <img width="869" height="563" alt="image" src="https://github.com/user-attachments/assets/6d3f70c6-6266-46e7-b42f-6cf73fca97c2" />
+
 ### new words
 1. excerpt
 2. As an aside
