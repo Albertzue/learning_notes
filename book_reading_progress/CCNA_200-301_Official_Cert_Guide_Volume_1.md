@@ -111,6 +111,7 @@ The text inside parentheses in the command prompt identifies the configuration m
 
 #### chapter 5
 1. <img width="869" height="563" alt="image" src="https://github.com/user-attachments/assets/6d3f70c6-6266-46e7-b42f-6cf73fca97c2" />
+2. <img width="905" height="630" alt="image" src="https://github.com/user-attachments/assets/d2696143-023e-46bd-80bf-1aaf7ebb47a1" />
 
 ### new words
 1. excerpt
