@@ -10,6 +10,9 @@ https://www.certskills.com/ccna2024-07/
 2025/11/01  167/168
 
 2025/11/02  188/191
+
+2025/11/03  214/
+
 ### keynotes
 
 #### Chapter 1
@@ -114,6 +117,12 @@ The text inside parentheses in the command prompt identifies the configuration m
 2. <img width="905" height="630" alt="image" src="https://github.com/user-attachments/assets/d2696143-023e-46bd-80bf-1aaf7ebb47a1" />
 3. <img width="926" height="404" alt="image" src="https://github.com/user-attachments/assets/2425e52c-9e5b-442b-adeb-b98d0625e36c" />
 4. <img width="924" height="355" alt="image" src="https://github.com/user-attachments/assets/1ef6f576-ca14-4884-8377-734ab6264526" />
+
+#### chapter 6
+1. <img width="920" height="490" alt="image" src="https://github.com/user-attachments/assets/4370effd-e6c5-4db0-b72d-def18e73c6ea" />
+2. <img width="955" height="763" alt="image" src="https://github.com/user-attachments/assets/c6d2abe4-dcf3-40fb-a8c7-262e9bee44c1" />
+3. <img width="862" height="433" alt="image" src="https://github.com/user-attachments/assets/6abdc86d-f6d5-4318-b265-ea28dc094ba1" />
+4. authentication, authorization, and accounting (AAA) server
 
 ### new words
 1. excerpt
