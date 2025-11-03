@@ -11,7 +11,7 @@ https://www.certskills.com/ccna2024-07/
 
 2025/11/02  188/191
 
-2025/11/03  214/
+2025/11/03  214/217
 
 ### keynotes
 
@@ -123,6 +123,29 @@ The text inside parentheses in the command prompt identifies the configuration m
 2. <img width="955" height="763" alt="image" src="https://github.com/user-attachments/assets/c6d2abe4-dcf3-40fb-a8c7-262e9bee44c1" />
 3. <img width="862" height="433" alt="image" src="https://github.com/user-attachments/assets/6abdc86d-f6d5-4318-b265-ea28dc094ba1" />
 4. authentication, authorization, and accounting (AAA) server
+5. <img width="776" height="479" alt="image" src="https://github.com/user-attachments/assets/02e59511-da39-4ef2-a8d5-864286d1b2d5" />
+6.  The transport input command identifies the protocols allowed in the vty ports, with the all keyword including SSH and Telnet.
+```
+        transport input all or transport input telnet ssh: Support both Telnet and SSH
+        transport input none: Support neither
+        transport input telnet: Support only Telnet
+        transport input ssh: Support only SSH
+```
+7.
+   - Use the **no ip http server** global command to disable the HTTP server (port 80) (traditionally enabled by default).
+   - Use the **ip http secure-server** global command to enable the HTTPS server (port 443, uses TLS) (traditionally enabled by default).
+   - Use the **ip http authentication** local global command to define the authentication method to use locally defined usernames (traditionally defaults to use the enable password).
+   - Use the **username name privilege 15 password** pass-value global command to define one or more usernames with privilege level 15.
+
+8.  by default creating two levels, 0 and 15. IOS assigns user mode to level 0 and privileged mode (enable mode) to level 15.
+9.   the switch then uses a NIC-like concept called a switch virtual interface (SVI), or more commonly, a **VLAN interface**. By using interface VLAN 1 for the IP configuration, the switch can then send and receive frames on any of the ports in VLAN 1. In a Cisco switch, by default, all ports are assigned to VLAN 1.
+10.   <img width="1032" height="432" alt="image" src="https://github.com/user-attachments/assets/fe6fa310-63ff-4bb8-9593-f04574789cf3" />
+11. <img width="1123" height="451" alt="image" src="https://github.com/user-attachments/assets/618b25bf-ffec-4e5d-9bea-ad6d19ce7619" />
+12. <img width="1202" height="435" alt="image" src="https://github.com/user-attachments/assets/7ecc6879-43b6-4e6d-81fb-d08abef5fe0e" />
+13. the [no] shutdown command. To administratively enable an interface on a switch, use the no shutdown interface subcommand; to disable an interface, use the shutdown interface subcommand.
+14. <img width="1192" height="418" alt="image" src="https://github.com/user-attachments/assets/9c201ea5-1afc-466b-8861-a3e63b9916ee" />
+15. if using DHCP, use the show dhcp lease command to see the (temporarily) leased IP address and other parameters. (Note that the switch does not store the DHCP-learned IP configuration in the running-config file.)
+16. <img width="1189" height="368" alt="image" src="https://github.com/user-attachments/assets/bef1f977-2caf-4077-b296-d455e04d7b6d" />
 
 ### new words
 1. excerpt
