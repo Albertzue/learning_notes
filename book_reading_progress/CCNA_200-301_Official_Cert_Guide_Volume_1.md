@@ -147,6 +147,9 @@ The text inside parentheses in the command prompt identifies the configuration m
 15. if using DHCP, use the show dhcp lease command to see the (temporarily) leased IP address and other parameters. (Note that the switch does not store the DHCP-learned IP configuration in the running-config file.)
 16. <img width="1189" height="368" alt="image" src="https://github.com/user-attachments/assets/bef1f977-2caf-4077-b296-d455e04d7b6d" />
 
+#### chapter 7
+1. Autonegotiation gives the devices on each link the means to agree to use the best speed without manually configuring the speed on each switch port.
+
 ### new words
 1. excerpt
 2. As an aside
