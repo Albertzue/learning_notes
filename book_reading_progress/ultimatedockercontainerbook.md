@@ -3,7 +3,10 @@
 2025/10/13 plan/real  100/110
 
 2025/10/19  121
+
 2025/10/20  160/166
+
+2025/11/04  256/243
 ## Keypoints:
 
 **Moby project**
@@ -123,4 +126,14 @@ image build time using the --build-arg parameter, as follows:
 docker image build \
     --build-arg BASE_IMAGE_VERSION=12.7-alpine \
     -t my-node-app-test .
+```
+
+```
+  docker image build  -f Dockerfile.dev -t node-demo-dev .
+```
+Please note the -f Dockerfile.dev command-line parameter. We must use this since we are using a Dockerfile with a non-standard name.
+
+#### delete dangling images:
+```
+docker image prune -f
 ```
