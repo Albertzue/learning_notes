@@ -3,7 +3,7 @@
 |Task                               | 1st date completed  | 2nd date completed |
 |-----------------------------------|---------------------|-------------------|
 |Repeat All DIKTA Questions         |   2025-11-02        |                   |
-|Answer Part Review Questions       | part I has not part review question |   |
+|Answer Part Review Questions       |   2025-11-04        |                   |
 |Review Key Topics                  |   2025-11-02        |                   |
 |Chapter Review Interactive Elements|                     |                   |
 
