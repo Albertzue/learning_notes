@@ -13,7 +13,7 @@ https://www.certskills.com/ccna2024-07/
 
 2025/11/03  214/217
 
-2025/11/04   243/243
+2025/11/04   243/248
 
 ### keynotes
 
@@ -171,6 +171,20 @@ The text inside parentheses in the command prompt identifies the configuration m
 10. <img width="1200" height="735" alt="image" src="https://github.com/user-attachments/assets/1f8621dc-0cbd-4ee6-98de-8e236a190005" />
 
 11. if the duplex settings do not match on the ends of an Ethernet segment, the switch interface will still be in a connected state
+
+#### chapter 8
+1. A **LAN** includes all devices in the same broadcast domain.A broadcast domain includes the set of all LAN-connected devices, so that when any of the devices sends a broadcast frame, all the other devices get a copy of the frame. So, from one perspective, you can think of a LAN and a broadcast domain as being basically the same thing.
+<img width="1216" height="419" alt="image" src="https://github.com/user-attachments/assets/98bb8a67-2160-49de-9e79-09cbaeee55a1" />
+<img width="1054" height="212" alt="image" src="https://github.com/user-attachments/assets/4d6068bf-3282-4c47-a086-2d988e7c26a2" />
+
+2. The following list summarizes the most common reasons for choosing to create smaller broadcast domains (VLANs):
+ - To reduce CPU overhead on each device, improving host performance, by reducing the number of devices that receive each broadcast frame
+ - To reduce security risks by reducing the number of hosts that receive copies of frames that the switches flood (broadcasts, multicasts, and unknown unicasts)
+ - To improve security for hosts through the application of different security policies per VLAN
+ - To create more flexible designs that group users by department, or by groups that work together, instead of by physical location
+ - To solve problems more quickly, because the failure domain for many problems is the same set of devices as those in the same broadcast domain
+ - To reduce the workload for the Spanning Tree Protocol (STP) by limiting a VLAN to a single access switch
+
 ### new words
 1. excerpt
 2. As an aside
