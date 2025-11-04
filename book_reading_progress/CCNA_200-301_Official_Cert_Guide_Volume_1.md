@@ -1,4 +1,4 @@
-### Info
+<img width="1224" height="666" alt="image" src="https://github.com/user-attachments/assets/627cf37d-7124-44f9-971d-bd13d00bc7f1" />### Info
 https://www.certskills.com/ccna2024-07/
 ### schedule(plan/finish)
 2025/10/28 100/100
@@ -12,6 +12,8 @@ https://www.certskills.com/ccna2024-07/
 2025/11/02  188/191
 
 2025/11/03  214/217
+
+2025/11/04   243/243
 
 ### keynotes
 
@@ -149,7 +151,26 @@ The text inside parentheses in the command prompt identifies the configuration m
 
 #### chapter 7
 1. Autonegotiation gives the devices on each link the means to agree to use the best speed without manually configuring the speed on each switch port.
+2. **Fast Link Pulses(FLPs)** use outof-band electrical signaling, independent of the various physical layer standards for Ethernet frame transmission. Any device that supports autonegotiation supports using these out-ofband FLP messages. The FLPs solve the problem of how the devices can send information to each other even before the link is up and working for normal data transmission.
+3. The IEEE refers to the logic used by autonegotiation when the other device has disabled autonegotiation as parallel detection, summarized as follows:
+ - **Speed**: Detect the neighboring device’s physical layer standard by analyzing the neighbor’s incoming frames. Use that speed.
+ - **Duplex**: Make a default choice based on speed—half duplex if the speed is 10 or 100 Mbps, and full duplex if faster.
+ - Ethernet interfaces using speeds more than 1 Gbps always use full duplex.
 
+4. <img width="1190" height="379" alt="image" src="https://github.com/user-attachments/assets/fcb9f0b5-20aa-4049-b253-ee309ff035a3" />
+5. Autonegotiation can work only if the physical link works. 
+6. <img width="1185" height="842" alt="image" src="https://github.com/user-attachments/assets/009bff7e-bab9-438f-a812-2b027129d9e1" />
+7. Auto-MDIX works if either one or both endpoints on the link enable auto-MDIX
+8. <img width="1224" height="666" alt="image" src="https://github.com/user-attachments/assets/112bbc13-5f55-4bf8-ac10-6b65f2a3f09f" />
+
+
+9. - If you configured speed 1000 on an interface, the no speed command on that same interface reverts to the default speed setting (which happens to be speed auto).
+   - Similarly, if you configured an earlier duplex half or duplex full command, the no duplex command in interface mode for the same interface reverts the configuration to the default duplex auto.
+   - If you configured a description command with some text, to go back to the default state of having no description command for that interface, you can use the no description command when in interface configuration mode for that same interface.
+
+10. <img width="1200" height="735" alt="image" src="https://github.com/user-attachments/assets/1f8621dc-0cbd-4ee6-98de-8e236a190005" />
+
+11. if the duplex settings do not match on the ends of an Ethernet segment, the switch interface will still be in a connected state
 ### new words
 1. excerpt
 2. As an aside
