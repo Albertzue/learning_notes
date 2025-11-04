@@ -6,7 +6,7 @@
 
 2025/10/20  160/166
 
-2025/11/04  256/243
+2025/11/04  256/288
 ## Keypoints:
 
 **Moby project**
@@ -136,4 +136,19 @@ Please note the -f Dockerfile.dev command-line parameter. We must use this since
 #### delete dangling images:
 ```
 docker image prune -f
+```
+
+When Docker builds an image, it first sends all of the files in the current directory (known as the “build context”) to the Docker daemon. If this directory contains large files or directories that aren’t necessary for building the Docker image (such as log files, local environment variables, cache files, etc.), these can be ignored to speed up the build process.
+
+
+Here’s an example of a .dockerignore file:
+```
+# Ignore everything
+**
+ # Allow specific directories
+ !my-app/
+ !scripts/
+ # Ignore specific files within allowed directories
+ my-app/*.log
+ scripts/temp/
 ```
