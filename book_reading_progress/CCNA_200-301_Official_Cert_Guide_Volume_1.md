@@ -1,4 +1,4 @@
-<img width="1224" height="666" alt="image" src="https://github.com/user-attachments/assets/627cf37d-7124-44f9-971d-bd13d00bc7f1" />### Info
+### Info
 https://www.certskills.com/ccna2024-07/
 ### schedule(plan/finish)
 2025/10/28 100/100
@@ -14,7 +14,7 @@ https://www.certskills.com/ccna2024-07/
 2025/11/03  214/217
 
 2025/11/04   243/248
-
+2025/11/07  278/280
 ### keynotes
 
 #### Chapter 1
@@ -184,6 +184,30 @@ The text inside parentheses in the command prompt identifies the configuration m
  - To create more flexible designs that group users by department, or by groups that work together, instead of by physical location
  - To solve problems more quickly, because the failure domain for many problems is the same set of devices as those in the same broadcast domain
  - To reduce the workload for the Spanning Tree Protocol (STP) by limiting a VLAN to a single access switch
+
+3. <img width="1026" height="610" alt="image" src="https://github.com/user-attachments/assets/8a4cd2ab-528a-4bb6-a096-fa3f582c3b6a" />
+4. <img width="978" height="550" alt="image" src="https://github.com/user-attachments/assets/d764c7f9-b738-4056-aae3-836ac7df37a1" />
+
+5. This 12-bit fieldsupports a theoretical maximum of 212 (4096) VLANs, but in practice it supports a maximum of 4094. (Both 802.1Q and ISL use 12 bits to tag the VLAN ID, with two reserved values [0 and 4095]).
+6. Cisco switches break the range of VLAN IDs (1–4094) into two ranges: the normal range and the extended range. All switches can use normal-range VLANs with values from 1 to 1005. Only some switches can use extended-range VLANs with VLAN IDs from 1006 to 4094. The rules for which switches can use extended-range VLANs depend on the configuration of the VLAN Trunking Protocol (VTP)
+7. <img width="802" height="288" alt="image" src="https://github.com/user-attachments/assets/4fe4e40d-f116-4233-9a5e-52555ce38d1d" />
+
+8. 802.1Q also defines one special VLAN ID on each trunk as the native VLAN (defaulting to use VLAN 1). In a normally working 802.1Q trunk, both endpoints use trunking, and both use the same native VLAN. Neither end, when sending a frame assigned to this native VLAN, adds the 802.1Q header. Both switches, knowing that untagged frames mean that the frame is part of the native VLAN, treat untagged frames as being part of the native VLAN.
+9. To forward packets between VLANs, the network must use a device that acts as a router. You can use an actual router or use a switch that can perform some functions like a router. These switches that also perform Layer 3 routing functions go by the name multilayer switch or Layer 3 switch.
+ <img width="920" height="385" alt="image" src="https://github.com/user-attachments/assets/7c7bf4fb-aa8b-4f8f-b055-8b388c7f1065" />
+
+10. <img width="831" height="336" alt="image" src="https://github.com/user-attachments/assets/2c4b1d22-9027-4cfb-9fd1-9ecff88e1326" />
+<img width="1016" height="519" alt="image" src="https://github.com/user-attachments/assets/bb36ff4c-e412-4b9d-b2c1-d20be93bb583" />
+<img width="1002" height="850" alt="image" src="https://github.com/user-attachments/assets/e4e33103-5517-40a0-a68b-9a698462dcb4" />
+
+11. <img width="939" height="307" alt="image" src="https://github.com/user-attachments/assets/55dca5e0-a5c6-49ce-afdd-2d000efec04b" />
+<img width="869" height="484" alt="image" src="https://github.com/user-attachments/assets/58d385ac-4096-4b2e-9b95-87ea42d709ba" />
+
+12. <img width="1000" height="362" alt="image" src="https://github.com/user-attachments/assets/7a6fd720-045f-41d4-b256-ca91e9a7276c" />
+13. <img width="1010" height="484" alt="image" src="https://github.com/user-attachments/assets/cb30ee2a-7dda-42d4-87ba-bc6709f18956" />
+14. <img width="988" height="392" alt="image" src="https://github.com/user-attachments/assets/839dcb5e-bcd4-4210-bdd8-56c99160f57a" />
+
+#### chapter 9
 
 ### new words
 1. excerpt
