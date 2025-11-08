@@ -17,7 +17,7 @@ https://www.certskills.com/ccna2024-07/
 
 2025/11/07  278/280
 
-2025/11/08  312/295
+2025/11/08  312/296
 ### keynotes
 
 #### Chapter 1
