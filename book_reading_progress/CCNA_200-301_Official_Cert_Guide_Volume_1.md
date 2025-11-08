@@ -13,8 +13,11 @@ https://www.certskills.com/ccna2024-07/
 
 2025/11/03  214/217
 
-2025/11/04   243/248
+2025/11/04  243/248
+
 2025/11/07  278/280
+
+2025/11/08  312
 ### keynotes
 
 #### Chapter 1
@@ -208,7 +211,12 @@ The text inside parentheses in the command prompt identifies the configuration m
 14. <img width="988" height="392" alt="image" src="https://github.com/user-attachments/assets/839dcb5e-bcd4-4210-bdd8-56c99160f57a" />
 
 #### chapter 9
+1. The storm also causes a much more subtle problem called MAC table instability. MAC table instability means that the switches’ MAC address tables keep changing because frames with the same source MAC arrive on different ports.
+2. <img width="1003" height="306" alt="image" src="https://github.com/user-attachments/assets/5ed1c2bd-7cd9-4596-8206-53804d064f24" />
 
+3. ■ STP/RSTP elects a root switch. STP puts all working interfaces on the root switch in a forwarding state.
+   ■ Each nonroot switch calculates the least-cost path between itself and the root switch based on STP/RSTP interface costs. The switch port that begins that least-cost path is its root port (RP), and the cost is the switch’s root cost.
+   ■ In a modern Ethernet that uses switches, each physical link connects two devices only. With two switches on a link, the switch with the lowest root cost becomes the designated switch, and its port connected to that link is the designated port (DP) on the link. 
 ### new words
 1. excerpt
 2. As an aside
@@ -222,3 +230,9 @@ The text inside parentheses in the command prompt identifies the configuration m
 10. Point-to-Point Protocol (PPP)
 11. Spanning Tree Protocol (STP)
 12. Open Shortest Path First (OSPF) 
+13. Boardcast Storm  Broadcast storms happen when any kind of Ethernet frames—broadcast frames, multicast frames, or unknowndestination unicast frames—loop around a LAN indefinitely.
+14. 
+
+
+
+
