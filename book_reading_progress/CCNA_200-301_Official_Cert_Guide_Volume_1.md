@@ -21,7 +21,7 @@ https://www.certskills.com/ccna2024-07/
 
 2025/11/09  312/312
 
-2025/11/10  356/325
+2025/11/10  356/330
 
 ### keynotes
 
@@ -239,6 +239,12 @@ The text inside parentheses in the command prompt identifies the configuration m
 5. <img width="902" height="258" alt="image" src="https://github.com/user-attachments/assets/4a28ad2d-abc4-4e5c-9992-eeb7b0ab0f99" />
 
 6. standard RSTP behaves as if VLANs do not exist, while Cisco’s RPVST+ integrates VLAN information into the entire process.
+
+7. You should not use PortFast on trunk ports connected to other switches, but you can use it on trunk ports connected to endpoints, as seen in the center of Figure 10-8
+    <img width="756" height="491" alt="image" src="https://github.com/user-attachments/assets/03f4c401-2030-4f08-baa5-2a0a629f2f37" />
+
+8.<img width="1017" height="428" alt="image" src="https://github.com/user-attachments/assets/6f0d3952-a726-4103-8d16-e3b42973f3c5" />
+
 ### new words
 1. excerpt
 2. As an aside
