@@ -21,7 +21,7 @@ https://www.certskills.com/ccna2024-07/
 
 2025/11/09  312/312
 
-2025/11/10  356/330
+2025/11/10  356/330  356-379(chapter 11)  1074-1087 (appendix M)
 
 ### keynotes
 
@@ -245,6 +245,22 @@ The text inside parentheses in the command prompt identifies the configuration m
 
 8.<img width="1017" height="428" alt="image" src="https://github.com/user-attachments/assets/6f0d3952-a726-4103-8d16-e3b42973f3c5" />
 
+#### chapter 11
+1. <img width="919" height="241" alt="image" src="https://github.com/user-attachments/assets/71cdf68c-9c49-4467-b4ed-00948ec1e240" />
+
+2.  - Addresses in the same subnet are not separated by a router.
+    - Addresses in different subnets are separated by at least one router.
+
+3. <img width="498" height="218" alt="image" src="https://github.com/user-attachments/assets/69e690eb-a3b6-49ac-b9a7-cae9415258cb" />
+
+4. <img width="491" height="99" alt="image" src="https://github.com/user-attachments/assets/67a36998-acd0-4a25-867e-5a7bf951f470" />
+
+5. <img width="611" height="264" alt="image" src="https://github.com/user-attachments/assets/38e777b3-8057-4a5f-99cd-62094b24ba99" />
+
+#### chapter appendix M
+1. <img width="918" height="431" alt="image" src="https://github.com/user-attachments/assets/9555422d-304f-4a2c-8a5b-4f38c9911e56" />
+
+2. If overlapping subnets are implemented, routing problems occur and some hosts simply cannot communicate outside their subnets.
 ### new words
 1. excerpt
 2. As an aside
@@ -261,6 +277,7 @@ The text inside parentheses in the command prompt identifies the configuration m
 13. Boardcast Storm  Broadcast storms happen when any kind of Ethernet frames—broadcast frames, multicast frames, or unknowndestination unicast frames—loop around a LAN indefinitely.
 14.  common spanning tree (CST)
 15. RPVST+ (one tree per vlan)
+16. variable-length subnet masks (VLSM)
 
 
 
