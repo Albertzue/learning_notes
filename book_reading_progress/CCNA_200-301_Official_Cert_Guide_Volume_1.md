@@ -18,6 +18,11 @@ https://www.certskills.com/ccna2024-07/
 2025/11/07  278/280
 
 2025/11/08  312/302
+
+2025/11/09  312/312
+
+2025/11/10  356/325
+
 ### keynotes
 
 #### Chapter 1
@@ -222,6 +227,18 @@ The text inside parentheses in the command prompt identifies the configuration m
 4. <img width="869" height="375" alt="image" src="https://github.com/user-attachments/assets/6cd03ae2-379e-4587-bcb7-ebe78d4a6177" />
 5. <img width="806" height="289" alt="image" src="https://github.com/user-attachments/assets/a7d11102-eca3-4ff7-9bbe-47f8e2a5e356" />
 
+#### chapter 10
+1. Cisco uses the term access switch to refer to switches used to connect to endpoint devices. The term distribution switch refers to switches that do not connect to endpoints but rather connect to each access switch, providing a means to distribute frames throughout the LAN. 
+
+2. The term uplink refers to the switch-to-switch links, usually trunks, between access and distribution switches.
+
+3. <img width="969" height="380" alt="image" src="https://github.com/user-attachments/assets/8845a556-331a-459b-ad44-5945035e48fb" />
+<img width="959" height="221" alt="image" src="https://github.com/user-attachments/assets/94116b8d-c49c-438f-a183-09fcd2225f51" />
+<img width="904" height="352" alt="image" src="https://github.com/user-attachments/assets/a0741e58-fee6-4cdf-b955-8d02b08702d5" />
+4. <img width="971" height="611" alt="image" src="https://github.com/user-attachments/assets/3fa0b6ab-dca2-44fd-b93f-9ec12532956c" />
+5. <img width="902" height="258" alt="image" src="https://github.com/user-attachments/assets/4a28ad2d-abc4-4e5c-9992-eeb7b0ab0f99" />
+
+6. standard RSTP behaves as if VLANs do not exist, while Cisco’s RPVST+ integrates VLAN information into the entire process.
 ### new words
 1. excerpt
 2. As an aside
@@ -236,8 +253,8 @@ The text inside parentheses in the command prompt identifies the configuration m
 11. Spanning Tree Protocol (STP)
 12. Open Shortest Path First (OSPF) 
 13. Boardcast Storm  Broadcast storms happen when any kind of Ethernet frames—broadcast frames, multicast frames, or unknowndestination unicast frames—loop around a LAN indefinitely.
-14. 
-
+14.  common spanning tree (CST)
+15. RPVST+ (one tree per vlan)
 
 
 
