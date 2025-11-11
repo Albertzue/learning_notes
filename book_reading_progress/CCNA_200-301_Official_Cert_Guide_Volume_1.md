@@ -23,6 +23,8 @@ https://www.certskills.com/ccna2024-07/
 
 2025/11/10  356/330  356-381(chapter 11)  1074-1087 (appendix M)
 
+2025/11/11  395/415
+
 ### keynotes
 
 #### Chapter 1
@@ -257,10 +259,35 @@ The text inside parentheses in the command prompt identifies the configuration m
 
 5. <img width="611" height="264" alt="image" src="https://github.com/user-attachments/assets/38e777b3-8057-4a5f-99cd-62094b24ba99" />
 
+#### chapter 12 
+1. <img width="961" height="405" alt="image" src="https://github.com/user-attachments/assets/880d83c6-c970-449a-8aa2-4647722e3270" />
+
+2. - The addresses in the same network have the same values in the network part.
+   - The addresses in the same network have different values in the host part.
 #### chapter appendix M
 1. <img width="918" height="431" alt="image" src="https://github.com/user-attachments/assets/9555422d-304f-4a2c-8a5b-4f38c9911e56" />
 
 2. If overlapping subnets are implemented, routing problems occur and some hosts simply cannot communicate outside their subnets.
+
+3. Each classful network has four key numbers that describe the network. You can derive these four numbers if you start with just one IP address in the network. The numbers are as follows:
+ - Network number
+ - First (numerically lowest) usable address
+ - Last (numerically highest) usable address
+ -  Network broadcast address
+
+4. the lowest number in the network is the network ID. Then, the first (numerically lowest) host IP address is one larger than the network number.
+5.  The TCP/IP RFCs define a network broadcast address as a special address in each network. This broadcast address could be used as the destination address in a packet, and the routers would forward a copy of that one packet to all hosts in that classful network.
+
+6.  <img width="941" height="371" alt="image" src="https://github.com/user-attachments/assets/1fc7f4cb-e38c-4d26-9243-8da7fd3bb489" />
+
+#### chapter 13
+1. The subnet mask subdivides the IP addresses in a subnet into two parts: the prefix, or subnet part, and the host part.
+2. - Classless addressing: The concept that an IPv4 address has two parts—the prefix part plus the host part—as defined by the mask, with no consideration of the class(A, B, or C).
+   - Classful addressing: The concept that an IPv4 address has three parts—network, subnet, and host—as defined by the mask and Class A, B, and C rules.
+  
+#### chapter 14
+
+
 ### new words
 1. excerpt
 2. As an aside
@@ -278,6 +305,6 @@ The text inside parentheses in the command prompt identifies the configuration m
 14.  common spanning tree (CST)
 15. RPVST+ (one tree per vlan)
 16. variable-length subnet masks (VLSM)
-
+17. octet
 
 
