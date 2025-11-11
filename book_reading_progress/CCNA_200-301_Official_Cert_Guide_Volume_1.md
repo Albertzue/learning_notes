@@ -23,7 +23,7 @@ https://www.certskills.com/ccna2024-07/
 
 2025/11/10  356/330  356-381(chapter 11)  1074-1087 (appendix M)
 
-2025/11/11  395/415
+2025/11/11  395/416
 
 ### keynotes
 
