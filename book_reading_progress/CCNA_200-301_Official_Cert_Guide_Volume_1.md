@@ -25,6 +25,7 @@ https://www.certskills.com/ccna2024-07/
 
 2025/11/11  395/416
 
+2025/11/14 464
 ### keynotes
 
 #### Chapter 1
@@ -287,6 +288,7 @@ The text inside parentheses in the command prompt identifies the configuration m
   
 #### chapter 14
 
+#### chapter 15
 
 ### new words
 1. excerpt
@@ -306,5 +308,6 @@ The text inside parentheses in the command prompt identifies the configuration m
 15. RPVST+ (one tree per vlan)
 16. variable-length subnet masks (VLSM)
 17. octet
+18. dotted-decimal notation (DDN)
 
 
