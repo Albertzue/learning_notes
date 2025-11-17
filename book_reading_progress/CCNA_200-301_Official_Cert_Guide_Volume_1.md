@@ -303,7 +303,7 @@ The text inside parentheses in the command prompt identifies the configuration m
 
 6. Floating static routes exist in the configuration of a router, but the router floats the route into the routing table and out of the routing table based on certain conditions
    <img width="885" height="400" alt="image" src="https://github.com/user-attachments/assets/464506a1-604c-4f5f-b725-8702afc2cf9b" />
-
+7. 
 ### new words
 1. excerpt
 2. As an aside
