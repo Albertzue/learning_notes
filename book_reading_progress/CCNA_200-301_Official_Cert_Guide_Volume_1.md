@@ -26,6 +26,9 @@ https://www.certskills.com/ccna2024-07/
 2025/11/11  395/416
 
 2025/11/14 464
+
+2025/11/17  chapter 10  356
+
 ### keynotes
 
 #### Chapter 1
@@ -290,6 +293,12 @@ The text inside parentheses in the command prompt identifies the configuration m
 
 #### chapter 15
 
+#### chapter 16
+1. IOS XE devices can support upgrading the OS while continuing to forward frames and packets, while IOS cannot
+2. <img width="865" height="253" alt="image" src="https://github.com/user-attachments/assets/640ad89b-96ee-4b56-a4d7-80725580a89a" />
+<img width="905" height="285" alt="image" src="https://github.com/user-attachments/assets/7e1f9c52-aafd-4e5a-9b01-abe2973cab98" />
+3. <img width="958" height="238" alt="image" src="https://github.com/user-attachments/assets/463597d0-7704-4d9e-8aba-059da100b092" />
+4. The Aux port works like the console port, except that the Aux port is typically connected through a cable to an external analog modem, which in turn connects to a phone line. Then, the engineer uses a PC, terminal emulator, and modem to call the remote router. After being connected, the engineer can use the terminal emulator to access the router CLI, starting in user mode as usual.
 ### new words
 1. excerpt
 2. As an aside
