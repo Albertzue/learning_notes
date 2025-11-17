@@ -301,7 +301,9 @@ The text inside parentheses in the command prompt identifies the configuration m
 4. The Aux port works like the console port, except that the Aux port is typically connected through a cable to an external analog modem, which in turn connects to a phone line. Then, the engineer uses a PC, terminal emulator, and modem to call the remote router. After being connected, the engineer can use the terminal emulator to access the router CLI, starting in user mode as usual.
 5. <img width="879" height="84" alt="image" src="https://github.com/user-attachments/assets/82a06a5a-1fe3-4e77-b4da-31511407a710" />
 
-6. Floating static routes exist in the configuration of a router, but the router floats the route into the routing table and out of the routing table based on certain conditions 
+6. Floating static routes exist in the configuration of a router, but the router floats the route into the routing table and out of the routing table based on certain conditions
+   <img width="885" height="400" alt="image" src="https://github.com/user-attachments/assets/464506a1-604c-4f5f-b725-8702afc2cf9b" />
+
 ### new words
 1. excerpt
 2. As an aside
