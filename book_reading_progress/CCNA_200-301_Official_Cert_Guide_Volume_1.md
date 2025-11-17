@@ -27,7 +27,7 @@ https://www.certskills.com/ccna2024-07/
 
 2025/11/14 464
 
-2025/11/17  chapter 10  356
+2025/11/17  complete chapter 10  and 482
 
 ### keynotes
 
@@ -299,6 +299,9 @@ The text inside parentheses in the command prompt identifies the configuration m
 <img width="905" height="285" alt="image" src="https://github.com/user-attachments/assets/7e1f9c52-aafd-4e5a-9b01-abe2973cab98" />
 3. <img width="958" height="238" alt="image" src="https://github.com/user-attachments/assets/463597d0-7704-4d9e-8aba-059da100b092" />
 4. The Aux port works like the console port, except that the Aux port is typically connected through a cable to an external analog modem, which in turn connects to a phone line. Then, the engineer uses a PC, terminal emulator, and modem to call the remote router. After being connected, the engineer can use the terminal emulator to access the router CLI, starting in user mode as usual.
+5. <img width="879" height="84" alt="image" src="https://github.com/user-attachments/assets/82a06a5a-1fe3-4e77-b4da-31511407a710" />
+
+6. Floating static routes exist in the configuration of a router, but the router floats the route into the routing table and out of the routing table based on certain conditions 
 ### new words
 1. excerpt
 2. As an aside
