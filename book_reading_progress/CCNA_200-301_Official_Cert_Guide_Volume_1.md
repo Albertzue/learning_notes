@@ -29,7 +29,7 @@ https://www.certskills.com/ccna2024-07/
 
 2025/11/17  complete chapter 10  and 482 /510
 
-2025/11/18  543/
+2025/11/18  543/544
 
 ### keynotes
 
@@ -309,7 +309,23 @@ The text inside parentheses in the command prompt identifies the configuration m
 #### chapter 17
 
 #### chapter 18
+1. the devices in one VLAN typically use IP addresses in one subnet. By the same reasoning, devices in two different VLANs are normally in two different subnets. For two devices in different VLANs to communicate with each other, routers must connect to the subnets that exist on each VLAN, and then the routers forward IP packets between the devices in those subnets.
 
+2. <img width="1093" height="532" alt="image" src="https://github.com/user-attachments/assets/0bec24a9-0a43-4304-818f-45350b5e5790" />
+
+3. The router needs to have an IP address/mask associated with each VLAN on the trunk. However, the router has only one physical interface for the link connected to the trunk. Cisco solves this problem by creating multiple virtual router interfaces, one for each supported VLAN on that trunk. Cisco calls these virtual interfaces **subinterfaces**, and the router configuration includes an ip address command for each subinterface.
+
+4. <img width="762" height="314" alt="image" src="https://github.com/user-attachments/assets/69c2a46c-edc1-4043-9f3d-c53262db886f" />
+
+5. note that most Cisco routers do not attempt to negotiate trunking, so both the router and switch need to manually configure trunking.
+<img width="898" height="625" alt="image" src="https://github.com/user-attachments/assets/27a5d0a1-e5c4-4c06-b8f4-53edda933684" />
+
+6. The two options to define a router interface for the native VLAN are:
+   - Configure the ip address command on the physical interface, but without an encapsulation command; the router considers this physical interface to be using the native VLAN.
+   - Configure the ip address command on a subinterface and use the encapsulation dot1q vlan-id native subcommand to tell the router both the VLAN ID and the fact that it is the native VLAN.
+<img width="871" height="704" alt="image" src="https://github.com/user-attachments/assets/3774f30e-56aa-400a-9a29-b440f5e46e03" />
+
+7. the subinterface state can also be enabled and disabled independently from the physical interface, using the no shutdown and shutdown commands in subinterface configuration mode. For instance, the physical interface and subinterface .10 can remain up/up, while subinterface .20 can be independently shut down.
 ### new words
 1. excerpt
 2. As an aside
@@ -329,5 +345,8 @@ The text inside parentheses in the command prompt identifies the configuration m
 16. variable-length subnet masks (VLSM)
 17. octet
 18. dotted-decimal notation (DDN)
+19. router-on-a-stick (ROAS)
+20. Layer 3 switch/multilayer switch
+21. switched virtual interfaces (SVIs)
 
 
