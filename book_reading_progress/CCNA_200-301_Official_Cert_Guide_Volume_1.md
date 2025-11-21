@@ -1,7 +1,7 @@
 ### backlog
 1. practice chapter 6 key topics 
 2. practice chapter 10 key topics
-3. 2. practice chapter 18 key topics
+3. practice chapter 18 key topics
 ### Info
 https://www.certskills.com/ccna2024-07/
 ### schedule(plan/finish)
@@ -34,6 +34,8 @@ https://www.certskills.com/ccna2024-07/
 2025/11/17  complete chapter 10  and 482 /510
 
 2025/11/18  543/544
+
+2025/11/21 568
 
 ### keynotes
 
