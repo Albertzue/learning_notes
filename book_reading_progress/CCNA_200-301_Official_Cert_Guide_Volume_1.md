@@ -1,3 +1,7 @@
+### backlog
+1. practice chapter 6 key topics 
+2. practice chapter 10 key topics
+3. 2. practice chapter 18 key topics
 ### Info
 https://www.certskills.com/ccna2024-07/
 ### schedule(plan/finish)
@@ -326,6 +330,14 @@ The text inside parentheses in the command prompt identifies the configuration m
 <img width="871" height="704" alt="image" src="https://github.com/user-attachments/assets/3774f30e-56aa-400a-9a29-b440f5e46e03" />
 
 7. the subinterface state can also be enabled and disabled independently from the physical interface, using the no shutdown and shutdown commands in subinterface configuration mode. For instance, the physical interface and subinterface .10 can remain up/up, while subinterface .20 can be independently shut down.
+
+#### chapter 19 
+1. <img width="912" height="318" alt="image" src="https://github.com/user-attachments/assets/5d1cb4dd-64c3-4a4c-98b0-3be7cf6d78f2" />
+2. When the DHCP process fails, the DHCP client self-assigns an APIPA IP address from within a subset of the 169.254.0.0 Class B network, along with default mask 255.255.0.0.
+<img width="905" height="277" alt="image" src="https://github.com/user-attachments/assets/f0c6a7fc-bf2e-4b17-b7e3-91c1a7b77296" />
+
+3. <img width="920" height="378" alt="image" src="https://github.com/user-attachments/assets/36b4841f-edbf-41b7-a029-6c323c90726b" />
+
 ### new words
 1. excerpt
 2. As an aside
@@ -348,5 +360,6 @@ The text inside parentheses in the command prompt identifies the configuration m
 19. router-on-a-stick (ROAS)
 20. Layer 3 switch/multilayer switch
 21. switched virtual interfaces (SVIs)
+22. Automatic Private IP Addressing (APIPA)
 
 
