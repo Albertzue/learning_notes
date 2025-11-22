@@ -363,5 +363,5 @@ The text inside parentheses in the command prompt identifies the configuration m
 20. Layer 3 switch/multilayer switch
 21. switched virtual interfaces (SVIs)
 22. Automatic Private IP Addressing (APIPA)
-
+23. Organizationally Unique Identifier (OUI)
 
