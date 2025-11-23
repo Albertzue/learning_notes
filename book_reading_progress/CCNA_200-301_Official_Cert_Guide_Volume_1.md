@@ -1,5 +1,5 @@
 ### backlog
-1. practice chapter 6 key topics 
+1. practice chapter 6 key topics  done
 2. practice chapter 10 key topics
 3. practice chapter 18 key topics
 ### Info
