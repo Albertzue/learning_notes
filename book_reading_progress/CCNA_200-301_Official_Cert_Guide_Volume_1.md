@@ -1,4 +1,4 @@
-### backlog
+<img width="749" height="186" alt="image" src="https://github.com/user-attachments/assets/50deb143-ad68-4c2e-8982-527aa6b92eb1" />### backlog
 1. practice chapter 6 key topics  done
 2. practice chapter 10 key topics
 3. practice chapter 18 key topics
@@ -38,6 +38,8 @@ https://www.certskills.com/ccna2024-07/
 2025/11/21 568
 
 2025/11/22  597
+
+2025/11/24 620
 ### keynotes
 
 #### Chapter 1
@@ -343,8 +345,9 @@ The text inside parentheses in the command prompt identifies the configuration m
 
 #### chapter 21
 1. <img width="929" height="322" alt="image" src="https://github.com/user-attachments/assets/f5d36a98-eea7-462f-b2af-5b4de3a7238b" />
-
-
+2. <img width="749" height="186" alt="image" src="https://github.com/user-attachments/assets/43637f4a-2b7c-4a1f-bcee-233e9ef7e635" />
+3. Today, Border Gateway Protocol (BGP) is the only EGP.
+4. The bandwidth interface subcommand does not change the actual physical speed of the interface. It just tells IOS what speed to assume the interface is using.
 ### new words
 1. excerpt
 2. As an aside
@@ -369,4 +372,5 @@ The text inside parentheses in the command prompt identifies the configuration m
 21. switched virtual interfaces (SVIs)
 22. Automatic Private IP Addressing (APIPA)
 23. Organizationally Unique Identifier (OUI)
-
+24. AS number (ASN)
+25. link-state advertisements (LSAs
