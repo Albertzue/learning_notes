@@ -1,4 +1,4 @@
-<img width="749" height="186" alt="image" src="https://github.com/user-attachments/assets/50deb143-ad68-4c2e-8982-527aa6b92eb1" />### backlog
+### backlog
 1. practice chapter 6 key topics  done
 2. practice chapter 10 key topics
 3. practice chapter 18 key topics
@@ -40,6 +40,8 @@ https://www.certskills.com/ccna2024-07/
 2025/11/22  597
 
 2025/11/24 620
+
+2025/11/24 640
 ### keynotes
 
 #### Chapter 1
@@ -348,6 +350,12 @@ The text inside parentheses in the command prompt identifies the configuration m
 2. <img width="749" height="186" alt="image" src="https://github.com/user-attachments/assets/43637f4a-2b7c-4a1f-bcee-233e9ef7e635" />
 3. Today, Border Gateway Protocol (BGP) is the only EGP.
 4. The bandwidth interface subcommand does not change the actual physical speed of the interface. It just tells IOS what speed to assume the interface is using.
+
+#### chapter 22
+1. <img width="800" height="641" alt="image" src="https://github.com/user-attachments/assets/b3149c5c-5cad-49a9-b712-1ba3d60952c9" />
+2. <img width="946" height="236" alt="image" src="https://github.com/user-attachments/assets/cc3785c8-467a-4585-8085-03edb36bd60d" />
+
+   
 ### new words
 1. excerpt
 2. As an aside
