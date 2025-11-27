@@ -42,6 +42,10 @@ https://www.certskills.com/ccna2024-07/
 2025/11/24 620
 
 2025/11/24 640
+
+2025/11/26 694
+
+2025/11/27
 ### keynotes
 
 #### Chapter 1
@@ -354,8 +358,12 @@ The text inside parentheses in the command prompt identifies the configuration m
 #### chapter 22
 1. <img width="800" height="641" alt="image" src="https://github.com/user-attachments/assets/b3149c5c-5cad-49a9-b712-1ba3d60952c9" />
 2. <img width="946" height="236" alt="image" src="https://github.com/user-attachments/assets/cc3785c8-467a-4585-8085-03edb36bd60d" />
+3. <img width="1150" height="319" alt="image" src="https://github.com/user-attachments/assets/31a2c248-5bc6-4bac-86cb-6dfcefc1418e" />
 
-   
+#### chapter 24
+1. <img width="1205" height="365" alt="image" src="https://github.com/user-attachments/assets/9e2137e9-a7b9-42b4-a098-e11a82ba75ab" />
+
+
 ### new words
 1. excerpt
 2. As an aside
