@@ -363,6 +363,11 @@ The text inside parentheses in the command prompt identifies the configuration m
 #### chapter 24
 1. <img width="1205" height="365" alt="image" src="https://github.com/user-attachments/assets/9e2137e9-a7b9-42b4-a098-e11a82ba75ab" />
 
+#### chapter 26
+1. **Global Unicast Addresses (GUAs)**: These addresses work like public IPv4 addresses. The organization that needs IPv6 addresses asks for a registered IPv6 address block, which is assigned as a global routing prefix. After that, only that
+organization uses the addresses inside that block of addresses—that is, the addresses that begin with the assigned prefix.
+
+2. **Unique Local Addresses (ULAs)**: These addresses work somewhat like private IPv4 addresses, with the possibility that multiple organizations use the exact same addresses, and with no requirement for registering with any numbering authority.
 
 ### new words
 1. excerpt
