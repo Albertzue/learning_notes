@@ -50,6 +50,8 @@ https://www.certskills.com/ccna2024-07/
 2025/11/28 761
 
 2025/12/08 780
+
+2025/12/10  finished
 ### keynotes
 
 #### Chapter 1
@@ -399,3 +401,4 @@ organization uses the addresses inside that block of addresses—that is, the ad
 23. Organizationally Unique Identifier (OUI)
 24. AS number (ASN)
 25. link-state advertisements (LSAs
+26. acronym
