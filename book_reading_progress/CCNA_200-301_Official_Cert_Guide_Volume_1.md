@@ -53,7 +53,9 @@ https://www.certskills.com/ccna2024-07/
 
 2025/12/10  finished
 
-2025/12/11  practice exam chapter 1,2,3,4,5 11
+2025/12/11  practice exam chapter 1,2,3,4,5,6,11
+
+2025/12/12  recall chapter 6
 
 ### keynotes
 
