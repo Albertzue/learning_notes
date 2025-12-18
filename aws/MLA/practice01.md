@@ -12,3 +12,15 @@ c
 c
 d
 b a
+a
+a
+d
+d
+a
+d
+a
+b
+
+
+
+
