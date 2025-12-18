@@ -61,6 +61,8 @@ https://www.certskills.com/ccna2024-07/
 
 2025/12/17  recall chapter 8 done  practice exam chapter 8
 
+2025/12/18  recall chapter 9  pratice exam chapter 9 
+
 ### keynotes
 
 #### Chapter 1
