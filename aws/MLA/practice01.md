@@ -20,7 +20,24 @@ a
 d
 a
 b
-
-
-
-
+ae ab
+c
+a
+d
+c
+d
+a d
+b
+d b
+b a
+c
+d
+d c
+a
+a
+d
+ad
+a d
+a
+c
+d
