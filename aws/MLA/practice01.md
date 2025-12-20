@@ -41,3 +41,7 @@ a d
 a
 c
 d
+b d
+c
+b c
+a
