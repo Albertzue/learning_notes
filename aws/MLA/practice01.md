@@ -45,3 +45,38 @@ b d
 c
 b c
 a
+d
+d
+c
+a
+d
+b
+d
+a
+d
+d
+b
+c a
+a
+c
+bc
+a ?
+d
+c
+c
+b
+d
+d
+a c
+b
+c
+c b
+b
+b
+d
+d b
+d a
+c
+d
+a
+c
