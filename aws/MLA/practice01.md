@@ -80,3 +80,36 @@ c
 d
 a
 c
+d
+c
+c
+c
+c
+ac
+b
+ce
+a c
+c
+d
+142
+c
+c
+d
+b
+c a
+d
+d
+d
+b
+c
+a b
+b
+c a
+a
+b
+c
+a
+a
+b d
+c
+b
