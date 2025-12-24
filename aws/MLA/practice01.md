@@ -113,3 +113,36 @@ a
 b d
 c
 b
+c
+c d
+c
+a
+b
+1423
+ae ac
+d
+c d
+a
+b
+c
+a b
+c a
+b d
+b
+cd
+b
+d a
+d
+ade
+c
+ac ab
+231 321
+d b
+c d
+c a
+d
+d c
+b
+
+
+36
