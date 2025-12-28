@@ -38,3 +38,39 @@ a
 d
 ad
 d
+a
+d c
+d
+d
+c
+c
+a
+d
+d
+c
+a
+d
+b
+d
+a
+d
+b d
+b
+a
+a
+c
+bc
+a
+d
+c
+c
+b
+d
+d
+a c
+b
+c
+c b
+b
+b
+d
