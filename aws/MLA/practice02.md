@@ -74,3 +74,15 @@ c b
 b
 b
 d
+b
+a
+c
+d
+a
+c
+d
+c
+a
+c
+c
+ac
