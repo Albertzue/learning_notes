@@ -106,3 +106,40 @@ b
 b
 a
 c a
+b
+c
+a
+b a
+b d
+a c
+b
+c
+d
+c
+a
+b
+1423
+ac
+d
+d
+a
+b
+c
+a b
+b a
+b
+a b
+cd
+b
+d a
+d
+ade
+c
+ac ab
+321
+b
+c d
+b a
+d
+c
+a b
