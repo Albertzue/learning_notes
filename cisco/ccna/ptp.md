@@ -1,3 +1,3 @@
 include exam 1-4 and part review
 
-2026/01/05  chapter 1 2
+2026/01/05  chapter 1 2 3 4 5 6(notpass)
