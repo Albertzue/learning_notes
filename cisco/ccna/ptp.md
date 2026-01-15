@@ -10,4 +10,4 @@ include exam 1-4 and part review
 
 2025/01/12 chapter 21 22   ospf network   mask settings logic investigation
 
-2025/01/13 chapter 22 23 24   **try default-information originate always**
+2025/01/13 chapter 22 23 24 25 **try default-information originate always**
