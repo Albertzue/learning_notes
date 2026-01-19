@@ -16,4 +16,4 @@ include exam 1-4 and part review
 
 2026/01/16 chapter 17 18 
 
-2026/01/19 chapter 19 20(not pass)
+2026/01/19 chapter 19 20(not pass) 26
