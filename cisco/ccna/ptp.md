@@ -22,4 +22,8 @@ include exam 1-4 and part review
 
 2026/01/22 chapter 29 9 15 16(not pass)
 
-2026/01/23 chapter 16
+2026/01/23 chapter 16   
+
+volumen II
+
+2026/01/23 chapter 1 2
