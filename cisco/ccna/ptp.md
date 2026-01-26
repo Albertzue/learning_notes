@@ -27,3 +27,7 @@ include exam 1-4 and part review
 volumen II
 
 2026/01/23 chapter 1 2(not pass)
+
+2026/01/24 chapter 2 3
+
+/01/26 chapter 4
