@@ -32,4 +32,5 @@ volumen II
 
 2026/01/26 chapter 4(not pass)
 
-2026/01/27 chapter 4 5
+2026/01/27 chapter 4 5(not pass) 6
+
