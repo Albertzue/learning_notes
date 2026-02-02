@@ -40,4 +40,4 @@ volumen II
 
 2026/01/32 chapter 5 8 9 10 11
 
-2026/02/02 chapter 12
+2026/02/02 chapter 12 13(not pass)       part review vol1 1
