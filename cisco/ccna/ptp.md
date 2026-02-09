@@ -45,3 +45,5 @@ volumen II
 2026/02/03 chapter 14(not pass)
 
 2026/02/04 chapter 15(not pass)
+
+2026/02/09 chapter 16(not pass)  20(not pass) 21
