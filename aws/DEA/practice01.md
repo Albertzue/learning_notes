@@ -11,3 +11,10 @@ a
 c
 c a
 d b
+b
+a
+d b
+ad
+a b
+ce ab
+a b
