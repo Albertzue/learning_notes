@@ -1,16 +1,13 @@
-c d
+d
 b
 a
 be
 b
 a b
+b
 c b
-d b
-b a
-d a
-c
 a
-b  DPU?
-b
-b a
-b
+a
+c
+c a
+d b
