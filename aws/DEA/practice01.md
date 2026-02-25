@@ -18,3 +18,14 @@ ad
 a b
 ce ab
 a b
+c b
+a b
+c
+d a
+c
+bd
+c
+ab
+a c
+b
+bc
