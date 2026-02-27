@@ -61,3 +61,35 @@ ae ce
 ae ad
 c
 c
+a
+ac bd
+b
+b c
+b
+b c
+b d
+de
+b
+d
+a b
+cd
+c a
+c b
+b
+b
+c  d
+a
+c
+c
+d c
+c b
+c b
+ac
+a
+c
+b
+a
+b
+a d
+a
+c b
