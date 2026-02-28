@@ -118,3 +118,86 @@ c
 b a
 b
 b
+b
+b
+c b
+cd ad
+ac
+b a
+c b
+a
+a
+a b
+c
+d a
+a d
+d
+c
+d
+d b
+b c
+be ab
+a b
+b d
+bc ac
+d
+d
+a
+b c
+b
+a
+ab ac
+b a
+ac ad
+a
+bc ac
+b
+d
+a
+bd
+b
+ad
+c
+b  c
+b a
+a b
+b
+b
+ce ab
+c
+d c
+a
+b
+b
+b
+c
+a
+a
+de
+d
+c d
+b
+ac ad
+c
+ab
+d
+b
+c a
+c
+a
+b
+ab ac
+a
+b
+a b
+c
+a
+c
+a
+b
+a
+c
+b a
+c
+a
+b
