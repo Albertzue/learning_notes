@@ -223,3 +223,39 @@ b d
 be bd
 a
 a b
+b a
+b
+a
+b a
+d c
+c
+d b
+c
+d a
+d a
+b
+c
+a
+b
+c
+b a
+c b
+bc
+a
+a
+a
+b c
+c
+b
+d
+b
+bd
+b
+c a
+b
+a
+b c
+a
+d
+bd be
+bc bd
