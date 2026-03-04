@@ -20,3 +20,19 @@ ab
 b
 b
 b
+c
+a
+c
+bd
+c
+ac ab
+c
+b
+bc
+bc ! wrong answer of cd
+b
+d
+b c
+bc ac
+d
+c
