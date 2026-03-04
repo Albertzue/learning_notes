@@ -158,3 +158,20 @@ bd
 b
 ad
 c
+c
+a
+a b
+b
+b
+ac ab
+c
+c
+a
+b
+b
+b
+c
+a
+a
+de
+d
