@@ -36,3 +36,36 @@ b c
 bc ac
 d
 c
+c a
+b
+d
+bd
+bd
+c
+d b
+d c
+b
+b
+b
+c
+a
+b
+c
+b
+b
+a
+d
+c
+d
+ce
+ad
+d c
+c
+a
+bd
+d b
+c
+b
+c
+d
+de
