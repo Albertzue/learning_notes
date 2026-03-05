@@ -216,3 +216,37 @@ b
 a b
 a
 b
+c
+a
+a
+a d
+bd
+a
+b
+a
+b
+d a
+b a
+c
+c
+b
+c
+a
+a
+b
+c
+a
+b
+c
+b a
+b
+bc
+d a
+a
+a
+c
+d c
+b
+d ? wrong answer 
+b
+bd
