@@ -250,3 +250,12 @@ b
 d ? wrong answer 
 b
 bd
+b
+a
+a
+a
+c
+a
+d
+bd be
+bc bd
