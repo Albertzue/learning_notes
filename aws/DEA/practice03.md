@@ -9,3 +9,33 @@ b
 a
 a
 c
+a
+b
+b
+a
+b
+ad
+b
+ab
+b
+b
+a b
+c
+a
+c
+bd
+c
+ab
+c
+b
+bc
+bc
+b
+d
+c
+ac
+d
+c
+c a
+b
+d
