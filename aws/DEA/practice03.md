@@ -154,3 +154,40 @@ ac
 b
 d
 a
+bd
+b
+ad
+c
+c
+a
+a b
+b
+b
+ab
+c
+d c
+a
+b
+b
+b
+c
+a
+a
+bd
+c d
+d
+b
+ad
+c
+ab
+d
+b
+a
+c
+a
+b
+ac
+a
+b
+b
+
