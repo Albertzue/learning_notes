@@ -190,4 +190,42 @@ ac
 a
 b
 b
-
+c
+a
+c
+a
+b
+a
+c
+a
+c
+a
+b
+b a
+a
+d
+c
+c
+bd
+c
+a
+b
+b
+c
+b
+b
+A
+B
+C
+A
+a
+d
+bd
+a
+b
+a
+b
+d a
+b a
+d c
+c
