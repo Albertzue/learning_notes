@@ -232,3 +232,14 @@ c
 b
 c
 a
+a
+b
+c
+a
+b
+c
+a
+b
+bc
+a
+a
