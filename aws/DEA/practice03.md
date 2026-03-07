@@ -229,3 +229,6 @@ d a
 b a
 d c
 c
+b
+c
+a
