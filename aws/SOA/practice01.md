@@ -59,3 +59,8 @@ b
 cd
 b
 bd
+d
+d
+c a
+cd bd
+b
