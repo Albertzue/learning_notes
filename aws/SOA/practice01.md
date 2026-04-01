@@ -43,3 +43,19 @@ c d
 ce be
 a b
 ae
+c
+a b
+b c
+a
+c a
+a b
+d c
+a
+a c
+a
+a d
+cd de
+b
+cd
+b
+bd
