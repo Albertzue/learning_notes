@@ -26,3 +26,41 @@ a
 c
 a
 c
+d
+b
+d
+c
+c
+b
+a
+b
+a
+c
+b
+d
+c
+d
+be
+b
+ae
+c
+c b
+b c
+a
+b a
+b
+c
+a
+c
+a
+d
+cd
+b
+cd
+b
+bd
+d
+d
+a
+bd
+b
