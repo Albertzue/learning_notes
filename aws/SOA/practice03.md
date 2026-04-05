@@ -1,3 +1,10 @@
 c
 b
 a
+b
+a
+a
+c
+b
+b
+b
