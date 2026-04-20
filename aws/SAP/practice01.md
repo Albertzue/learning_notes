@@ -73,3 +73,19 @@ c b
 c
 d c
 b
+d
+a
+b
+a
+ce
+ad ac
+a
+c
+c
+c
+b
+bc
+b
+c a
+b
+a
