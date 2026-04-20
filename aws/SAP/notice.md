@@ -16,3 +16,16 @@
 43 UltraWarm provides a cost-effective way to store large amounts of read-only data on Amazon OpenSearch Service. Standard data nodes use "hot" storage, which takes the form of instance stores or Amazon EBS volumes attached to each node. Hot storage provides the fastest possible performance for indexing and searching new data. Rather than attached storage, UltraWarm nodes use Amazon S3 and a sophisticated caching solution to improve performance. For indexes that you are not actively writing to, query less frequently, and don't need the same performance from, UltraWarm offers significantly lower costs per GiB of data. Because warm indexes are read-only unless you return them to hot storage, UltraWarm is best-suited to immutable data, such as logs. [https://docs.aws.amazon.com/opensearch-service/latest/developerguide/ultrawarm.html]()
 
 46  AWS Agentless Discovery Connector does not provide processes visibility
+53  Since there is a Transit Gateway involved it is unlikely to have VPC peering and the resources in a VPC attached to a transit gateway cannot access the security groups of a different VPC that is also attached to the same transit gateway
+
+54 AWS Compute Optimizer enhanced infrastructure metrics is for ec2 instance, asg instance and Amazon RDS DB instances.
+
+55 AWS Cost Categories, found in the AWS Billing and Cost Management console, enable rule-based grouping of costs by dimensions like accounts, tags, or services. It facilitates detailed cost allocation for internal business structures. Users can define up to 50 categories with 500 rules each to analyze data in tools like Cost Explorer and Budgets
+
+60 <img width="996" height="744" alt="image" src="https://github.com/user-attachments/assets/5b1ddf6a-f7b0-43ec-81bd-b4d428c7713f" />
+
+62 AWS VM Import/Export allows migrating on-premises VMs to EC2 instances or AMIs, and vice versa, while maintaining configurations
+
+66  EC2 Instance Connect is also providing audit but it requires the sg for ssh port 22
+
+67 aws aurora db can be shared by RAM
