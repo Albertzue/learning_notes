@@ -48,3 +48,20 @@ a
 ab bd
 c
 c
+b
+a b
+d c
+c b
+acf
+d b
+c
+a
+bcf bdf
+a
+b
+b
+ab
+b
+d
+bcf
+b
