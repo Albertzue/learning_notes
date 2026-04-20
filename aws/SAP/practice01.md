@@ -67,3 +67,5 @@ bcf
 b
 a
 c
+b d
+ad
