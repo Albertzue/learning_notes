@@ -29,3 +29,5 @@
 66  EC2 Instance Connect is also providing audit but it requires the sg for ssh port 22
 
 67 aws aurora db can be shared by RAM
+
+70 You need to enable all features in your organizations to manage your accounts single sign-on.
