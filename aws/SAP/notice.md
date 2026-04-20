@@ -30,4 +30,4 @@
 
 67 aws aurora db can be shared by RAM
 
-70 You need to enable all features in your organizations to manage your accounts single sign-on.
+70 AWS Organizations is recommended, but not required, for use with IAM Identity Center. If you haven't set up an organization, you don't have to. If you've already set up AWS Organizations and are going to add IAM Identity Center to your organization, make sure that all AWS Organizations features are enabled
