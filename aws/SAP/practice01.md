@@ -29,3 +29,22 @@ bce cef
 a
 ac
 c
+b
+a
+b
+a !
+c
+b
+c
+ade
+c
+a
+d
+b
+d
+b
+d
+a
+ab bd
+c
+c
