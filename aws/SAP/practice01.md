@@ -69,3 +69,7 @@ a
 c
 b d
 ad
+c b
+c
+d c
+b
