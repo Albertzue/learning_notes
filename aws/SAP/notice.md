@@ -31,3 +31,9 @@
 67 aws aurora db can be shared by RAM
 
 70 AWS Organizations is recommended, but not required, for use with IAM Identity Center. If you haven't set up an organization, you don't have to. If you've already set up AWS Organizations and are going to add IAM Identity Center to your organization, make sure that all AWS Organizations features are enabled
+
+77 AWS Transit Gateway supports five primary attachment types to centralize network connectivity: VPC (Virtual Private Cloud), VPN (Site-to-Site VPN), Direct Connect Gateway, Transit Gateway Peering (intra/inter-region), and TGW Connect (for SD-WAN appliances)
+
+78 STARTTLS supports ports 25, 587, and 2587  TLSWRAPPER supports ports 465 and 2465
+
+83 . s3 storage lens Free metrics are available for queries for a 14-day period, and advanced metrics are available for queries for a 15-month period
