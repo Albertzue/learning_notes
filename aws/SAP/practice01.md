@@ -199,3 +199,10 @@ ad
 bcd acd
 bce
 a
+b
+c
+c
+acf ace
+d
+a
+c
