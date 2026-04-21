@@ -37,3 +37,13 @@
 78 STARTTLS supports ports 25, 587, and 2587  TLSWRAPPER supports ports 465 and 2465
 
 83 . s3 storage lens Free metrics are available for queries for a 14-day period, and advanced metrics are available for queries for a 15-month period
+
+92 Using S3 Select is good for filtering data in S3, but it may not be a suitable solution for querying and analyzing large amounts of data
+
+96 you encrypt data with KMS Data Key and not KMS Key directly, unless data is < 4K
+
+104 In AWS Elastic Beanstalk, you can create a load-balanced, scalable environment or a single-instance environment. 
+
+113 <img width="986" height="231" alt="image" src="https://github.com/user-attachments/assets/16e47482-f331-4f2f-9f30-f7c57d7c5cbd" />
+
+114 Amazon Data Firehose (formerly Kinesis Data Firehose) automatically scales to handle varying data throughput without manual intervention or pre-provisioning
