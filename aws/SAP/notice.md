@@ -71,3 +71,18 @@
 173  can use IAM Access Analyzer-> resource access analyzer for S3
 174 Migration Evaluator builds the business case and server inventory, Migration Hub provides a single view of the portfolio, and Application Discovery Service reveals application/database dependencies. The other options focus on migration execution (SMS, DMS, MGN) 
 175 AWS EBS Multi-Attach  All instances must reside in the same AZ.
+
+190 Route 53 failover will not be as immediate as cloudfront failover
+
+199 
+```
+AWS Firewall Manager has the following prerequisites:
+AWS Organizations: Your organization must be using AWS Organizations to manage your accounts, and All Features must be enabled. For more
+information, see Creating an Organization and Enabling All Features in Your Organization.
+A firewall administrator AWS Account: You must designate one of the AWS accounts in your organization as the administrator for AWS Firewall
+Manager. This gives the account permission to deploy AWS WAF rules across the organization.
+AWS Config: You must enable AWS Config for all of the accounts in your organization so that AWS Firewall Manager can detect newly created
+resources. To enable AWS Config for all of the accounts in your organization, you can use the Enable AWS Config template on the StackSets
+Sample Templates page. For more information, see Getting Started with AWS Config.
+``
+
