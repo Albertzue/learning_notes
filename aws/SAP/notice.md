@@ -86,3 +86,6 @@ resources. To enable AWS Config for all of the accounts in your organization, yo
 Sample Templates page. For more information, see Getting Started with AWS Config.
 ``
 
+
+204 DLM itself does not directly support restore operations
+205 cloudfront can redirect http to https  at Behaviors tab
