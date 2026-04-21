@@ -113,3 +113,69 @@ c
 abe
 ad
 d
+d
+bde ade
+acd
+b
+c
+ad
+a
+bdf
+ad
+cde
+d
+b d
+ae
+b
+b c
+c b
+ce
+ac
+b c
+c
+c
+acf
+c
+c
+d
+c
+c
+be bd
+b
+c
+a
+b c
+c b
+b
+b
+be
+a d
+acd
+d
+b c
+d
+b
+b
+b
+ad
+b
+c
+a b
+b
+c b
+c
+c
+cdf
+a
+cd
+b c
+c
+d b
+c
+a
+a
+d
+b
+b
+b
+b c
