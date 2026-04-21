@@ -36,7 +36,7 @@
 
 78 STARTTLS supports ports 25, 587, and 2587  TLSWRAPPER supports ports 465 and 2465
 
-83 . s3 storage lens Free metrics are available for queries for a 14-day period, and advanced metrics are available for queries for a 15-month period
+83 s3 storage lens Free metrics are available for queries for a 14-day period, and advanced metrics are available for queries for a 15-month period
 
 92 Using S3 Select is good for filtering data in S3, but it may not be a suitable solution for querying and analyzing large amounts of data
 
@@ -47,3 +47,27 @@
 113 <img width="986" height="231" alt="image" src="https://github.com/user-attachments/assets/16e47482-f331-4f2f-9f30-f7c57d7c5cbd" />
 
 114 Amazon Data Firehose (formerly Kinesis Data Firehose) automatically scales to handle varying data throughput without manual intervention or pre-provisioning
+
+117 cloud trail can use sns  event bridge( real time) and CloudWatch Logs to monitor and alert on log data
+
+135 Enabling Amazon DynamoDB Streams is a fundamental prerequisite for configuring DynamoDB Global Tables. The stream acts as the mechanism that captures and propagates item-level changes across all replica regions
+
+136 DocumentDB has no on-demand capacity "mode".
+
+141 To protect EC2 instances managed by an Auto Scaling Group (ASG) from termination, you must use Instance Scale-In Protection rather than standard EC2 termination protection. This prevents the ASG from terminating specific instances during scale-in events while allowing them to be replaced if they fail health checks.
+
+146 Amazon DLM can be used for scheduling snapshots, but it does not provide real-time replication and may not meet the requirement of no data loss in case of a failure.
+
+147 Using Fargate may not be the most cost-effective solution and also it may not handle large amount of data.
+155 an apex domain cannot use CNAME records in AWS
+157  AWS IoT Greengrass supports offline operation by enabling devices to continue processing data even when they are disconnected from the internet.
+
+163 Amazon ElastiCache for Redis now supports updates to encryption in transit on existing cluster resources. You can change the TLS configuration of your Redis clusters without re‑building or re‑provisioning them or impacting application availability. ... Upgrade your Redis cluster to version 7 or above. You can then modify the encryption‑in‑transit property for your cluster using the ElastiCache Console, API or CLI.
+
+164 launch template cannot be updated
+165 FSx for Luster doesn't support NFS protocol It actually support only POSIX protocol
+171 CodeCommit is not supported by AWS Backup and has no snapshot feature
+
+173  can use IAM Access Analyzer-> resource access analyzer for S3
+174 Migration Evaluator builds the business case and server inventory, Migration Hub provides a single view of the portfolio, and Application Discovery Service reveals application/database dependencies. The other options focus on migration execution (SMS, DMS, MGN) 
+175 AWS EBS Multi-Attach  All instances must reside in the same AZ.
