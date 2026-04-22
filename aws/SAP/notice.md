@@ -89,3 +89,7 @@ Sample Templates page. For more information, see Getting Started with AWS Config
 
 204 DLM itself does not directly support restore operations
 205 cloudfront can redirect http to https  at Behaviors tab
+210 kms can rotate key but can not use lambda
+211 the Application Migration Service needs to install agent on thousands of VMs, so it is not suitable for initial inventory collection and is high Operational overhead
+
+218 AWS Global Accelerator cannot directly target an Amazon API Gateway endpoint as its backend
