@@ -93,3 +93,4 @@ Sample Templates page. For more information, see Getting Started with AWS Config
 211 the Application Migration Service needs to install agent on thousands of VMs, so it is not suitable for initial inventory collection and is high Operational overhead
 
 218 AWS Global Accelerator cannot directly target an Amazon API Gateway endpoint as its backend
+231 AWS Storage Gateway's FSx File Gateway is no longer available to new customers
