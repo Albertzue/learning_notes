@@ -225,3 +225,12 @@ a
 b
 a
 c
+d
+b c
+ab cd
+d a    42
+b
+d
+d
+acf
+a
