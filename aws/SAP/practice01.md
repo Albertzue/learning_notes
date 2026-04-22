@@ -234,3 +234,39 @@ d
 d
 acf
 a
+c
+acf abd
+b
+bce
+b
+d
+ae ac
+b
+bde
+b
+b
+c b
+a
+a
+c d
+c
+c
+d
+be ac
+b
+bd
+a d
+b
+c
+ace
+b
+b
+c
+bef
+c
+d
+b
+d c  49
+c
+c
+b
