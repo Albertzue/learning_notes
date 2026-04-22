@@ -94,3 +94,6 @@ Sample Templates page. For more information, see Getting Started with AWS Config
 
 218 AWS Global Accelerator cannot directly target an Amazon API Gateway endpoint as its backend
 231 AWS Storage Gateway's FSx File Gateway is no longer available to new customers
+251 Amazon API Gateway doesn't support request limiting through resource policies
+254 only dynamodb Provisioned r/w mode can autoscaling
+268 You can detach/attach instances from your Auto Scaling group
