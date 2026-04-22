@@ -98,3 +98,7 @@ Sample Templates page. For more information, see Getting Started with AWS Config
 254 only dynamodb Provisioned r/w mode can autoscaling
 268 You can detach/attach instances from your Auto Scaling group
 289 You cannot natively convert the RDS for MySQL DB instance to an Amazon Aurora MySQL DB cluster. Instead, you can create an Amazon Aurora MySQL replica of the RDS MySQL RDS DB instance:
+301 REST APIs and HTTP APIs are both RESTful API products. REST APIs support more features than HTTP APIs, while HTTP APIs are designed with minimal features so that they can be offered at a lower price. Choose REST APIs if you need features such as API keys, per-client throttling, request validation, AWS WAF integration, or private API endpoints. Choose HTTP APIs if you don't need the features included with REST APIs.
+303 field-level encryption in CloudFront uses asymmetric encryption with RSA key
+
+306 <img width="616" height="432" alt="image" src="https://github.com/user-attachments/assets/adf61f60-b0be-4070-95c9-4235d0c0fdaa" />
