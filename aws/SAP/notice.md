@@ -97,3 +97,4 @@ Sample Templates page. For more information, see Getting Started with AWS Config
 251 Amazon API Gateway doesn't support request limiting through resource policies
 254 only dynamodb Provisioned r/w mode can autoscaling
 268 You can detach/attach instances from your Auto Scaling group
+289 You cannot natively convert the RDS for MySQL DB instance to an Amazon Aurora MySQL DB cluster. Instead, you can create an Amazon Aurora MySQL replica of the RDS MySQL RDS DB instance:
