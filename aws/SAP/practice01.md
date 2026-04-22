@@ -270,3 +270,31 @@ d c  49
 c
 c
 b
+d
+d
+ace
+d
+abc
+b
+c
+c
+b
+c
+ac
+c
+c
+c b
+b
+c
+d a
+b
+b
+a
+a
+a
+c
+a c
+a
+c
+d
+d a
