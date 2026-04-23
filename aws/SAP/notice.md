@@ -102,3 +102,23 @@ Sample Templates page. For more information, see Getting Started with AWS Config
 303 field-level encryption in CloudFront uses asymmetric encryption with RSA key
 
 306 <img width="616" height="432" alt="image" src="https://github.com/user-attachments/assets/adf61f60-b0be-4070-95c9-4235d0c0fdaa" />
+
+308 aws backup can daily weekly  monthly and coustom define as following<img width="843" height="391" alt="image" src="https://github.com/user-attachments/assets/ed80bde2-89d1-4f22-8751-76c389c3d7a5" />
+311 Compute Savings Plans (up to 66% off) offer maximum flexibility across EC2, Fargate, and Lambda, automatically applying to different families and regions. EC2 Instance Savings Plans (up to 72% off) offer higher discounts but restrict you to specific instance families within a single region
+
+319 cannot join an EC2 to On-prem AD just over the VPN. You should be having an AD connector for the same
+
+321 When you connect to an instance using EC2 Instance Connect through the console or AWS CLI, the EC2 Instance Connect API automatically pushes an SSH public key to the instance metadata where it remains for 60 seconds
+
+326 AWS Directory Service Simple AD does not support (MFA)
+
+332 security group can have only 60 rules, so you can't add ALL CloudFront IPs into it, so prefix list
+
+335 Global Database is recommended for low-latency global reads and high-resilience, whereas cross-region replicas are more suitable for specific, limited migration or read-only use cases
+
+338 cloudwatch log subscription filters can be intergrated with  kinesis  data firehose open search and lambda as following
+<img width="448" height="205" alt="image" src="https://github.com/user-attachments/assets/4786fa93-68e1-4c7a-a739-2fb0b828f6b0" />
+
+339  the AWS VM Import/Export process generally requires the source Virtual Machine (VM) to be shut down to ensure data consistency during the export and import phases
+346 Amazon Aurora PostgreSQL serverless v2 is not existing
+350 <img width="678" height="256" alt="image" src="https://github.com/user-attachments/assets/fa19c873-d391-47ce-aa76-a9db7116cb9d" />
