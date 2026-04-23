@@ -122,3 +122,5 @@ Sample Templates page. For more information, see Getting Started with AWS Config
 339  the AWS VM Import/Export process generally requires the source Virtual Machine (VM) to be shut down to ensure data consistency during the export and import phases
 346 Amazon Aurora PostgreSQL serverless v2 is not existing
 350 <img width="678" height="256" alt="image" src="https://github.com/user-attachments/assets/fa19c873-d391-47ce-aa76-a9db7116cb9d" />
+356 agentless discovery which is only used for on-prem VMs
+361 Network Load Balancers now support connections from clients to IP-based targets in peered VPCs across different AWS Regions
