@@ -124,3 +124,5 @@ Sample Templates page. For more information, see Getting Started with AWS Config
 350 <img width="678" height="256" alt="image" src="https://github.com/user-attachments/assets/fa19c873-d391-47ce-aa76-a9db7116cb9d" />
 356 agentless discovery which is only used for on-prem VMs
 361 Network Load Balancers now support connections from clients to IP-based targets in peered VPCs across different AWS Regions
+
+372 In summary, CloudFront Origin Failover fails over immediately when it detects a failure from the origin. However, it may also introduce latency as it tries to forward every request to the primary origin first. Route53 DNS Failover offers more stability, but it requires more time to detect failure from the origin. However, you can combine both solutions to increase availability without affecting performance
