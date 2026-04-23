@@ -322,3 +322,33 @@ b c
 c
 b
 a b
+b
+b
+d
+c
+a
+c
+c d
+d b
+b
+b
+de
+b
+bcd abc
+bde ace
+de
+acd abc 65
+d
+d
+a
+b
+b
+d
+b
+bc cd
+d
+a
+d
+d
+adf
+a
