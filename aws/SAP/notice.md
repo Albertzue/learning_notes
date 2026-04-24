@@ -129,3 +129,13 @@ Sample Templates page. For more information, see Getting Started with AWS Config
 
 400 AWS PrivateLink support is available for Amazon Neptune Analytics
 401 Amazon FSx File Gateway is no longer available to new customers.
+407 AWS Cost Anomaly Detection is specifically designed to detect unusual changes in AWS usage or spending patterns using machine learning.
+413  The Aurora Data API is designed for serverless applications to interact with Aurora Serverless databases using a web services model, not for traditional database connections
+428 an AWS Direct Connect gateway cannot use VPC peering to reach a VPC in another region
+
+429 Elastic Disaster Recovery: This service allows you to create a replication instance in AWS, which can be used as a target for your application data. When your on-premises environment is unavailable, Elastic Disaster Recovery can automatically launch EC2 instances using the replicated volumes.Zero-configuration restore: With Elastic Disaster Recovery, there's no need to configure any additional services or scripts to restore the application. The service takes care of launching the correct EC2 instances with the necessary EBS volumes attached.
+
+449 AWS DataSync does not natively support FTP
+
+439  you can't just SHARE AWS Backup with another AWS Account, you need to setup cross account AWS backup to store backups in both accounts
+445 EKS anywhere it managed by customer  Extended clusters – Run the Kubernetes control plane in an AWS Region and nodes on your Outpost. Local clusters – Run the Kubernetes control plane and nodes on your Outpost
