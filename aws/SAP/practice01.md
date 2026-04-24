@@ -429,3 +429,39 @@ b d
 b
 b c
 b
+g
+d
+a
+b c
+c
+ace acf
+ae
+bd ab
+ac
+bd
+de
+b
+bd be 82
+d a
+a b
+d
+a 
+a c
+a b
+d
+b
+a
+d
+b
+b
+b
+a
+b
+be
+a
+c
+a
+c
+b
+a b
+d
