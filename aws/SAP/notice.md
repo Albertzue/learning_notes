@@ -126,3 +126,6 @@ Sample Templates page. For more information, see Getting Started with AWS Config
 361 Network Load Balancers now support connections from clients to IP-based targets in peered VPCs across different AWS Regions
 
 372 In summary, CloudFront Origin Failover fails over immediately when it detects a failure from the origin. However, it may also introduce latency as it tries to forward every request to the primary origin first. Route53 DNS Failover offers more stability, but it requires more time to detect failure from the origin. However, you can combine both solutions to increase availability without affecting performance
+
+400 AWS PrivateLink support is available for Amazon Neptune Analytics
+401 Amazon FSx File Gateway is no longer available to new customers.
