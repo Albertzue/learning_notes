@@ -466,3 +466,7 @@ b
 a b
 d
 c
+bc
+c a
+ace !
+ad
