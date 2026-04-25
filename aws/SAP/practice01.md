@@ -470,3 +470,23 @@ bc
 c a
 ace !
 ad
+c
+c
+b
+b
+ade ace
+b
+a c  90
+a
+b
+c
+c
+a
+ad
+a
+a
+c
+b
+b
+d
+ab
