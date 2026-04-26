@@ -140,3 +140,4 @@ Sample Templates page. For more information, see Getting Started with AWS Config
 439  you can't just SHARE AWS Backup with another AWS Account, you need to setup cross account AWS backup to store backups in both accounts
 445 EKS anywhere it managed by customer  Extended clusters – Run the Kubernetes control plane in an AWS Region and nodes on your Outpost. Local clusters – Run the Kubernetes control plane and nodes on your Outpost
 467 AWS Copilot is an open-source command-line interface (CLI) that simplifies building, releasing, and operating containerized applications on Amazon ECS and AWS FargateAWS Copilot is an open-source command-line interface (CLI) that simplifies building, releasing, and operating containerized applications on Amazon ECS and AWS Fargate
+516 AWS CloudTrail Lake lets you run SQL-based queries on your events. CloudTrail Lake converts existing events in row-based JSON format to Apache ORC format
