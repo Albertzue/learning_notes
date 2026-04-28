@@ -131,6 +131,7 @@ AWS Config: You must enable AWS Config for all of the accounts in your organizat
 306 <img width="616" height="432" alt="image" src="https://github.com/user-attachments/assets/adf61f60-b0be-4070-95c9-4235d0c0fdaa" />
 
 308 aws backup can daily weekly  monthly and coustom define as following<img width="843" height="391" alt="image" src="https://github.com/user-attachments/assets/ed80bde2-89d1-4f22-8751-76c389c3d7a5" />
+
 311 Compute Savings Plans (up to 66% off) offer maximum flexibility across EC2, Fargate, and Lambda, automatically applying to different families and regions. EC2 Instance Savings Plans (up to 72% off) offer higher discounts but restrict you to specific instance families within a single region
 
 319 cannot join an EC2 to On-prem AD just over the VPN. You should be having an AD connector for the same
@@ -147,17 +148,25 @@ AWS Config: You must enable AWS Config for all of the accounts in your organizat
 <img width="448" height="205" alt="image" src="https://github.com/user-attachments/assets/4786fa93-68e1-4c7a-a739-2fb0b828f6b0" />
 
 339  the AWS VM Import/Export process generally requires the source Virtual Machine (VM) to be shut down to ensure data consistency during the export and import phases
+
 346 Amazon Aurora PostgreSQL serverless v2 is not existing
+
 350 <img width="678" height="256" alt="image" src="https://github.com/user-attachments/assets/fa19c873-d391-47ce-aa76-a9db7116cb9d" />
+
 356 agentless discovery which is only used for on-prem VMs
+
 361 Network Load Balancers now support connections from clients to IP-based targets in peered VPCs across different AWS Regions
 
 372 In summary, CloudFront Origin Failover fails over immediately when it detects a failure from the origin. However, it may also introduce latency as it tries to forward every request to the primary origin first. Route53 DNS Failover offers more stability, but it requires more time to detect failure from the origin. However, you can combine both solutions to increase availability without affecting performance
 
 400 AWS PrivateLink support is available for Amazon Neptune Analytics
+
 401 Amazon FSx File Gateway is no longer available to new customers.
+
 407 AWS Cost Anomaly Detection is specifically designed to detect unusual changes in AWS usage or spending patterns using machine learning.
+
 413  The Aurora Data API is designed for serverless applications to interact with Aurora Serverless databases using a web services model, not for traditional database connections
+
 428 an AWS Direct Connect gateway cannot use VPC peering to reach a VPC in another region
 
 429 Elastic Disaster Recovery: This service allows you to create a replication instance in AWS, which can be used as a target for your application data. When your on-premises environment is unavailable, Elastic Disaster Recovery can automatically launch EC2 instances using the replicated volumes.Zero-configuration restore: With Elastic Disaster Recovery, there's no need to configure any additional services or scripts to restore the application. The service takes care of launching the correct EC2 instances with the necessary EBS volumes attached.
@@ -165,6 +174,9 @@ AWS Config: You must enable AWS Config for all of the accounts in your organizat
 449 AWS DataSync does not natively support FTP
 
 439  you can't just SHARE AWS Backup with another AWS Account, you need to setup cross account AWS backup to store backups in both accounts
-445 EKS anywhere it managed by customer  Extended clusters – Run the Kubernetes control plane in an AWS Region and nodes on your Outpost. Local clusters – Run the Kubernetes control plane and nodes on your Outpost
-467 AWS Copilot is an open-source command-line interface (CLI) that simplifies building, releasing, and operating containerized applications on Amazon ECS and AWS FargateAWS Copilot is an open-source command-line interface (CLI) that simplifies building, releasing, and operating containerized applications on Amazon ECS and AWS Fargate
+
+445 EKS anywhere it managed by customer. The terms "Extended" and "Local" clusters specifically refer to Amazon EKS on AWS Outposts.   Extended clusters – Run the Kubernetes control plane in an AWS Region and nodes on your Outpost. Local clusters – Run the Kubernetes control plane and nodes on your Outpost
+
+467 AWS Copilot is an open-source command-line interface (CLI) that simplifies building, releasing, and operating containerized applications on Amazon ECS and AWS Fargate
+
 516 AWS CloudTrail Lake lets you run SQL-based queries on your events. CloudTrail Lake converts existing events in row-based JSON format to Apache ORC format
