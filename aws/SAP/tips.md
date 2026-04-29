@@ -72,6 +72,8 @@
 
 147 Using Fargate may not be the most cost-effective solution and also it may not handle large amount of data.
 
+152 EC2 Saving Plans do not cover Fargate, only compute saving plan support
+
 155 an apex domain cannot use CNAME records in AWS
 
 157  AWS IoT Greengrass supports offline operation by enabling devices to continue processing data even when they are disconnected from the internet.
