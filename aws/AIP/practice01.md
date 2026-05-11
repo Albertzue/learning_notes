@@ -33,3 +33,8 @@ c
 b
 bd ac
 b
+ab
+c b
+b
+b
+d
