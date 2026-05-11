@@ -38,3 +38,5 @@ c b
 b
 b
 d
+b d
+c a
