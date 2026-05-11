@@ -21,3 +21,15 @@ b
 d a
 c  a!
 b
+d a
+a
+d
+a b
+b
+a b
+ab
+c
+c
+b
+bd ac
+b
