@@ -57,3 +57,11 @@ b a
 c
 d c
 b
+b
+c
+b a
+a
+c a!
+a b
+ac bc
+cd bc
