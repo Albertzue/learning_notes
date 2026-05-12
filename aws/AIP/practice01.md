@@ -71,3 +71,10 @@ c
 b
 c b
 a d
+b c
+b c
+b
+a b
+d
+d b
+a b
