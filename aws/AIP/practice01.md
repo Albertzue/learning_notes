@@ -68,3 +68,5 @@ cd bc
 c b
 d
 c
+b
+c b
