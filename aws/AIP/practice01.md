@@ -65,3 +65,6 @@ c a!
 a b
 ac bc
 cd bc
+c b
+d
+c
