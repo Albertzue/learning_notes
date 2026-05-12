@@ -44,3 +44,10 @@ c
 b
 b
 c
+b a
+d
+c
+b    16
+b c
+c
+b
