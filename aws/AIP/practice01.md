@@ -40,3 +40,7 @@ b
 d
 b d
 c a
+c
+b
+b
+c
