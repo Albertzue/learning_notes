@@ -79,3 +79,16 @@ d
 d b
 a b
 cd bd
+d a!
+b
+a
+b c
+c a
+b
+b d
+c d 36
+a b
+b
+d
+cd bd!
+c
