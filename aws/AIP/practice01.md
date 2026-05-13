@@ -92,3 +92,6 @@ b
 d
 cd bd!
 c
+b d
+c
+b
