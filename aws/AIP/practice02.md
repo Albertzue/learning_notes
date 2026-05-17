@@ -19,3 +19,7 @@ c
 d
 b
 a
+c a
+b
+a
+a
