@@ -43,3 +43,8 @@ d a
 c
 b
 b
+c
+a
+d
+c
+b
