@@ -65,3 +65,17 @@ c a 14
 a b
 ce bc
 bc
+b
+d
+c
+b
+a b
+d
+c
+c
+b
+b
+d
+b
+b
+bd
