@@ -80,3 +80,14 @@ b
 b
 bd
 d a！
+b
+a
+c
+a
+b
+c d
+a d 19
+b
+a b
+d
+cd
