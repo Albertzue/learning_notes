@@ -70,3 +70,20 @@ d
 c
 a b
 b
+d
+c
+c
+b
+b
+b d
+b
+b
+bd
+d
+b
+a
+c
+c a
+b
+c d
+
