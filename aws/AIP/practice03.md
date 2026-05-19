@@ -36,3 +36,29 @@ b
 abe abd
 b
 b
+b
+d
+d
+a
+c
+b
+b
+c
+a
+d
+c
+a b
+c
+c
+b
+a 
+b
+a
+c
+c
+b
+b
+c
+a
+a
+a
