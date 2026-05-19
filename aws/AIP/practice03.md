@@ -62,3 +62,11 @@ c
 a
 a
 a
+b
+bc
+bc
+b
+d
+c
+a b
+b
