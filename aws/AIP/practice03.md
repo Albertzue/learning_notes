@@ -24,3 +24,10 @@ b
 d a
 a
 d
+b
+b
+b
+bc ab
+c
+b c
+b
