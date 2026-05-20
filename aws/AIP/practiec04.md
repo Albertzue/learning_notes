@@ -50,3 +50,19 @@ c
 a b
 c
 c
+b
+b a
+b
+a
+c
+c
+b
+b
+c
+a
+a
+a
+a b
+bc
+bc
+b
