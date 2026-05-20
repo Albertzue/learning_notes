@@ -40,3 +40,13 @@ b
 d
 d
 a
+c
+b
+b
+c
+a
+d
+c
+a b
+c
+c
