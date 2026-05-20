@@ -13,3 +13,19 @@ d
 bd
 c
 c
+ab
+a
+c
+d
+b
+a
+a
+b
+d a
+a
+d
+b
+b
+b
+ab
+c
