@@ -3,3 +3,13 @@ adf
 a
 c
 a
+a
+a
+a
+b
+a
+ad
+d
+bd
+c
+c
