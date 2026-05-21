@@ -64,3 +64,8 @@ a
 a
 b
 bc
+bc
+b
+d
+c
+b
