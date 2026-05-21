@@ -53,3 +53,14 @@ c
 b
 a
 b
+a
+c
+c
+b
+b
+c
+a
+a
+a
+b
+bc
