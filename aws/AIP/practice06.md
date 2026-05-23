@@ -30,3 +30,11 @@ b
 bc ab
 c
 c
+b
+ac
+b
+abd
+b
+b
+b
+d
