@@ -20,3 +20,13 @@ d
 b
 a
 a
+b
+a
+a
+d
+b
+b
+b
+bc ab
+c
+c
