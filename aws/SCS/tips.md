@@ -1,0 +1,1 @@
+13. AWS Network Load Balancers (NLBs) support direct native delivery to Amazon CloudWatch Logs, while Application Load Balancers (ALBs) and Classic Load Balancers (CLBs) require an intermediary AWS Lambda function to forward access logs from Amazon S3 to CloudWatch Logs
