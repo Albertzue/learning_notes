@@ -90,3 +90,13 @@ b
 ac bd
 ac
 b
+c
+d
+bd
+a c
+a
+c
+a d
+d b
+c
+a
