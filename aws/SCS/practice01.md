@@ -69,3 +69,17 @@ acf
 b
 acf acd
 a
+a b
+d
+d b
+c
+a
+d
+c
+c
+b c
+d
+b
+be
+b a
+ce
