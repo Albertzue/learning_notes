@@ -53,3 +53,19 @@ c
 d c
 a
 d a!
+a
+a c
+d b
+c d
+b
+ad ac
+c a
+c
+c
+c
+bc ac
+a
+acf
+b
+acf acd
+a
