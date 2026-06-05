@@ -83,3 +83,10 @@ b
 be
 b a
 ce
+ce ae
+bcf
+acf
+b
+ac bd
+ac
+b
