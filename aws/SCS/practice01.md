@@ -33,3 +33,23 @@ b a
 acf bce
 b
 c
+c 
+b
+b
+a c
+d c
+c a
+d
+a
+bd ad
+d c
+b
+b d
+bc
+c
+b
+ade
+c
+d c
+a
+d a!
