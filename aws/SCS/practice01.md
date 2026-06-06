@@ -125,3 +125,8 @@ c a
 c
 a
 d a
+c
+b
+a
+a c
+a
