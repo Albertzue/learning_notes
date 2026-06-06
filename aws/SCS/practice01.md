@@ -150,3 +150,6 @@ d b
 bd ab
 ab
 def ade
+c
+c
+a
