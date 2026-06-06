@@ -119,3 +119,9 @@ c
 c
 ac
 bc cd
+c
+bd
+c a
+c
+a
+d a
