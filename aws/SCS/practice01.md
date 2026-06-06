@@ -100,3 +100,13 @@ a d
 d b
 c
 a
+d
+b d
+bc
+d
+c
+d a
+a
+c a
+ac
+bd
