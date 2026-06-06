@@ -153,3 +153,18 @@ def ade
 c
 c
 a
+b
+a
+c
+be ab
+a c
+d c
+c
+b
+b
+b
+bcd acd 60
+a
+c
+c d
+c a
