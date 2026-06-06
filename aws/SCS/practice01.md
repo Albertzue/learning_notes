@@ -115,3 +115,7 @@ a
 c a
 bdf
 b
+c
+c
+ac
+bc cd
