@@ -168,3 +168,18 @@ a
 c
 c d
 c a
+b
+c
+c a
+c a
+ad
+ce ac
+a
+c d
+b
+a
+c a
+ac ce
+ce ac
+d b
+d c
