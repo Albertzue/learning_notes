@@ -290,3 +290,18 @@ c b
 a
 d b
 b a
+d
+a
+d b
+d a
+c
+c
+d
+a c 
+be ab
+b
+b ? 
+b
+c
+b c 105
+c
