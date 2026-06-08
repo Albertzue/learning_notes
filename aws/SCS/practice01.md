@@ -237,3 +237,10 @@ c d
 c
 acd ace
 bce
+c
+be
+b c
+c
+c d
+d
+b c
