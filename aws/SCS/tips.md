@@ -8,3 +8,6 @@
 
 47 https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-multi-region-trails.html
 <img width="1097" height="263" alt="image" src="https://github.com/user-attachments/assets/0381e8d2-d95f-46e6-bb2c-29a855d96292" />
+
+246 Changing security groups associated with a running instance does not interrupt existing connections.
+
