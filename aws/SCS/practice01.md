@@ -198,3 +198,42 @@ c
 cef
 b
 ace
+b
+c
+c a
+be
+b d
+d
+d
+c b
+c
+c
+c a
+b
+bc
+c
+c d
+d a
+b a
+a b
+b
+b d
+b
+b
+c a
+d a
+a d
+c d
+a d  88
+c
+a
+c
+d
+d b
+ab
+ad
+c
+c d
+c
+acd ace
+bce
