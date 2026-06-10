@@ -29,3 +29,7 @@ d
 b
 a
 b
+cd bc
+c
+a
+c b
