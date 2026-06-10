@@ -23,3 +23,9 @@ d
 a
 a
 b
+d
+ac
+d
+b
+a
+b
