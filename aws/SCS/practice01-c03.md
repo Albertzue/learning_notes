@@ -33,3 +33,33 @@ cd bc
 c
 a
 c b
+c
+a b
+c
+d
+a d
+b
+ac ad
+d
+c
+c
+d a
+a
+bce acf 15
+a b
+ab
+a
+c
+d a 17
+adf bdf?
+bce
+b
+a
+a d
+d a
+a
+bc ad
+ae be
+c
+d
+c
