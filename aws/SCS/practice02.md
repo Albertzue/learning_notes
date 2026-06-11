@@ -50,3 +50,22 @@ c
 b
 cde ade 9
 c
+b c
+a
+a
+a
+c
+b
+d
+b
+ad ac
+c a  
+c
+c
+c
+ab ac
+a
+acf
+b
+acd
+a
