@@ -39,3 +39,14 @@ b
 c
 c
 a
+d
+b a
+ad
+c
+b
+d
+bc
+c
+b
+cde ade 9
+c
