@@ -13,3 +13,10 @@ adf abc
 ac
 c
 c
+a
+ace
+bde
+a c
+be
+ce
+d
