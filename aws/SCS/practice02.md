@@ -145,3 +145,37 @@ ab
 c
 b
 a
+c a
+b
+ab
+bc ab 24
+ade
+c
+c
+a
+b
+a
+c
+be ab
+a c 
+c
+c
+b
+b
+b
+acd 
+a
+c
+d
+a
+b
+c
+c a
+d a
+ad
+ac
+a
+d
+b
+a
+a
