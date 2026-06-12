@@ -105,3 +105,28 @@ d
 bc
 d
 c
+a
+a
+a
+ac
+bd ad
+c b
+a
+a
+bdf
+b
+c
+c
+ac
+bc
+c
+bd
+a
+a c 20
+a
+a
+c
+b
+a
+a c
+a
