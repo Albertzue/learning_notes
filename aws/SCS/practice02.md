@@ -206,3 +206,10 @@ d
 d
 c d
 b
+c
+c
+a
+b
+bc
+c
+d
