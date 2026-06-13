@@ -243,4 +243,20 @@ c
 c
 d
 d
-
+c
+d
+d
+ce bc
+c a 40
+c
+a
+cd
+b
+b
+a
+a c
+c
+bdf
+a
+a b
+d
