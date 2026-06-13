@@ -213,3 +213,34 @@ b
 bc
 c
 d
+a
+a
+a b
+b
+b d 35
+b
+b
+a
+a
+d
+d
+d
+c
+a
+c
+d
+b
+ab
+ad
+c
+c d
+d c
+acf ace
+bce
+c
+be
+c
+c
+d
+d
+
