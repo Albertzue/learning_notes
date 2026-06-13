@@ -260,3 +260,22 @@ bdf
 a
 a b
 d
+a
+a
+b
+ad ab
+b c 44
+d
+d
+c
+d
+d
+d a 45
+be
+c
+a
+d
+b
+a
+b
+c b
