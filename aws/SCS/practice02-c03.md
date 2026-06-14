@@ -10,3 +10,33 @@ b
 b
 b
 c
+ae
+b
+d
+c
+a
+a
+a d
+a
+c
+d
+a
+a
+b
+d
+ac
+d
+b
+a
+b
+bc
+c
+a
+b
+c
+b
+c
+d
+a d
+b
+ad
