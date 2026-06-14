@@ -40,3 +40,46 @@ d
 a d
 b
 ad
+d
+c
+c
+a
+b a
+acf
+b
+ab
+a
+c
+a
+bdf
+bce
+b
+a
+d
+a
+a
+bd ad
+be
+a c
+d
+c
+ab
+c a 6
+be
+d
+a
+b
+b
+124 134
+c
+a
+b d
+b c
+a
+562 261 10
+a
+21435 
+32451
+b
+a
+a
