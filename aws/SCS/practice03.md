@@ -160,3 +160,26 @@ ab
 c
 c
 c
+b
+b
+b
+acd
+a
+c
+d
+d a
+b
+c
+c a  18
+a
+ad
+ac
+a
+d
+b
+a
+a
+ce
+ac
+d b  19
+c
