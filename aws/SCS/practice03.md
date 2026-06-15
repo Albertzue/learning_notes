@@ -93,3 +93,29 @@ b
 c
 d
 bd
+c
+a
+c
+d
+b
+c
+a
+d
+d
+bc
+d
+c
+a
+a
+b a 12
+ac
+ad
+c b
+a
+a
+bdf
+b
+c
+c
+ac
+bc
