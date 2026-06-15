@@ -220,3 +220,18 @@ b
 d
 b
 b
+a
+a
+d
+d
+b d 24
+c
+a
+c
+d
+b
+ab
+ad
+c
+c d 25
+c
