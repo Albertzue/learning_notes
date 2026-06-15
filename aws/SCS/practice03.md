@@ -183,3 +183,40 @@ ce
 ac
 d b  19
 c
+d b
+c
+a
+b
+d
+b
+ae ad
+b d
+c
+c
+a
+c
+bef cef 23
+b
+ace
+b
+c
+a
+be
+d
+d
+d
+b
+c
+c
+a
+b
+bc
+c
+d
+a
+a
+b
+b
+d
+b
+b
