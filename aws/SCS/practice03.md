@@ -123,3 +123,40 @@ c
 bd
 a
 c
+a
+a
+c
+b
+a
+c
+a
+cd
+b
+c
+ade
+a d 
+c
+b
+b
+c
+d
+b
+ab
+c
+b
+a
+a
+b
+ab
+bd ab 15
+ade
+c
+c
+a
+b
+a
+b c
+ab
+c
+c
+c
