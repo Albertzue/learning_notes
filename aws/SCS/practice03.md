@@ -26,3 +26,6 @@ d
 b
 de
 a
+c
+a
+b
