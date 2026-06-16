@@ -46,3 +46,10 @@ c
 a
 a
 acf
+b
+ab
+a
+c
+a
+def bdf adf ?!
+bce
