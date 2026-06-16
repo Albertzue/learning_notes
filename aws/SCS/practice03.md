@@ -235,3 +235,59 @@ ad
 c
 c d 25
 c
+ace
+bce
+c
+be
+c
+c
+d
+d
+c
+d
+d
+be bc 26
+d a
+c
+a
+bc cd
+b
+b
+a
+c
+c
+ade bdf
+a
+b
+d
+c a 30
+a
+b
+ab
+c
+d
+d
+c
+d
+d
+a
+be
+c
+a
+d
+b
+a
+b
+b
+c
+b
+c
+b
+d b 31
+b
+b
+b
+a
+b
+a
+d
