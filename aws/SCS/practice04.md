@@ -59,3 +59,23 @@ b
 d
 b
 ac
+a
+c
+c
+c
+ac
+a
+acf
+b
+acd
+a
+b
+d
+b
+c
+a
+a d
+c
+c
+c
+d
