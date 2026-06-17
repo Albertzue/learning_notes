@@ -79,3 +79,13 @@ c
 c
 c
 d
+c b
+be
+a
+ce
+ae
+abf bcf
+acf
+b
+bd
+bc ac 5
