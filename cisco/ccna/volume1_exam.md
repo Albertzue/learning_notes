@@ -1,3 +1,4 @@
 - 2026/11/12  volI partI     
 - 2026/11/13  volI chapter 23 24 25 26
 - 2026/11/16  volI partII
+- 2026/11/17  volI chapter 27 28
